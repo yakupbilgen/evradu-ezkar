@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screen/tahmidiyye.dart';
+import 'screen/tahmidiyye/tahmidiyye.dart';
 
 void main() {
   runApp(const MyApp());
