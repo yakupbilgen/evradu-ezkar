@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screen/tahmidiyye/tahmidiyye_arabic.dart';
+import 'screen/tahmidiyye/tahmidiyye_homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TahmidiyyeArabic(),
+      home: const TahmidiyyeHomePage(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -25,4 +25,6 @@ class TahmidiyyeConstant {
     "20. Ey bütün kemal sıfatlarla muttasıf ve hakiki mabut olan Allah. Ey Dünyada mü'min-kafir ayırd etmeden herkesi rızıklandıran Rahman. Ey çok merhamet sahibi ve Ahirette sadece Mü'min kullarına bol merhamet edecek olan Rahim. Ey zat, sıfat ve ef'alinde ortağı bulunmayan Ferd. Ey gerçek hayat sahibi olan Hayy. Ey herşeyi ayakta tutan ve koruyan Kayyum. Ey hüküm ve kaza sahibi Hakem. Ey mutlak adalet sahibi Adl. Ey kusur ve eksiklikten beri olan ve herşeyi temizleyip arındıran Kuddus.",
   ];
   static const bgColor = Color(0xFFEEE7D4);
+  static const buttonArabic = 'Arapça';
+  static const buttonTurkish = 'Türkçe';
 }
