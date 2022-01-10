@@ -1,28 +1,30 @@
+import 'package:evraduezkar/constant/tahmidiyye/tahmidiyye_constant.dart';
 import 'package:flutter/material.dart';
 
-class Tahmidiyye extends StatefulWidget {
-  const Tahmidiyye({Key? key}) : super(key: key);
+class TahmidiyyeArabic extends StatefulWidget {
+  const TahmidiyyeArabic({Key? key}) : super(key: key);
 
   @override
-  _TahmidiyyeState createState() => _TahmidiyyeState();
+  _TahmidiyyeArabicState createState() => _TahmidiyyeArabicState();
 }
 
 final imageNumber = List.generate(22, (i) => i);
+int listIndex = 0;
 
-class _TahmidiyyeState extends State<Tahmidiyye> {
+class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: TahmidiyyeConstant.bgColor,
       body: SafeArea(
         child: PageView.builder(
-          pageSnapping: true,
           physics: const ClampingScrollPhysics(),
           itemCount: imageNumber.length,
           itemBuilder: (BuildContext context, int index) {
             return Center(
               child: Image.asset(
                 'assets/images/${imageNumber[index]}.jpg',
-                fit: BoxFit.fill,
+                fit: BoxFit.fitHeight,
               ),
             );
           },
