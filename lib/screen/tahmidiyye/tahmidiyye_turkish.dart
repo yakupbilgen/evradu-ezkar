@@ -20,19 +20,36 @@ class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
           physics: const ClampingScrollPhysics(),
           itemCount: TahmidiyyeConstant.tahmidiyyeTurkishList.length,
           itemBuilder: (BuildContext context, int index) {
-            return Center(
-              child: SingleChildScrollView(
-                child: SizedBox(
-                  width: screenSize.width - 40,
-                  child: Text(
-                    TahmidiyyeConstant.tahmidiyyeTurkishList[index],
-                    style: Theme.of(context)
-                        .textTheme
-                        .headline4
-                        ?.copyWith(fontWeight: FontWeight.bold),
+            return Column(
+              children: [
+                (index != 0)
+                    ? Center(
+                        child: Text(
+                          TahmidiyyeConstant.tahmidiyyeConstantText,
+                          style: Theme.of(context)
+                              .textTheme
+                              .headline6
+                              ?.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.red),
+                        ),
+                      )
+                    : const SizedBox(),
+                Center(
+                  child: SingleChildScrollView(
+                    child: SizedBox(
+                      width: screenSize.width - 40,
+                      child: Text(
+                        TahmidiyyeConstant.tahmidiyyeTurkishList[index],
+                        style: Theme.of(context)
+                            .textTheme
+                            .headline4
+                            ?.copyWith(fontWeight: FontWeight.bold),
+                      ),
+                    ),
                   ),
                 ),
-              ),
+              ],
             );
           },
         ),

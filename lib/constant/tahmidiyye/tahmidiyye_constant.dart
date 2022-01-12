@@ -1,6 +1,16 @@
 import 'package:flutter/material.dart';
 
 class TahmidiyyeConstant {
+  static const tahmidiyyeConstantText =
+      """1. Ferdün. 2. Hayyün. 3. Kayyûmün. 4. Hakemün. 5. Adlün. 6. Kuddûs.\n
+    2. “Allah, Resûlü’nün üzerine sekînetini, huzur ve güven duygusunu indirdi.” (Tevbe, 40)\n
+    3. “O en büyük dehşet (Sûr’a ikinci üfleyiş) onları tasalandırmaz.” (Enbiyâ, 103)\n
+    4. “Allah’ın lütfundan ihsan ettiği nimetlere kavuşmaktan dolayı sevinç içindedirler.” (Âl-i İmrân, 170)\n
+    5. “Rabb-i Rahim’den sözle olan bir selâm yine onlara…” (Yâsîn, 58)",
+    6. “Biz ateşe şöyle ferman ettik: “Dokunma İbrâhim’e! Serin ve selamet ol ona!” (Enbiyâ, 69)\n
+    7. “O (Kur’ân), iman edenler için hidâyet ve şifadır.” (Fussilet, 44)\n
+    8. “Biz Kur’ân’ı mü’minlere şifa ve rahmet olarak indiririz. Ama o, zalimlerin ise sadece ziyanını artırır.” (İsrâ, 82)\n\n""";
+
   static const List tahmidiyyeTurkishList = [
     "Allahu Ekber (10 defa)\nBismillahhirrahmanirrahim\nFerdun. Hayyun. Kayyumun. Hakemun. Adlun. Kuddusun.",
     "1. Kusur ve noksanlıktan münezzeh olan Allah-u Tealaya (c.c.) iman, Onun birliği, isim ve sıfatlarından her biri için; ezelden ebede kadar isim ve sıfatlarının tecellilerinin tamamı adedince Alemlerin Rabbi olan Alllah'a hamd olsun. Ondan başka ilah yoktur.",
