@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class TahmidiyyeConstant {
   static const List tahmidiyyeTurkishList = [
-    "1. Kusur ve noksanlıktan münezzeh olan Allah-u Tealaya (c.c.) iman, Onun birliği, isim ve sıfatlarından her biri için; ezelden ebede kadar isim ve sıfatlarının tecellilerinin tamamı adedince Alemlerin Rabbi olan Alllah'a hamd olsun. Ondan başka ilah yoktur.",
     "Allahu Ekber (10 defa)\nBismillahhirrahmanirrahim\nFerdun. Hayyun. Kayyumun. Hakemun. Adlun. Kuddusun.",
+    "1. Kusur ve noksanlıktan münezzeh olan Allah-u Tealaya (c.c.) iman, Onun birliği, isim ve sıfatlarından her biri için; ezelden ebede kadar isim ve sıfatlarının tecellilerinin tamamı adedince Alemlerin Rabbi olan Alllah'a hamd olsun. Ondan başka ilah yoktur.",
     "2. Hz. Muhammed'in (a.s.m.) peygamberliği ve ona iman için; Hz. Muhammed Aleyhissalatü Vesselamın yaptığı iyilikler, sahip olduğu kemalat, getirdiği meyveler ve sağladığı faydalar adedince ve yine o Aleyhissalatü Vesselamın ali, Ashabı ve ümmetinin haseneleri sayısınca Alemlerin Rabbi olan Allah'a hamd olsun.",
     "3. Kur'an ve ona iman için; Kur'an'ın zihinlerde tasavvur edilen manaları adedince ve onun Kıyamete kadar havada temessül eden kelime ve harfleri sayısınca Alemlerin Rabbi olan Allah'a hamd olsun.",
     "4. İman, Kur'an ve İslam nimeti için; melekler, ruhaniler ve mahlukatın bütün zamanlarda yaptıkları tesbihler, getirdikleri hamd, tekbir ve tehliller sayısınca Alemlerin Rabbi olan Allah'a hamd olsun.",

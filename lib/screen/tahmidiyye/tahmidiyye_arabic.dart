@@ -9,7 +9,6 @@ class TahmidiyyeArabic extends StatefulWidget {
 }
 
 final imageNumber = List.generate(22, (i) => i);
-int listIndex = 0;
 
 class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
   @override
@@ -23,7 +22,7 @@ class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
           itemBuilder: (BuildContext context, int index) {
             return Center(
               child: Image.asset(
-                'assets/images/${imageNumber[index]}.jpg',
+                'assets/images/tahmidiyye/${imageNumber[index]}.jpg',
                 fit: BoxFit.fitHeight,
               ),
             );
