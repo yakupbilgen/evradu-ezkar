@@ -11,47 +11,54 @@ class TahmidiyyeTurkish extends StatefulWidget {
 class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
   @override
   Widget build(BuildContext context) {
-    final screenSize = MediaQuery.of(context).size;
-
     return Scaffold(
       backgroundColor: TahmidiyyeConstant.bgColor,
-      body: SafeArea(
-        child: PageView.builder(
-          physics: const ClampingScrollPhysics(),
-          itemCount: TahmidiyyeConstant.tahmidiyyeTurkishList.length,
-          itemBuilder: (BuildContext context, int index) {
-            return Column(
-              children: [
-                (index != 0)
-                    ? Center(
-                        child: Text(
-                          TahmidiyyeConstant.tahmidiyyeConstantText,
-                          style: Theme.of(context)
-                              .textTheme
-                              .headline6
-                              ?.copyWith(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.red),
-                        ),
-                      )
-                    : const SizedBox(),
-                Center(
-                  child: SingleChildScrollView(
-                    child: SizedBox(
-                      width: screenSize.width - 40,
-                      child: Text(
-                        TahmidiyyeConstant.tahmidiyyeTurkishList[index],
-                        style: Theme.of(context)
-                            .textTheme
-                            .headline4
-                            ?.copyWith(fontWeight: FontWeight.bold),
-                      ),
-                    ),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: SafeArea(
+          child: PageView.builder(
+            physics: const BouncingScrollPhysics(),
+            itemCount: TahmidiyyeConstant.tahmidiyyeTurkishList.length,
+            itemBuilder: (BuildContext context, int index) {
+              return Center(
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      (index != 0 && index != 20)
+                          ? Text(
+                              TahmidiyyeConstant.tahmidiyyeTurkishConstantText,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline6
+                                  ?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.red),
+                            )
+                          : const SizedBox(),
+                      (index == 0 || index == 20)
+                          ? Text(
+                              TahmidiyyeConstant.tahmidiyyeTurkishList[index],
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline6
+                                  ?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.red),
+                            )
+                          : Text(
+                              TahmidiyyeConstant.tahmidiyyeTurkishList[index],
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline5
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                    ],
                   ),
                 ),
-              ],
-            );
-          },
+              );
+            },
+          ),
         ),
       ),
     );
