@@ -22,7 +22,7 @@ class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
           itemBuilder: (BuildContext context, int index) {
             return Center(
               child: Image.asset(
-                '${imageNumber[index]}.jpg',
+                imageNumber[index],
                 fit: BoxFit.fitHeight,
               ),
             );
