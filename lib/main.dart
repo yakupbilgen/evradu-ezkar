@@ -1,5 +1,6 @@
 import 'package:evraduezkar/screen/celcelutiye/celcelutiye_homepage.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'screen/tahmidiyye/tahmidiyye_homepage.dart';
 
@@ -36,9 +37,8 @@ class ScreenListPage extends StatelessWidget {
           children: [
             const Divider(),
             ListTile(
-              leading: const Icon(Icons.spa),
+              leading: const Icon(FontAwesomeIcons.spa),
               title: const Text('Tahmidiyye'),
-              subtitle: const Text('2'),
               trailing: const Icon(Icons.arrow_right),
               onTap: () {
                 Navigator.push(
@@ -53,7 +53,6 @@ class ScreenListPage extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.spa),
               title: const Text('Celcelutiye'),
-              subtitle: const Text('2'),
               trailing: const Icon(Icons.arrow_right),
               onTap: () {
                 Navigator.push(
