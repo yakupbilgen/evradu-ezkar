@@ -1,4 +1,4 @@
-import 'package:evraduezkar/constant/tahmidiyye/tahmidiyye_constant.dart';
+import 'package:evraduezkar/constant/celcelutiye/celcelutiye_constant.dart';
 import 'package:flutter/material.dart';
 
 class CelcelutiyeHomepage extends StatefulWidget {
@@ -8,13 +8,13 @@ class CelcelutiyeHomepage extends StatefulWidget {
   _CelcelutiyeHomepageState createState() => _CelcelutiyeHomepageState();
 }
 
-const imageNumber = TahmidiyyeConstant.tahmidiyyeArabicList;
+const imageNumber = CelcelutiyeConstant.celcelutiyeArabicList;
 
 class _CelcelutiyeHomepageState extends State<CelcelutiyeHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: TahmidiyyeConstant.bgColor,
+      backgroundColor: CelcelutiyeConstant.bgColor,
       body: SafeArea(
         child: PageView.builder(
           physics: const ClampingScrollPhysics(),

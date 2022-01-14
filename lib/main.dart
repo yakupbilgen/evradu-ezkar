@@ -13,10 +13,60 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.orange,
       ),
-      home: const TahmidiyyeHomePage(),
+      home: const ScreenListPage(),
       debugShowCheckedModeBanner: false,
+    );
+  }
+}
+
+class ScreenListPage extends StatelessWidget {
+  const ScreenListPage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFEEE7D4),
+      body: SafeArea(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            const Divider(),
+            ListTile(
+              leading: const Icon(Icons.spa),
+              title: const Text('Tahmidiyye'),
+              subtitle: const Text('2'),
+              trailing: const Icon(Icons.arrow_right),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TahmidiyyeHomePage(),
+                  ),
+                );
+              },
+            ),
+            const Divider(),
+            ListTile(
+              leading: const Icon(Icons.spa),
+              title: const Text('Celcelutiye'),
+              subtitle: const Text('2'),
+              trailing: const Icon(Icons.arrow_right),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TahmidiyyeHomePage(),
+                  ),
+                );
+              },
+            ),
+            const Divider(),
+          ],
+        ),
+      ),
     );
   }
 }

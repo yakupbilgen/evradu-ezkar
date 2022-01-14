@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class CelcelutiyeConstant {
   static const celcelutiyeArabicList = [
     "assets/images/celcelutiye/1.jpg",
@@ -14,4 +16,6 @@ class CelcelutiyeConstant {
     "assets/images/celcelutiye/12.jpg",
     "assets/images/celcelutiye/13.jpg",
   ];
+
+  static const bgColor = Color(0xFFEEE7D4);
 }
