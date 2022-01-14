@@ -1,3 +1,4 @@
+import 'package:evraduezkar/screen/celcelutiye/celcelutiye_homepage.dart';
 import 'package:flutter/material.dart';
 
 import 'screen/tahmidiyye/tahmidiyye_homepage.dart';
@@ -58,7 +59,7 @@ class ScreenListPage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const TahmidiyyeHomePage(),
+                    builder: (context) => const CelcelutiyeHomepage(),
                   ),
                 );
               },
