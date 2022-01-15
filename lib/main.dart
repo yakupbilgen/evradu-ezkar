@@ -92,7 +92,7 @@ Divider screenListPageDivider() {
   return const Divider(color: Colors.blue);
 }
 //TO DO: Küçük çevşen = Not complete
+//TO DO: Haftalık Vird = Not complete
 //TO DO: Tahmidiyye = Complete
 //TO DO: Celcelutiye = Complete
 //TO DO: Sekine Duası = Complete
-//TO DO: Haftalık Vird = Not complete
