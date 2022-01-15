@@ -3,9 +3,14 @@ import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_arabic.dart';
 import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_turkish.dart';
 import 'package:flutter/material.dart';
 
-class TahmidiyyeHomePage extends StatelessWidget {
+class TahmidiyyeHomePage extends StatefulWidget {
   const TahmidiyyeHomePage({Key? key}) : super(key: key);
 
+  @override
+  State<TahmidiyyeHomePage> createState() => _TahmidiyyeHomePageState();
+}
+
+class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

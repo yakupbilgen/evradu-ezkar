@@ -1,8 +1,8 @@
+import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:evraduezkar/screen/celcelutiye/celcelutiye_homepage.dart';
+import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-import 'screen/tahmidiyye/tahmidiyye_homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,40 +33,60 @@ class ScreenListPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Divider(),
-            ListTile(
-              leading: const Icon(FontAwesomeIcons.spa),
-              title: const Text('Tahmidiyye'),
-              trailing: const Icon(Icons.arrow_right),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const TahmidiyyeHomePage(),
-                  ),
-                );
-              },
-            ),
-            const Divider(),
-            ListTile(
-              leading: const Icon(Icons.spa),
-              title: const Text('Celcelutiye'),
-              trailing: const Icon(Icons.arrow_right),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const CelcelutiyeHomepage(),
-                  ),
-                );
-              },
-            ),
-            const Divider(),
+            screenListPageDivider(),
+            ListTileItem(
+                AppConstant.screenListKucukCevsen, const CelcelutiyeHomepage()),
+            screenListPageDivider(),
+            ListTileItem(
+                AppConstant.screenListTahmidiyye, const TahmidiyyeHomePage()),
+            screenListPageDivider(),
+            ListTileItem(
+                AppConstant.screenListCelcelutiye, const CelcelutiyeHomepage()),
+            screenListPageDivider(),
+            ListTileItem(
+                AppConstant.screenListSekineDuasi, const CelcelutiyeHomepage()),
+            screenListPageDivider(),
+            ListTileItem(AppConstant.screenListHastalikVird,
+                const CelcelutiyeHomepage()),
+            screenListPageDivider(),
           ],
         ),
       ),
     );
   }
+}
+
+class ListTileItem extends StatelessWidget {
+  String title;
+  StatefulWidget navigatorFunc;
+  ListTileItem(this.title, this.navigatorFunc, {Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      leading: const Icon(FontAwesomeIcons.spa),
+      title: Text(
+        title,
+        style: const TextStyle(fontWeight: FontWeight.bold),
+      ),
+      trailing: const Icon(
+        Icons.arrow_right,
+        size: 40,
+        color: Colors.black,
+      ),
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => navigatorFunc,
+          ),
+        );
+      },
+    );
+  }
+}
+
+Divider screenListPageDivider() {
+  return const Divider(color: Colors.blue);
 }
