@@ -1,5 +1,6 @@
 import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:evraduezkar/screen/celcelutiye/celcelutiye_homepage.dart';
+import 'package:evraduezkar/screen/sekine/sekine_homepage.dart';
 import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -45,7 +46,7 @@ class ScreenListPage extends StatelessWidget {
                 AppConstant.screenListCelcelutiye, const CelcelutiyeHomepage()),
             screenListPageDivider(),
             ListTileItem(
-                AppConstant.screenListSekineDuasi, const CelcelutiyeHomepage()),
+                AppConstant.screenListSekineDuasi, const SekineHomePage()),
             screenListPageDivider(),
             ListTileItem(AppConstant.screenListHastalikVird,
                 const CelcelutiyeHomepage()),
@@ -90,3 +91,8 @@ class ListTileItem extends StatelessWidget {
 Divider screenListPageDivider() {
   return const Divider(color: Colors.blue);
 }
+//TO DO: Küçük çevşen = Not complete
+//TO DO: Tahmidiyye = Complete
+//TO DO: Celcelutiye = Complete
+//TO DO: Sekine Duası = Complete
+//TO DO: Haftalık Vird = Not complete
