@@ -2,8 +2,9 @@ import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:flutter/material.dart';
 
 class HaftalikVirdHomepage extends StatefulWidget {
-  int evradTotalCount;
-  HaftalikVirdHomepage(this.evradTotalCount, {Key? key}) : super(key: key);
+  final int evradTotalCount;
+  const HaftalikVirdHomepage(this.evradTotalCount, {Key? key})
+      : super(key: key);
 
   @override
   _HaftalikVirdHomepageState createState() => _HaftalikVirdHomepageState();

@@ -37,19 +37,19 @@ class ScreenListPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             screenListPageDivider(),
-            ListTileItem(
-                AppConstant.screenListKucukCevsen, const CelcelutiyeHomepage()),
+            const ListTileItem(
+                AppConstant.screenListKucukCevsen, CelcelutiyeHomepage()),
             screenListPageDivider(),
-            ListTileItem(
-                AppConstant.screenListTahmidiyye, const TahmidiyyeHomePage()),
+            const ListTileItem(
+                AppConstant.screenListTahmidiyye, TahmidiyyeHomePage()),
             screenListPageDivider(),
-            ListTileItem(
-                AppConstant.screenListCelcelutiye, const CelcelutiyeHomepage()),
+            const ListTileItem(
+                AppConstant.screenListCelcelutiye, CelcelutiyeHomepage()),
             screenListPageDivider(),
-            ListTileItem(
-                AppConstant.screenListSekineDuasi, const SekineHomePage()),
+            const ListTileItem(
+                AppConstant.screenListSekineDuasi, SekineHomePage()),
             screenListPageDivider(),
-            ListTileItem(
+            const ListTileItem(
                 AppConstant.screenListHastalikVird, HaftalikVirdHomepage(3)),
             screenListPageDivider(),
           ],
@@ -60,9 +60,10 @@ class ScreenListPage extends StatelessWidget {
 }
 
 class ListTileItem extends StatelessWidget {
-  String title;
-  StatefulWidget navigatorFunc;
-  ListTileItem(this.title, this.navigatorFunc, {Key? key}) : super(key: key);
+  final String title;
+  final StatefulWidget navigatorFunc;
+  const ListTileItem(this.title, this.navigatorFunc, {Key? key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
