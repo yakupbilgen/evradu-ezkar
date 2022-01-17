@@ -46,7 +46,7 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
                   if (cekilenEvradCount < widget.evradTotalCount) {
                     cekilenEvradCount++;
                   } else {
-                    //TO DO: Show snackbar!
+                    buildAlertDialog(context);
                   }
                   setState(() {});
                 },
@@ -65,6 +65,28 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
           ),
         ),
       ),
+    );
+  }
+
+  void buildAlertDialog(BuildContext context) {
+    Widget okButton = TextButton(
+      child: const Text("Tamam"),
+      onPressed: () => Navigator.pop(context),
+    );
+
+    AlertDialog alert = AlertDialog(
+      title: const Icon(Icons.warning_amber),
+      content: const Text("UYARI!\nHedeflenen zikir sayısına ulaşıldı."),
+      actions: [
+        okButton,
+      ],
+    );
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
     );
   }
 }

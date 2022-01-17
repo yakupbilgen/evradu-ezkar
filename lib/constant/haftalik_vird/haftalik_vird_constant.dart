@@ -13,7 +13,7 @@ class HaftalikVirdListConstant {
       'Lâ ilâhe illellâhü aziyzün celiylün yâ aziyzü yâ celiyl ';
   static const mondayArabic =
       '‎لآ اِلـَهَ اِلاَّ اللهُ عَزِيزٌ جَلِيلٌ يَا عَزِيزُ يَا جَلِيلُ';
-  static const mondayCount = 100;
+  static const mondayCount = 3;
 
   static const tuesdayTurkish =
       'Allâhümme salli alâ seyyidinâ muhammedin ve alâ âli seyyidinâ muhammedin ve sellim teslîmen kesîrâ ';
