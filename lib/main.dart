@@ -50,7 +50,7 @@ class ScreenListPage extends StatelessWidget {
                 AppConstant.screenListSekineDuasi, SekineHomePage()),
             screenListPageDivider(),
             const ListTileItem(
-                AppConstant.screenListHastalikVird, HaftalikVirdHomepage(3)),
+                AppConstant.screenListHastalikVird, HaftalikVirdHomepage()),
             screenListPageDivider(),
           ],
         ),
