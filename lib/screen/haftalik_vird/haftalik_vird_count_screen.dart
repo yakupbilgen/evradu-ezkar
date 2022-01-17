@@ -1,4 +1,5 @@
 import 'package:evraduezkar/constant/app_constant.dart';
+import 'package:evraduezkar/constant/haftalik_vird/haftalik_vird_constant.dart';
 import 'package:flutter/material.dart';
 
 class HaftalikVirdCountScreen extends StatefulWidget {
@@ -70,13 +71,13 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
 
   void buildAlertDialog(BuildContext context) {
     Widget okButton = TextButton(
-      child: const Text("Tamam"),
+      child: const Text(HaftalikVirdConstant.dialogOkButton),
       onPressed: () => Navigator.pop(context),
     );
 
     AlertDialog alert = AlertDialog(
       title: const Icon(Icons.warning_amber),
-      content: const Text("UYARI!\nHedeflenen zikir sayısına ulaşıldı."),
+      content: const Text(HaftalikVirdConstant.dialogAlertContent),
       actions: [
         okButton,
       ],

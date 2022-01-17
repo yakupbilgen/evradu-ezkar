@@ -6,6 +6,10 @@ class HaftalikVirdConstant {
   static const friday = 'Friday';
   static const saturday = 'Saturday';
   static const sunday = 'Sunday';
+
+  static const dialogOkButton = 'Tamam';
+  static const dialogAlertContent =
+      'UYARI!\nHedeflenen zikir sayısına ulaşıldı.';
 }
 
 class HaftalikVirdListConstant {
