@@ -91,3 +91,19 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
     );
   }
 }
+
+
+/*“Ve es’elüke biesmâike
+Yâ Rabbena
+Yâ İlâhenâ
+Yâ Seyyidenâ
+Yâ Mevlânâ
+Yâ Nâsıranâ
+Yâ Hafızana
+Yâ Kâdiranâ
+Yâ Râzikanâ
+Yâ Delîlenâ
+Yâ Muğisenâ
+Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-nâr.”
+
+*/
