@@ -9,3 +9,11 @@ class AppConstant {
   static const screenListSekineDuasi = 'Sekine Duası';
   static const screenListHastalikVird = 'Haftalık Vird';
 }
+
+class AppConstantHomepageList {
+  static const item1 = 'Küçük Çevşen';
+  static const item2 = 'Günlük Vird';
+  static const item3 = 'Tahmidiyye';
+  static const item4 = 'Celcelutiye';
+  static const item5 = 'Sekine Duası';
+}
