@@ -344,7 +344,7 @@ Sübhâneke yâ lâ ilahe illâ entei-emâ-ne’l-emâne hallisnâ mine’n-nâr
 8. Yâ Esme’a’s-sâmi’în
 9. Yâ Ekrame’l-ekramîn
 10. Yâ Erhame’r-râhimîn
-1.1. Yâ Eşfe’a’ş-şâfi’în
+11. Yâ Eşfe’a’ş-şâfi’în
 
 Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-nâr.
 """,
