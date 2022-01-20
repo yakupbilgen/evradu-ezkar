@@ -56,9 +56,15 @@ Widget listTileItem(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
       ListTile(
-        leading: const Icon(Icons.spa),
-        title: Text(title, style: const TextStyle(fontWeight: FontWeight.bold)),
-        trailing: const Icon(Icons.arrow_right, size: 40, color: Colors.black),
+        leading: const Icon(Icons.spa, size: 32, color: Colors.red),
+        title: Text(
+          title,
+          style: Theme.of(context)
+              .textTheme
+              .headline6
+              ?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        trailing: const Icon(Icons.arrow_right, size: 32, color: Colors.red),
         onTap: () {
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => navigatorFunc));

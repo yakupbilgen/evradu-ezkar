@@ -21,9 +21,20 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
               itemCount: 100,
               itemBuilder: (context, index) {
                 return ListTile(
-                  leading: const Icon(Icons.spa),
-                  title: Text('${index + 1}. Bab Oku'),
-                  trailing: const Icon(Icons.arrow_right),
+                  leading: const Icon(
+                    Icons.spa,
+                    size: 32,
+                    color: Colors.red,
+                  ),
+                  title: Text(
+                    '${index + 1}. Bab Oku',
+                    style: Theme.of(context)
+                        .textTheme
+                        .headline6
+                        ?.copyWith(fontWeight: FontWeight.bold),
+                  ),
+                  trailing: const Icon(Icons.arrow_right,
+                      size: 40, color: Colors.red),
                   onTap: () {
                     Navigator.push(
                       context,
