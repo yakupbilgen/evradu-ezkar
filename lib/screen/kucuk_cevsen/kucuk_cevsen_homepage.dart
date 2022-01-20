@@ -23,7 +23,7 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
                 return ListTile(
                   leading: const Icon(
                     Icons.spa,
-                    size: 32,
+                    size: AppConstant.iconSize,
                     color: Colors.red,
                   ),
                   title: Text(
@@ -34,7 +34,7 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
                         ?.copyWith(fontWeight: FontWeight.bold),
                   ),
                   trailing: const Icon(Icons.arrow_right,
-                      size: 40, color: Colors.red),
+                      size: AppConstant.iconSize, color: Colors.red),
                   onTap: () {
                     Navigator.push(
                       context,

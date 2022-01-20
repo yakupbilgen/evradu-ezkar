@@ -71,7 +71,11 @@ class _HaftalikVirdHomepageState extends State<HaftalikVirdHomepage> {
   ListTile buildListItem(String title, int evradTotalCount, String textTurkish,
       String textArabic) {
     return ListTile(
-      leading: const Icon(Icons.spa),
+      leading: const Icon(
+        Icons.spa,
+        size: AppConstant.iconSize,
+        color: Colors.red,
+      ),
       title: Text(title),
       trailing: const Icon(Icons.arrow_right),
       onTap: () {

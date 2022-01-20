@@ -1,3 +1,4 @@
+import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:evraduezkar/constant/tahmidiyye/tahmidiyye_constant.dart';
 import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_arabic.dart';
 import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_turkish.dart';
@@ -22,10 +23,14 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
           children: [
             const Divider(),
             ListTile(
-              leading: const Icon(Icons.spa),
+              leading: const Icon(
+                Icons.spa,
+                size: AppConstant.iconSize,
+              ),
               title: const Text(TahmidiyyeConstant.buttonArabic),
               subtitle: const Text(TahmidiyyeConstant.listTileTitleTextArabic),
-              trailing: const Icon(Icons.arrow_right),
+              trailing:
+                  const Icon(Icons.arrow_right, size: AppConstant.iconSize),
               onTap: () {
                 Navigator.push(
                   context,
@@ -37,10 +42,16 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
             ),
             const Divider(),
             ListTile(
-              leading: const Icon(Icons.spa),
+              leading: const Icon(
+                Icons.spa,
+                size: AppConstant.iconSize,
+              ),
               title: const Text(TahmidiyyeConstant.buttonTurkish),
               subtitle: const Text(TahmidiyyeConstant.listTileTitleTextTurkish),
-              trailing: const Icon(Icons.arrow_right),
+              trailing: const Icon(
+                Icons.arrow_right,
+                size: AppConstant.iconSize,
+              ),
               onTap: () {
                 Navigator.push(
                   context,

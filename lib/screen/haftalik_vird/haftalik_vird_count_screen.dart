@@ -76,7 +76,11 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
     );
 
     AlertDialog alert = AlertDialog(
-      title: const Icon(Icons.warning_amber),
+      title: const Icon(
+        Icons.warning_amber,
+        size: AppConstant.iconSize,
+        color: Colors.red,
+      ),
       content: const Text(HaftalikVirdConstant.dialogAlertContent),
       actions: [
         okButton,

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 class AppConstant {
   static const bgColor = Color(0xFFEEE7D4);
+  static const iconSize = 32.0;
+  static const iconColor = Colors.red;
 
   static const screenListTahmidiyye = 'Tahmidiyye';
   static const screenListCelcelutiye = 'Celcelutiye';
