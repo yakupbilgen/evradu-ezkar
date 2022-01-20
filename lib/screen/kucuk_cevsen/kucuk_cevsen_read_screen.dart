@@ -1,4 +1,5 @@
 import 'package:evraduezkar/constant/app_constant.dart';
+import 'package:evraduezkar/constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
 import 'package:flutter/material.dart';
 
 class KucukCevsenReadScreen extends StatefulWidget {
@@ -16,27 +17,41 @@ class KucukCevsenReadScreen extends StatefulWidget {
 class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
   @override
   Widget build(BuildContext context) {
+    bool isFirstOpen = true;
+    final PageController _controller =
+        PageController(initialPage: widget.babIndex);
     return Scaffold(
       backgroundColor: AppConstant.bgColor,
       body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              widget.babIndex.toString(),
-              style: Theme.of(context)
-                  .textTheme
-                  .headline5
-                  ?.copyWith(color: Colors.red, fontWeight: FontWeight.bold),
-            ),
-            Text(
-              widget.babContent,
-              style: Theme.of(context)
-                  .textTheme
-                  .headline6
-                  ?.copyWith(fontWeight: FontWeight.bold),
-            ),
-          ],
+        child: PageView.builder(
+          controller: _controller,
+          itemCount: KucukCevsenConstant.babList.length,
+          itemBuilder: (context, index) {
+            (isFirstOpen) ? index = widget.babIndex : null;
+            isFirstOpen = false;
+            return Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: SingleChildScrollView(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      '${(index + 1).toString()} Bab\n',
+                      style: Theme.of(context).textTheme.headline5?.copyWith(
+                          color: Colors.red, fontWeight: FontWeight.bold),
+                    ),
+                    Text(
+                      KucukCevsenConstant.babList[index],
+                      style: Theme.of(context)
+                          .textTheme
+                          .headline6
+                          ?.copyWith(fontWeight: FontWeight.bold),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          },
         ),
       ),
     );
