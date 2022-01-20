@@ -20,6 +20,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
     bool isFirstOpen = true;
     final PageController _controller =
         PageController(initialPage: widget.babIndex);
+
     return Scaffold(
       backgroundColor: AppConstant.bgColor,
       body: SafeArea(

@@ -26,11 +26,15 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
               leading: const Icon(
                 Icons.spa,
                 size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
               ),
               title: const Text(TahmidiyyeConstant.buttonArabic),
               subtitle: const Text(TahmidiyyeConstant.listTileTitleTextArabic),
-              trailing:
-                  const Icon(Icons.arrow_right, size: AppConstant.iconSize),
+              trailing: const Icon(
+                Icons.arrow_right,
+                size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
+              ),
               onTap: () {
                 Navigator.push(
                   context,
@@ -45,12 +49,14 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
               leading: const Icon(
                 Icons.spa,
                 size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
               ),
               title: const Text(TahmidiyyeConstant.buttonTurkish),
               subtitle: const Text(TahmidiyyeConstant.listTileTitleTextTurkish),
               trailing: const Icon(
                 Icons.arrow_right,
                 size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
               ),
               onTap: () {
                 Navigator.push(

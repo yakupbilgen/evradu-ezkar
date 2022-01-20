@@ -74,10 +74,14 @@ class _HaftalikVirdHomepageState extends State<HaftalikVirdHomepage> {
       leading: const Icon(
         Icons.spa,
         size: AppConstant.iconSize,
-        color: Colors.red,
+        color: AppConstant.iconColor,
       ),
       title: Text(title),
-      trailing: const Icon(Icons.arrow_right),
+      trailing: const Icon(
+        Icons.arrow_right,
+        size: AppConstant.iconSize,
+        color: AppConstant.iconColor,
+      ),
       onTap: () {
         Navigator.push(
           context,

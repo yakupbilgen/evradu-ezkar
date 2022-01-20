@@ -79,7 +79,7 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
       title: const Icon(
         Icons.warning_amber,
         size: AppConstant.iconSize,
-        color: Colors.red,
+        color: AppConstant.iconColor,
       ),
       content: const Text(HaftalikVirdConstant.dialogAlertContent),
       actions: [
