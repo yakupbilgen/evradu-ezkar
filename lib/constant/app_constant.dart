@@ -19,3 +19,7 @@ class AppConstantHomepageList {
   static const item4 = 'Celcelutiye';
   static const item5 = 'Sekine Duası';
 }
+
+Divider appConstantDivider() {
+  return const Divider(color: Colors.red);
+}

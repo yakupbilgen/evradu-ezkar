@@ -43,6 +43,7 @@ class HomepageScreenList extends StatelessWidget {
               AppConstant.screenListHastalikVird,
               const HaftalikVirdHomepage(),
             ),
+            appConstantDivider(),
           ],
         ),
       ),
@@ -55,6 +56,7 @@ Widget listTileItem(
   return Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
+      appConstantDivider(),
       ListTile(
         leading: const Icon(
           Icons.spa,
@@ -78,7 +80,6 @@ Widget listTileItem(
               context, MaterialPageRoute(builder: (context) => navigatorFunc));
         },
       ),
-      const Divider(color: Colors.blue),
     ],
   );
 }

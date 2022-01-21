@@ -18,36 +18,43 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
       body: SafeArea(
         child: Center(
           child: ListView.builder(
-              itemCount: KucukCevsenConstant.babList.length,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  leading: const Icon(
-                    Icons.spa,
-                    size: AppConstant.iconSize,
-                    color: AppConstant.iconColor,
-                  ),
-                  title: Text(
-                    '${index + 1}. Bab Oku',
-                    style: Theme.of(context)
-                        .textTheme
-                        .headline6
-                        ?.copyWith(fontWeight: FontWeight.bold),
-                  ),
-                  trailing: const Icon(Icons.arrow_right,
-                      size: AppConstant.iconSize, color: AppConstant.iconColor),
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => KucukCevsenReadScreen(
-                          babIndex: index,
-                          babContent: KucukCevsenConstant.babList[index],
+            itemCount: KucukCevsenConstant.babList.length,
+            itemBuilder: (context, index) {
+              return Column(
+                children: [
+                  ListTile(
+                    leading: const Icon(
+                      Icons.spa,
+                      size: AppConstant.iconSize,
+                      color: AppConstant.iconColor,
+                    ),
+                    title: Text(
+                      '${index + 1}. Bab Oku',
+                      style: Theme.of(context)
+                          .textTheme
+                          .headline6
+                          ?.copyWith(fontWeight: FontWeight.bold),
+                    ),
+                    trailing: const Icon(Icons.arrow_right,
+                        size: AppConstant.iconSize,
+                        color: AppConstant.iconColor),
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => KucukCevsenReadScreen(
+                            babIndex: index,
+                            babContent: KucukCevsenConstant.babList[index],
+                          ),
                         ),
-                      ),
-                    );
-                  },
-                );
-              }),
+                      );
+                    },
+                  ),
+                  appConstantDivider()
+                ],
+              );
+            },
+          ),
         ),
       ),
     );

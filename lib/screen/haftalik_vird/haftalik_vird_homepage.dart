@@ -11,6 +11,13 @@ class HaftalikVirdHomepage extends StatefulWidget {
   _HaftalikVirdHomepageState createState() => _HaftalikVirdHomepageState();
 }
 
+//TODO: haftalık vird günlük olarak değiştirilecek
+//TODO: haftalık vird listesi ingilizce. Onu türkçe yap
+//TODO: divider ekle
+//TODO: listeye text style ver
+//TODO: pazartesi vird sayısı 3 olarak kalmış. 100 yap.
+//TODO: alert'a çekilen vird sayısını sıfırlama butonu ekle.
+//TODO: dispose'a sıfırlama ekle!
 class _HaftalikVirdHomepageState extends State<HaftalikVirdHomepage> {
   @override
   Widget build(BuildContext context) {

@@ -21,15 +21,25 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Divider(),
+            appConstantDivider(),
             ListTile(
               leading: const Icon(
                 Icons.spa,
                 size: AppConstant.iconSize,
                 color: AppConstant.iconColor,
               ),
-              title: const Text(TahmidiyyeConstant.buttonArabic),
-              subtitle: const Text(TahmidiyyeConstant.listTileTitleTextArabic),
+              title: Text(
+                TahmidiyyeConstant.buttonArabic,
+                style: Theme.of(context)
+                    .textTheme
+                    .headline6
+                    ?.copyWith(fontWeight: FontWeight.bold),
+              ),
+              subtitle: Text(TahmidiyyeConstant.listTileTitleTextArabic,
+                  style: Theme.of(context)
+                      .textTheme
+                      .bodyText1
+                      ?.copyWith(color: Colors.red)),
               trailing: const Icon(
                 Icons.arrow_right,
                 size: AppConstant.iconSize,
@@ -44,15 +54,27 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
                 );
               },
             ),
-            const Divider(),
+            appConstantDivider(),
             ListTile(
               leading: const Icon(
                 Icons.spa,
                 size: AppConstant.iconSize,
                 color: AppConstant.iconColor,
               ),
-              title: const Text(TahmidiyyeConstant.buttonTurkish),
-              subtitle: const Text(TahmidiyyeConstant.listTileTitleTextTurkish),
+              title: Text(
+                TahmidiyyeConstant.buttonTurkish,
+                style: Theme.of(context)
+                    .textTheme
+                    .headline6
+                    ?.copyWith(fontWeight: FontWeight.bold),
+              ),
+              subtitle: Text(
+                TahmidiyyeConstant.listTileTitleTextTurkish,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyText1
+                    ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
+              ),
               trailing: const Icon(
                 Icons.arrow_right,
                 size: AppConstant.iconSize,
@@ -67,7 +89,7 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
                 );
               },
             ),
-            const Divider(),
+            appConstantDivider(),
           ],
         ),
       ),
