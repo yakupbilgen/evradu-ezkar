@@ -1,11 +1,11 @@
 class HaftalikVirdConstant {
-  static const monday = 'Monday';
-  static const tuesday = 'Tuesday';
-  static const wednesday = 'Wednesday';
-  static const thursday = 'Thursday';
-  static const friday = 'Friday';
-  static const saturday = 'Saturday';
-  static const sunday = 'Sunday';
+  static const monday = 'Pazartesi';
+  static const tuesday = 'Salı';
+  static const wednesday = 'Çarşamba';
+  static const thursday = 'Perşembe';
+  static const friday = 'Cuma';
+  static const saturday = 'Cumartesi';
+  static const sunday = 'Pazar';
 
   static const dialogOkButton = 'Tamam';
   static const dialogAlertContent =
@@ -17,7 +17,7 @@ class HaftalikVirdListConstant {
       'Lâ ilâhe illellâhü aziyzün celiylün yâ aziyzü yâ celiyl ';
   static const mondayArabic =
       '‎لآ اِلـَهَ اِلاَّ اللهُ عَزِيزٌ جَلِيلٌ يَا عَزِيزُ يَا جَلِيلُ';
-  static const mondayCount = 3;
+  static const mondayCount = 100;
 
   static const tuesdayTurkish =
       'Allâhümme salli alâ seyyidinâ muhammedin ve alâ âli seyyidinâ muhammedin ve sellim teslîmen kesîrâ ';

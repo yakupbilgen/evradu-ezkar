@@ -12,10 +12,8 @@ class HaftalikVirdHomepage extends StatefulWidget {
 }
 
 //TODO: haftalık vird günlük olarak değiştirilecek
-//TODO: haftalık vird listesi ingilizce. Onu türkçe yap
-//TODO: divider ekle
+//TODO: divider ekle  +++
 //TODO: listeye text style ver
-//TODO: pazartesi vird sayısı 3 olarak kalmış. 100 yap.
 //TODO: alert'a çekilen vird sayısını sıfırlama butonu ekle.
 //TODO: dispose'a sıfırlama ekle!
 class _HaftalikVirdHomepageState extends State<HaftalikVirdHomepage> {
@@ -33,36 +31,42 @@ class _HaftalikVirdHomepageState extends State<HaftalikVirdHomepage> {
               HaftalikVirdListConstant.mondayArabic,
               HaftalikVirdListConstant.mondayTurkish,
             ),
+            appConstantDivider(),
             buildListItem(
               HaftalikVirdConstant.tuesday,
               HaftalikVirdListConstant.tuesdayCount,
               HaftalikVirdListConstant.tuesdayArabic,
               HaftalikVirdListConstant.tuesdayTurkish,
             ),
+            appConstantDivider(),
             buildListItem(
               HaftalikVirdConstant.wednesday,
               HaftalikVirdListConstant.wednesdayCount,
               HaftalikVirdListConstant.wednesdayArabic,
               HaftalikVirdListConstant.wednesdayTurkish,
             ),
+            appConstantDivider(),
             buildListItem(
               HaftalikVirdConstant.thursday,
               HaftalikVirdListConstant.thursdayCount,
               HaftalikVirdListConstant.thursdayArabic,
               HaftalikVirdListConstant.thursdayTurkish,
             ),
+            appConstantDivider(),
             buildListItem(
               HaftalikVirdConstant.friday,
               HaftalikVirdListConstant.fridayCount,
               HaftalikVirdListConstant.fridayArabic,
               HaftalikVirdListConstant.fridayTurkish,
             ),
+            appConstantDivider(),
             buildListItem(
               HaftalikVirdConstant.saturday,
               HaftalikVirdListConstant.saturdayCount,
               HaftalikVirdListConstant.saturdayArabic,
               HaftalikVirdListConstant.saturdayTurkish,
             ),
+            appConstantDivider(),
             buildListItem(
               HaftalikVirdConstant.sunday,
               HaftalikVirdListConstant.sundayCount,
