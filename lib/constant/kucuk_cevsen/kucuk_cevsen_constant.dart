@@ -4,8 +4,8 @@ class KucukCevsenConstant {
 Allâhümme innî es’elüke biesmâike
 1. Yâ Allah
 2. Yâ Rahman
-3. YâRahîm
-4. Yâ’Alîm
+3. Yâ Rahîm
+4. YâAlîm
 5. Yâ Halîm
 6. Yâ Azîm
 7. Yâ Hakîm
@@ -105,11 +105,11 @@ Sübhâneke lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-nâr.
 1. Yâ Ze’l-hamdi ve’s-senâ
 2. Yâ Ze’l-mecdi ve’s-senâ
 3. Yâ Ze’l-fahri ve’l-behâ
-4. Yâ Ze’l-‘ahdi ve’l-vefâ
-5. Yâ Ze’l-‘afvi ve’r-ridâ
+4. Yâ Ze’l-ahdi ve’l-vefâ
+5. Yâ Ze’l-afvi ve’r-ridâ
 6. Yâ Ze’l-menni ve’l-‘atâ
 7. Yâ Ze’l-fasli ve’l-kadâ
-8. Yâ Ze’l-‘izzeti ve’l-bekâ
+8. Yâ Ze’l-izzeti ve’l-bekâ
 9. Yâ Ze’l-cûdi ve’n-na’mâ
 10. Yâ Ze’l-fadli ve’l-‘âlâ
 
@@ -132,7 +132,7 @@ Ve es’elüke biesmâike
 Sübhâneke lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-nâr.
 """,
     """
-1. Yâ Sâni’a külli masnû’
+1. Yâ Sâni’a külli masnû
 2. Yâ Halika külli mahlûk
 3. Yâ Râzika külli merzûk
 4. Yâ Mâlike külli memlûk
@@ -211,8 +211,8 @@ Sübhâneke lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-nâr.
 5. Yâ Ze’l-hikmeti ve’l-beyân
 6. Yâ Ze’r-rahmeti ve’r-rıdvân
 7. Yâ Ze’l-hucceti ve’l-bürhân
-8. Yâ Ze’l-‘azameti ve’s-sultân
-9. Yâ Ze’l-‘afvi ve’l-ğvıfrân
+8. Yâ Ze’l-azameti ve’s-sultân
+9. Yâ Ze’l-afvi ve’l-ğvıfrân
 10. Yâ Ze’r-ra’feti ve’l-müste’ân
 
 Sübhâneke lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-nâr.
@@ -224,7 +224,7 @@ Sübhâneke lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-nâr.
 4. Yâ Men hüve fevka külli şey’
 5. Yâ Men hüve kable külli şey’
 6. Yâ Men hüve ba’de külli şey’
-7. Yâ Men hüve ‘Alimü külli şey’
+7. Yâ Men hüve Alimü külli şey’
 8. Yâ Men hüve Kâdiru külli şey’
 9. Yâ Men hüve Sâni’u külli şey’
 10. Yâ Men hüve yebkâ veyefnâ küllü şey’
@@ -251,7 +251,7 @@ Sübhâneke lâ ilahe illâ ente’l-emâ ne’l-emâne hallisnâ mine’n-nâr.
 1. Yâ men hüve fî mülkihî mükîm
 2. Yâ men hüve fî celâlihî ‘azîm
 3. Yâ men hüve fî sültânihî kadîm
-4. Yâ men hüve ‘alâ ‘abdihî rahîm
+4. Yâ men hüve alâ ‘abdihî rahîm
 5. Yâ men hüve bikülli şey’in ‘alîm
 6. Yâ men hüve limen cefâhu halîm
 7. Yâ men hüve limen teraccâhü kerîm
@@ -988,8 +988,9 @@ Sübhâneke yâ lâ ilahe illâ ente’l-em ne’l-emâne neccinâ mine’n-nâr
     """
 1. Yâ Hayyü kable külli hayy
 2. Yâ Hayyü ba’de külli hayy
-3. Yâ Hayyü’llezî lâ yüşbihühû şey’
-4. Yâ Hayyü’llezî leyse kemişlihî hayy ‘ Yâ Hayyü’llezî lâ yüşârikühû hayy
+3. Yâ Hayyü’llezî lâ yüşbihühû şey
+4. Yâ Hayyü’llezî leyse kemişlihî hayy
+5. Yâ Hayyü’llezî lâ yüşârikühû hayy
 6. Yâ Hayyü’llezî lâ yahtâcü ilâ hayy
 7. Yâ Hayyü’llezî yümîtü külle hayy
 8. Yâ Hayyü’llezî yerzüku külle hayy
@@ -1130,8 +1131,10 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne neccinâ mine’n-n�
 1. Yâ Ze’l-cûdi ve’n-ni’âm
 2. Yâ Ze’l-fadli ve’l-keram
 3. Yâ Ze’l-be’si ve’n-nikam
-4. Yâ Hâlika’l-levhi ve’l-kalem ‘ Yâ Bârie’z-zerri ve’n-nesem
-6. Yâ Mülhime’l-‘arabi ve’l-‘acem 1. Yâ Kâşife’drdurri ve’l-elem
+4. Yâ Hâlika’l-levhi ve’l-kalem
+5. Yâ Bârie’z-zerri ve’n-nesem
+6. Yâ Mülhime’l-‘arabi ve’l-‘acem 
+7. Yâ Kâşife’drdurri ve’l-elem
 8. Yâ Alime’s-sirri ve’l-himem
 9. Yâ Men lehü’l-beytü ve’l-haram
 10. Yâ Men yahlüku’l-eşyâe mine’l-‘adem
@@ -1158,7 +1161,8 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne neccinâ mine’n-n�
 1. Yâ Men en’ame bihavlih
 2. Yâ Men ekrame bitavlih
 3. Yâ Men ‘âde bilütfıh
-4. Yâ Men te’azzeze bikudratih 3. Yâ Men kaddera bihikmetih
+4. Yâ Men te’azzeze bikudratih 
+5. Yâ Men kaddera bihikmetih
 6. Yâ Men hakeme bitedbîrih
 7. Yâ Men debbera bi’ilmih
 8. Yâ Men tecâveze bihılmih
@@ -1168,7 +1172,8 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne neccinâ mine’n-n�
 Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne neccinâ mine’n-nâr.
 """,
     """
-1. Yâ Men yahlüku ma yeşâ 2.Yâ Men yef’alü ma yeşâ
+1. Yâ Men yahlüku ma yeşâ 
+2. Yâ Men yef’alü ma yeşâ
 3. Yâ Men yehdi men yeşâ
 4. Yâ Men yudillü men yeşâ
 5. Yâ Men yağfiru limen yeşâ
@@ -1332,7 +1337,8 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-n
 4. Yâ Fâtira külli şey’in ve melîkeh
 5. Yâ Kâbida külli şey’in ve bâsiteh
 6. Yâ Mübdie külli şey’in ve nıü’îdeh
-7. Yâ Müsebbibe külli şey’in ve mükaddirah s Yâ Mürabbiye külli şey’in ve müdebbirah
+7. Yâ Müsebbibe külli şey’in ve mükaddirah
+8. Yâ Mürabbiye külli şey’in ve müdebbirah
 9. Yâ Mükevvira külli şey’in ve muhavvileh
 10. Yâ Muhyiye külli şey’in ve mümîteh
 
