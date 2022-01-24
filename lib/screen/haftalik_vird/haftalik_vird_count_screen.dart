@@ -23,6 +23,12 @@ int cekilenEvradCount = 0;
 
 class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
   @override
+  void dispose() {
+    cekilenEvradCount = 0;
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppConstant.bgColor,
