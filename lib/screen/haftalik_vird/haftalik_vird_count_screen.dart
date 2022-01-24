@@ -81,6 +81,14 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
       onPressed: () => Navigator.pop(context),
     );
 
+    Widget resetCountButton = TextButton(
+      child: const Text('Sıfırla'),
+      onPressed: () {
+        cekilenEvradCount = 0;
+        Navigator.pop(context);
+      },
+    );
+
     AlertDialog alert = AlertDialog(
       title: const Icon(
         Icons.warning_amber,
@@ -90,6 +98,7 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
       content: const Text(HaftalikVirdConstant.dialogAlertContent),
       actions: [
         okButton,
+        resetCountButton,
       ],
     );
 
