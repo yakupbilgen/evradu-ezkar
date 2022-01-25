@@ -15,6 +15,7 @@ class _HaftalikVirdHomepageState extends State<HaftalikVirdHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: appAppBar(context, "title"),
       backgroundColor: AppConstant.bgColor,
       body: SafeArea(
         child: Column(

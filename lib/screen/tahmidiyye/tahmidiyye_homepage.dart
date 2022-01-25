@@ -15,6 +15,7 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: appAppBar(context, "title"),
       backgroundColor: TahmidiyyeConstant.bgColor,
       body: SafeArea(
         child: Column(

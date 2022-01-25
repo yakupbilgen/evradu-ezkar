@@ -14,6 +14,7 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: appAppBar(context, "title"),
       backgroundColor: AppConstant.bgColor,
       body: SafeArea(
         child: Center(

@@ -1,3 +1,4 @@
+import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:evraduezkar/constant/tahmidiyye/tahmidiyye_constant.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +15,7 @@ class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: appAppBar(context, "title"),
       backgroundColor: TahmidiyyeConstant.bgColor,
       body: SafeArea(
         child: PageView.builder(

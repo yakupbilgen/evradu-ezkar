@@ -31,6 +31,7 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: appAppBar(context, "title"),
       backgroundColor: AppConstant.bgColor,
       body: SafeArea(
         child: Container(

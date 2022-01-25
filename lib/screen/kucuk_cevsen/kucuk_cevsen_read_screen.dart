@@ -22,6 +22,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
         PageController(initialPage: widget.babIndex);
 
     return Scaffold(
+      appBar: appAppBar(context, "title"),
       backgroundColor: AppConstant.bgColor,
       body: SafeArea(
         child: PageView.builder(
