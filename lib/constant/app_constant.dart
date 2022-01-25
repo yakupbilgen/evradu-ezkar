@@ -23,3 +23,17 @@ class AppConstantHomepageList {
 Divider appConstantDivider() {
   return const Divider(color: Colors.red);
 }
+
+AppBar appAppBar(BuildContext context, String title) {
+  return AppBar(
+    backgroundColor: AppConstant.bgColor,
+    centerTitle: true,
+    title: Text(
+      title,
+      style: Theme.of(context)
+          .textTheme
+          .headline6
+          ?.copyWith(fontWeight: FontWeight.bold),
+    ),
+  );
+}
