@@ -11,9 +11,6 @@ class HaftalikVirdHomepage extends StatefulWidget {
   _HaftalikVirdHomepageState createState() => _HaftalikVirdHomepageState();
 }
 
-//TODO: listeye text style ver    ++
-//TODO: alert'a çekilen vird sayısını sıfırlama butonu ekle. ++
-//TODO: dispose'a sıfırlama ekle! ++
 class _HaftalikVirdHomepageState extends State<HaftalikVirdHomepage> {
   @override
   Widget build(BuildContext context) {
