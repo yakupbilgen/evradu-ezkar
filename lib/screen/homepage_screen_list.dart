@@ -13,7 +13,7 @@ class HomepageScreenList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, "asd"),
+      appBar: appAppBar(context, AppConstant.appBarTitle),
       backgroundColor: const Color(0xFFEEE7D4),
       body: SafeArea(
         child: Column(

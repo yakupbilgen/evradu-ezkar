@@ -10,6 +10,8 @@ class AppConstant {
   static const screenListKucukCevsen = 'Küçük Çevşen';
   static const screenListSekineDuasi = 'Sekine Duası';
   static const screenListGunlukVird = 'Günlük Vird';
+
+  static const appBarTitle = 'Evradu Ekzar Okuma Programı';
 }
 
 class AppConstantHomepageList {
