@@ -88,6 +88,7 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
       onPressed: () {
         cekilenEvradCount = 0;
         Navigator.pop(context);
+        setState(() {});
       },
     );
 
