@@ -6,12 +6,14 @@ class GunlukVirdCountScreen extends StatefulWidget {
   final int evradTotalCount;
   final String textArabic;
   final String textTurkish;
+  final String textToday;
 
   const GunlukVirdCountScreen({
     Key? key,
     required this.evradTotalCount,
     required this.textArabic,
     required this.textTurkish,
+    required this.textToday,
   }) : super(key: key);
 
   @override
@@ -30,7 +32,7 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, "title"),
+      appBar: appAppBar(context, widget.textToday + ' Virdi'),
       backgroundColor: AppConstant.bgColor,
       body: SafeArea(
         child: Container(

@@ -52,5 +52,5 @@ class GunlukVirdListConstant {
   static const sundayTurkish = 'Lâ ilâhe illallâhul melikül hakkul mübîn ';
   static const sundayArabic =
       '‎لآ اِلـَهَ اِلاَّ اللهُ اْلمَلِكُ اْلحَقُّ اْلمُبِينُ';
-  static const sundayCount = 100;
+  static const sundayCount = 2;
 }

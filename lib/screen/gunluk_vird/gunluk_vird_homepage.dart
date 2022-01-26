@@ -103,6 +103,7 @@ class _GunlukVirdHomepageState extends State<GunlukVirdHomepage> {
               evradTotalCount: evradTotalCount,
               textArabic: textArabic,
               textTurkish: textTurkish,
+              textToday: title,
             ),
           ),
         );
