@@ -5,7 +5,7 @@ import 'screen/homepage_screen_list.dart';
 void main() {
   runApp(const MyApp());
 }
-//TODO:AppBar ekle
+//TODO:AppBar renk kırmızı
 //TODO: AppBar'da geçerli sayfanın indexi olsun.
 //TODO: Resimler büyütülebilsin.
 

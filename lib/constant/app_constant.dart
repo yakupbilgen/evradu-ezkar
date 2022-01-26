@@ -9,7 +9,7 @@ class AppConstant {
   static const screenListCelcelutiye = 'Celcelutiye';
   static const screenListKucukCevsen = 'Küçük Çevşen';
   static const screenListSekineDuasi = 'Sekine Duası';
-  static const screenListHastalikVird = 'Haftalık Vird';
+  static const screenListGunlukVird = 'Günlük Vird';
 }
 
 class AppConstantHomepageList {
@@ -33,7 +33,7 @@ AppBar appAppBar(BuildContext context, String title) {
       style: Theme.of(context)
           .textTheme
           .headline6
-          ?.copyWith(fontWeight: FontWeight.bold),
+          ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
     ),
   );
 }

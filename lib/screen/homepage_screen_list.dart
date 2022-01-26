@@ -1,10 +1,10 @@
 import 'package:evraduezkar/constant/app_constant.dart';
+import 'package:evraduezkar/screen/gunluk_vird/gunluk_vird_homepage.dart';
 import 'package:evraduezkar/screen/sekine/sekine_homepage.dart';
 import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_homepage.dart';
 import 'package:flutter/material.dart';
 
 import 'celcelutiye/celcelutiye_homepage.dart';
-import 'haftalik_vird/haftalik_vird_homepage.dart';
 import 'kucuk_cevsen/kucuk_cevsen_homepage.dart';
 
 class HomepageScreenList extends StatelessWidget {
@@ -41,8 +41,8 @@ class HomepageScreenList extends StatelessWidget {
             ),
             listTileItem(
               context,
-              AppConstant.screenListHastalikVird,
-              const HaftalikVirdHomepage(),
+              AppConstant.screenListGunlukVird,
+              const GunlukVirdHomepage(),
             ),
             appConstantDivider(),
           ],

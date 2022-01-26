@@ -1,4 +1,6 @@
-class HaftalikVirdConstant {
+class GunlukVirdConstant {
+  static const appBarTitle = 'Günlük Vird Oku';
+
   static const monday = 'Pazartesi';
   static const tuesday = 'Salı';
   static const wednesday = 'Çarşamba';
@@ -12,7 +14,7 @@ class HaftalikVirdConstant {
       'UYARI!\nHedeflenen zikir sayısına ulaşıldı.';
 }
 
-class HaftalikVirdListConstant {
+class GunlukVirdListConstant {
   static const mondayTurkish =
       'Lâ ilâhe illellâhü aziyzün celiylün yâ aziyzü yâ celiyl ';
   static const mondayArabic =

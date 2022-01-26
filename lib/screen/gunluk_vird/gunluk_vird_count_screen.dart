@@ -1,13 +1,13 @@
 import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/haftalik_vird/haftalik_vird_constant.dart';
+import 'package:evraduezkar/constant/gunluk_vird/gunluk_vird_constant.dart';
 import 'package:flutter/material.dart';
 
-class HaftalikVirdCountScreen extends StatefulWidget {
+class GunlukVirdCountScreen extends StatefulWidget {
   final int evradTotalCount;
   final String textArabic;
   final String textTurkish;
 
-  const HaftalikVirdCountScreen({
+  const GunlukVirdCountScreen({
     Key? key,
     required this.evradTotalCount,
     required this.textArabic,
@@ -15,13 +15,12 @@ class HaftalikVirdCountScreen extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _HaftalikVirdCountScreenState createState() =>
-      _HaftalikVirdCountScreenState();
+  _GunlukVirdCountScreenState createState() => _GunlukVirdCountScreenState();
 }
 
 int cekilenEvradCount = 0;
 
-class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
+class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
   @override
   void dispose() {
     cekilenEvradCount = 0;
@@ -78,7 +77,7 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
 
   void buildAlertDialog(BuildContext context) {
     Widget okButton = TextButton(
-      child: const Text(HaftalikVirdConstant.dialogOkButton),
+      child: const Text(GunlukVirdConstant.dialogOkButton),
       onPressed: () => Navigator.pop(context),
     );
 
@@ -96,7 +95,7 @@ class _HaftalikVirdCountScreenState extends State<HaftalikVirdCountScreen> {
         size: AppConstant.iconSize,
         color: AppConstant.iconColor,
       ),
-      content: const Text(HaftalikVirdConstant.dialogAlertContent),
+      content: const Text(GunlukVirdConstant.dialogAlertContent),
       actions: [
         okButton,
         resetCountButton,
