@@ -10,17 +10,23 @@ class TahmidiyyeArabic extends StatefulWidget {
 }
 
 const imageNumber = TahmidiyyeConstant.tahmidiyyeArabicList;
+int pageNumber = 0;
 
 class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, "title"),
+      appBar: appAppBar(context,
+          TahmidiyyeConstant.appBarReadScreenTitle + ' ($pageNumber / 21)'),
       backgroundColor: TahmidiyyeConstant.bgColor,
       body: SafeArea(
         child: PageView.builder(
           physics: const ClampingScrollPhysics(),
           itemCount: imageNumber.length,
+          onPageChanged: (value) {
+            pageNumber = value;
+            setState(() {});
+          },
           itemBuilder: (BuildContext context, int index) {
             return Center(
               child: Image.asset(

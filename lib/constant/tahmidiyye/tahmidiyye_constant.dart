@@ -80,4 +80,5 @@ class TahmidiyyeConstant {
       'Türkçe okunuşu için buraya tıklayınız.';
 
   static const appBarTitle = 'Tahmidiyye Oku';
+  static const appBarReadScreenTitle = 'Tahmidiyye Sayfa';
 }
