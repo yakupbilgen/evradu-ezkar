@@ -9,11 +9,14 @@ class TahmidiyyeTurkish extends StatefulWidget {
   _TahmidiyyeTurkishState createState() => _TahmidiyyeTurkishState();
 }
 
+int pageNumber = 0;
+
 class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, "title"),
+      appBar: appAppBar(context,
+          TahmidiyyeConstant.appBarReadScreenTitle + '($pageNumber / 20)'),
       backgroundColor: TahmidiyyeConstant.bgColor,
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -21,6 +24,10 @@ class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
           child: PageView.builder(
             physics: const BouncingScrollPhysics(),
             itemCount: TahmidiyyeConstant.tahmidiyyeTurkishList.length,
+            onPageChanged: (value) {
+              pageNumber = value;
+              setState(() {});
+            },
             itemBuilder: (BuildContext context, int index) {
               return Center(
                 child: SingleChildScrollView(
