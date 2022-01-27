@@ -78,4 +78,6 @@ class TahmidiyyeConstant {
       'Arapça okunuşu için buraya tıklayınız.';
   static const listTileTitleTextTurkish =
       'Türkçe okunuşu için buraya tıklayınız.';
+
+  static const appBarTitle = 'Tahmidiyye Oku';
 }
