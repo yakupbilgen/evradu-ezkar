@@ -19,6 +19,12 @@ class CelcelutiyeConstant {
 
   static const bgColor = Color(0xFFEEE7D4);
   static const appBarTitle = 'Celcelutiye';
+  static const buttonArabic = 'Arapça';
+  static const buttonTurkish = 'Türkçe';
+  static const listTileSubTitleTextArabic =
+      'Arapça okunuşu için buraya tıklayınız.';
+  static const listTileSubTitleTextTurkish =
+      'Türkçe okunuşu için buraya tıklayınız.';
 
   static const celcelutiyeTurkishList = [
     """Bede’tü bi bismillahi rûhî bihihtedet

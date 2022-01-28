@@ -36,7 +36,7 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
                     .headline6
                     ?.copyWith(fontWeight: FontWeight.bold),
               ),
-              subtitle: Text(TahmidiyyeConstant.listTileTitleTextArabic,
+              subtitle: Text(TahmidiyyeConstant.listTileSubTitleTextArabic,
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
@@ -70,7 +70,7 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
                     ?.copyWith(fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
-                TahmidiyyeConstant.listTileTitleTextTurkish,
+                TahmidiyyeConstant.listTileSubTitleTextTurkish,
                 style: Theme.of(context)
                     .textTheme
                     .bodyText1

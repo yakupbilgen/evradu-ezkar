@@ -74,9 +74,9 @@ class TahmidiyyeConstant {
   static const bgColor = Color(0xFFEEE7D4);
   static const buttonArabic = 'Arapça';
   static const buttonTurkish = 'Türkçe';
-  static const listTileTitleTextArabic =
+  static const listTileSubTitleTextArabic =
       'Arapça okunuşu için buraya tıklayınız.';
-  static const listTileTitleTextTurkish =
+  static const listTileSubTitleTextTurkish =
       'Türkçe okunuşu için buraya tıklayınız.';
 
   static const appBarTitle = 'Tahmidiyye Oku';
