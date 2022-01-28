@@ -10,8 +10,8 @@ void main() {
 
 //TODO:Sekine Duası türkçesi olsun
 
-//TODO:Celcelutiye appbar düzenle
-//TODO:Celcelutiye appbar da index olsun
+//TODO:Celcelutiye appbar düzenle         +++
+//TODO:Celcelutiye appbar da index olsun  +++
 //TODO:Celcelutiye türkçesi olsun
 
 //TODO:Küçük Çevşen Liste ekranı appbar düzenle
