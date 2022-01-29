@@ -11,18 +11,12 @@ class CelcelutiyeTurkish extends StatefulWidget {
 
 int pageNumber = 0;
 int listLenghtTurkish = CelcelutiyeConstant.celcelutiyeTurkishList.length;
-int listLenghtTurkishMeal =
-    CelcelutiyeConstant.celcelutiyeTurkishMealList.length;
 
 class _CelcelutiyeTurkishState extends State<CelcelutiyeTurkish> {
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    debugPrint('Turkish list ' +
-        CelcelutiyeConstant.celcelutiyeTurkishList.length.toString());
-    debugPrint('Turkish meal list ' +
-        CelcelutiyeConstant.celcelutiyeTurkishMealList.length.toString());
+  void dispose() {
+    super.dispose();
+    pageNumber = 0;
   }
 
   @override
@@ -41,11 +35,6 @@ class _CelcelutiyeTurkishState extends State<CelcelutiyeTurkish> {
           onPageChanged: (value) {
             pageNumber = value;
             setState(() {});
-            debugPrint('Turkish list ' +
-                CelcelutiyeConstant.celcelutiyeTurkishList.length.toString());
-            debugPrint('Turkish meal list ' +
-                CelcelutiyeConstant.celcelutiyeTurkishMealList.length
-                    .toString());
           },
           itemBuilder: (BuildContext context, int index) {
             return Center(

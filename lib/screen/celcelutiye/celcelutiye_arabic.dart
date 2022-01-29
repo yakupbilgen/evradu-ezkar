@@ -10,20 +10,26 @@ class CelcelutiyeArabic extends StatefulWidget {
 }
 
 const imageNumber = CelcelutiyeConstant.celcelutiyeArabicList;
-int pageNumber = 1;
+int pageNumber = 0;
 
 class _CelcelutiyeArabicState extends State<CelcelutiyeArabic> {
   @override
+  void dispose() {
+    super.dispose();
+    pageNumber = 0;
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(
-          context, CelcelutiyeConstant.appBarTitle + ' ($pageNumber / 13)'),
+      appBar: appAppBar(context,
+          CelcelutiyeConstant.appBarTitle + ' (${pageNumber + 1} / 13)'),
       backgroundColor: CelcelutiyeConstant.bgColor,
       body: PageView.builder(
         physics: const ClampingScrollPhysics(),
         itemCount: imageNumber.length,
         onPageChanged: (value) {
-          pageNumber = value + 1;
+          pageNumber = value;
           setState(() {});
         },
         itemBuilder: (BuildContext context, int index) {
