@@ -4,7 +4,6 @@ import 'package:evraduezkar/screen/sekine/sekine_homepage.dart';
 import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_homepage.dart';
 import 'package:flutter/material.dart';
 
-import 'celcelutiye/celcelutiye_arabic.dart';
 import 'celcelutiye/celcelutiye_homepage.dart';
 import 'kucuk_cevsen/kucuk_cevsen_homepage.dart';
 
