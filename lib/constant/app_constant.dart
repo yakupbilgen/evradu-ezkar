@@ -38,5 +38,12 @@ AppBar appAppBar(BuildContext context, String title) {
           .headline6
           ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
     ),
+    leading: IconButton(
+      icon: const Icon(
+        Icons.arrow_back,
+        color: Colors.red,
+      ),
+      onPressed: () => Navigator.pop(context),
+    ),
   );
 }
