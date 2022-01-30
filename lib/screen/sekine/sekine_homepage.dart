@@ -19,6 +19,13 @@ class _SekineHomePageState extends State<SekineHomePage> {
         backgroundColor: AppConstant.bgColor,
         centerTitle: true,
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(
+            Icons.arrow_back,
+            color: Colors.red,
+          ),
+          onPressed: () => Navigator.pop(context),
+        ),
         title: Text(
           SekineConstant.appBarTitle + ' ($readingCount / 19)',
           style: Theme.of(context)
@@ -33,14 +40,20 @@ class _SekineHomePageState extends State<SekineHomePage> {
 
               setState(() {});
             },
-            icon: const Icon(Icons.add),
+            icon: const Icon(
+              Icons.add,
+              color: Colors.red,
+            ),
           ),
           IconButton(
             onPressed: () {
               readingCount = 0;
               setState(() {});
             },
-            icon: const Icon(Icons.refresh),
+            icon: const Icon(
+              Icons.refresh,
+              color: Colors.red,
+            ),
           ),
         ],
       ),
