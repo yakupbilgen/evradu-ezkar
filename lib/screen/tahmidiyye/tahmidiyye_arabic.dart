@@ -9,33 +9,39 @@ class TahmidiyyeArabic extends StatefulWidget {
   _TahmidiyyeArabicState createState() => _TahmidiyyeArabicState();
 }
 
-const imageNumber = TahmidiyyeConstant.tahmidiyyeArabicList;
+const List imageNumber = TahmidiyyeConstant.tahmidiyyeArabicList;
 int pageNumber = 0;
 
 class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
   @override
+  void dispose() {
+    super.dispose();
+    pageNumber = 0;
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context,
-          TahmidiyyeConstant.appBarReadScreenTitle + ' ($pageNumber / 21)'),
+      appBar: appAppBar(
+          context,
+          TahmidiyyeConstant.appBarReadScreenTitle +
+              ' ($pageNumber / ${imageNumber.length})'),
       backgroundColor: TahmidiyyeConstant.bgColor,
-      body: SafeArea(
-        child: PageView.builder(
-          physics: const ClampingScrollPhysics(),
-          itemCount: imageNumber.length,
-          onPageChanged: (value) {
-            pageNumber = value;
-            setState(() {});
-          },
-          itemBuilder: (BuildContext context, int index) {
-            return Center(
-              child: Image.asset(
-                imageNumber[index],
-                fit: BoxFit.fitHeight,
-              ),
-            );
-          },
-        ),
+      body: PageView.builder(
+        physics: const ClampingScrollPhysics(),
+        itemCount: imageNumber.length,
+        onPageChanged: (value) {
+          pageNumber = value;
+          setState(() {});
+        },
+        itemBuilder: (BuildContext context, int index) {
+          return Center(
+            child: Image.asset(
+              imageNumber[index],
+              fit: BoxFit.fill,
+            ),
+          );
+        },
       ),
     );
   }

@@ -10,6 +10,8 @@ void main() {
 
 //TODO:Sekine Duası türkçesi olsun
 
+//TODO: Appbar lardaki herşey kırmızı olsun
+
 //TODO:Küçük Çevşen Liste ekranı appbar düzenle
 //TODO:Küçük Çevşen okuma ekranında bab kaldır, appbar a ekle
 //TODO:Küçük Çevşen appbar da index olsun

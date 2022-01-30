@@ -7,13 +7,13 @@ class TahmidiyyeConstant {
     7. “Allah, Resûlü’nün üzerine sekînetini, huzur ve güven duygusunu indirdi.” (Tevbe, 40)\n
     8. “O en büyük dehşet (Sûr’a ikinci üfleyiş) onları tasalandırmaz.” (Enbiyâ, 103)\n
     9. “Allah’ın lütfundan ihsan ettiği nimetlere kavuşmaktan dolayı sevinç içindedirler.” (Âl-i İmrân, 170)\n
-    10. “Rabb-i Rahim’den sözle olan bir selâm yine onlara…” (Yâsîn, 58)",
+    10. “Rabb-i Rahim’den sözle olan bir selâm yine onlara…” (Yâsîn, 58)\n
     11. “Biz ateşe şöyle ferman ettik: “Dokunma İbrâhim’e! Serin ve selamet ol ona!” (Enbiyâ, 69)\n
     12. “O (Kur’ân), iman edenler için hidâyet ve şifadır.” (Fussilet, 44)\n
     13. “Biz Kur’ân’ı mü’minlere şifa ve rahmet olarak indiririz. Ama o, zalimlerin ise sadece ziyanını artırır.” (İsrâ, 82)\n\n""";
 
   static const List tahmidiyyeTurkishList = [
-    "Allahu Ekber (10 defa)\nBismillahhirrahmanirrahim\nFerdun. Hayyun. Kayyumun. Hakemun. Adlun. Kuddusun.",
+    "Allahu Ekber (10 defa)\n\nBismillahhirrahmanirrahim\n\nFerdun. Hayyun. Kayyumun. Hakemun. Adlun. Kuddusun.",
     "14-15. Kusur ve noksanlıktan münezzeh olan Allah’a, O’ nun birliğine, isimlerinden her bir isme ve sıfatlarından her bir sıfatına îmân nimeti için; ezelden ebede kadar isim ve sıfatlarının tecellîlerinin tamamı adedince Âlemlerin Rabbi olan ve kendisinden başka gerçek ilâh bulunmayan Allah’a hamd olsun.",
     "14-15. Hz. Muhammed’in (s.a.s.) peygamberliği ve ona îmân nimeti için; Hz. Muhammed Sallallahü Aleyhi Ve Sellem’in yaptığı iyilikler, sahip olduğu kemâlât, insanlığa yaptığı ve getirdiği faydalı şeyler adedince ve yine O Aleyhissalâtü Vesselâm’ın âilesi, ashâbı ve ümmetinin iyilikleri adedince Âlemlerin Rabbi Allah’a hamd olsun.",
     "14-15. Kur’ân ve ona îmân nimeti için; Kur’ân’ın zihinlerde tasavvur edilen mânâları adedince, kıyâmete kadar havada temessül eden kelime ve harfleri sayısınca Âlemlerin Rabbi Allah’a hamd olsun.",
