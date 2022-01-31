@@ -1,9 +1,11 @@
 class KucukCevsenConstant {
-  static const appBarTitle = 'Küçük Çevşen Oku';
+  static const appBarTitleHomepage = 'Küçük Çevşen Oku';
+  static const appBarTitleReadScreen = 'Küçük Çevşen';
 
   static const babList = [
     """
 Allâhümme innî es’elüke biesmâike
+
 1. Yâ Allah
 2. Yâ Rahman
 3. Yâ Rahîm

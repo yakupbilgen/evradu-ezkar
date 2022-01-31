@@ -14,7 +14,16 @@ class KucukCevsenReadScreen extends StatefulWidget {
   _KucukCevsenReadScreenState createState() => _KucukCevsenReadScreenState();
 }
 
+late int pageCount;
+int listCount = KucukCevsenConstant.babList.length;
+
 class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
+  @override
+  void initState() {
+    super.initState();
+    pageCount = widget.babIndex + 1;
+  }
+
   @override
   Widget build(BuildContext context) {
     bool isFirstOpen = true;
@@ -22,35 +31,28 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
         PageController(initialPage: widget.babIndex);
 
     return Scaffold(
-      appBar: appAppBar(context, "title"),
+      appBar: appAppBar(
+          context,
+          KucukCevsenConstant.appBarTitleReadScreen +
+              ' ($pageCount / $listCount)'),
       backgroundColor: AppConstant.bgColor,
-      body: SafeArea(
+      body: Padding(
+        padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(
           controller: _controller,
-          itemCount: KucukCevsenConstant.babList.length,
+          itemCount: listCount,
           itemBuilder: (context, index) {
             (isFirstOpen) ? index = widget.babIndex : null;
             isFirstOpen = false;
-            return Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: SingleChildScrollView(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      '${(index + 1).toString()} Bab\n',
-                      style: Theme.of(context).textTheme.headline5?.copyWith(
-                          color: Colors.red, fontWeight: FontWeight.bold),
-                    ),
-                    Text(
-                      KucukCevsenConstant.babList[index],
-                      style: Theme.of(context)
-                          .textTheme
-                          .headline6
-                          ?.copyWith(fontWeight: FontWeight.bold),
-                    ),
-                  ],
-                ),
+            pageCount = index + 1;
+            debugPrint('page countt => ' + pageCount.toString());
+            return SingleChildScrollView(
+              child: Text(
+                KucukCevsenConstant.babList[index],
+                style: Theme.of(context)
+                    .textTheme
+                    .headline6
+                    ?.copyWith(fontWeight: FontWeight.bold),
               ),
             );
           },

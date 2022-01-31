@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'screen/homepage_screen_list.dart';
+import 'screen/kucuk_cevsen/kucuk_cevsen_homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: const HomepageScreenList(),
+      home: const KucukCevsenHomepage(),
       debugShowCheckedModeBanner: false,
     );
   }

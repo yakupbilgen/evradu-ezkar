@@ -14,7 +14,7 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, KucukCevsenConstant.appBarTitle),
+      appBar: appAppBar(context, KucukCevsenConstant.appBarTitleHomepage),
       backgroundColor: AppConstant.bgColor,
       body: ListView.separated(
         itemCount: KucukCevsenConstant.babList.length,
