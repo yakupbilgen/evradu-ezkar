@@ -47,7 +47,6 @@ class _CelcelutiyeTurkishState extends State<CelcelutiyeTurkish> {
                       style: Theme.of(context).textTheme.headline6?.copyWith(
                           fontWeight: FontWeight.bold, color: Colors.black),
                     ),
-                    const SizedBox(),
                     Text(
                       'Meal\n',
                       style: Theme.of(context).textTheme.headline6?.copyWith(

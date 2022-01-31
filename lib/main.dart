@@ -1,3 +1,4 @@
+import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:flutter/material.dart';
 
 import 'screen/homepage_screen_list.dart';
@@ -11,11 +12,9 @@ void main() {
 
 //TODO:Sekine Duası türkçesi olsun
 
-//TODO:Küçük Çevşen Liste ekranı appbar düzenle
-//TODO:Küçük Çevşen okuma ekranında bab kaldır, appbar a ekle
-//TODO:Küçük Çevşen appbar da index olsun
-
 //TODO: Backcgroun color mainde theme scaffold color olarak verilsin.
+
+//TODO:background color ları kaldır.
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -24,9 +23,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+        scaffoldBackgroundColor: AppConstant.bgColor,
         primarySwatch: Colors.orange,
       ),
-      home: const KucukCevsenHomepage(),
+      home: const HomepageScreenList(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -15,43 +15,42 @@ class HomepageScreenList extends StatelessWidget {
     return Scaffold(
       appBar: appAppBar(context, AppConstant.appBarTitle),
       backgroundColor: const Color(0xFFEEE7D4),
-      body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            listTileItem(
-              context,
-              AppConstant.screenListKucukCevsen,
-              const KucukCevsenHomepage(),
-            ),
-            listTileItem(
-              context,
-              AppConstant.screenListTahmidiyye,
-              const TahmidiyyeHomePage(),
-            ),
-            listTileItem(
-              context,
-              AppConstant.screenListCelcelutiye,
-              const CelcelutiyeHomepage(),
-            ),
-            listTileItem(
-              context,
-              AppConstant.screenListSekineDuasi,
-              const SekineHomePage(),
-            ),
-            listTileItem(
-              context,
-              AppConstant.screenListGunlukVird,
-              const GunlukVirdHomepage(),
-            ),
-            appConstantDivider(),
-          ],
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          listTileItem(
+            context,
+            AppConstant.screenListKucukCevsen,
+            const KucukCevsenHomepage(),
+          ),
+          listTileItem(
+            context,
+            AppConstant.screenListTahmidiyye,
+            const TahmidiyyeHomePage(),
+          ),
+          listTileItem(
+            context,
+            AppConstant.screenListCelcelutiye,
+            const CelcelutiyeHomepage(),
+          ),
+          listTileItem(
+            context,
+            AppConstant.screenListSekineDuasi,
+            const SekineHomePage(),
+          ),
+          listTileItem(
+            context,
+            AppConstant.screenListGunlukVird,
+            const GunlukVirdHomepage(),
+          ),
+          appConstantDivider(),
+        ],
       ),
     );
   }
 }
 
+//TODO: bu widget celcelutiye ve tahmidiyye homepage için kullanılacak.
 Widget listTileItem(
     BuildContext context, String title, StatefulWidget navigatorFunc) {
   return Column(

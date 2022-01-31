@@ -10,62 +10,67 @@ class SekineHomePage extends StatefulWidget {
 }
 
 int readingCount = 0;
+int totalReadCount = 19;
 
 class _SekineHomePageState extends State<SekineHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: AppConstant.bgColor,
-        centerTitle: true,
-        elevation: 0,
-        leading: IconButton(
+      appBar: buildAppBar(context),
+      backgroundColor: AppConstant.bgColor,
+      body: Center(
+        child: Image.asset(
+          'assets/images/sekine/1.jpg',
+          fit: BoxFit.fill,
+        ),
+      ),
+    );
+  }
+
+  AppBar buildAppBar(BuildContext context) {
+    return AppBar(
+      backgroundColor: AppConstant.bgColor,
+      centerTitle: true,
+      elevation: 0,
+      leading: IconButton(
+        icon: const Icon(
+          Icons.arrow_back,
+          color: Colors.red,
+        ),
+        onPressed: () => Navigator.pop(context),
+      ),
+      title: Text(
+        SekineConstant.appBarTitle + ' ($readingCount / $totalReadCount)',
+        style: Theme.of(context)
+            .textTheme
+            .headline6
+            ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
+      ),
+      actions: [
+        IconButton(
+          onPressed: () {
+            (readingCount < totalReadCount)
+                ? readingCount++
+                : buildAlertDialog(context);
+
+            setState(() {});
+          },
           icon: const Icon(
-            Icons.arrow_back,
+            Icons.add,
             color: Colors.red,
           ),
-          onPressed: () => Navigator.pop(context),
         ),
-        title: Text(
-          SekineConstant.appBarTitle + ' ($readingCount / 19)',
-          style: Theme.of(context)
-              .textTheme
-              .headline6
-              ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
-        ),
-        actions: [
-          IconButton(
-            onPressed: () {
-              (readingCount < 19) ? readingCount++ : buildAlertDialog(context);
-
-              setState(() {});
-            },
-            icon: const Icon(
-              Icons.add,
-              color: Colors.red,
-            ),
-          ),
-          IconButton(
-            onPressed: () {
-              readingCount = 0;
-              setState(() {});
-            },
-            icon: const Icon(
-              Icons.refresh,
-              color: Colors.red,
-            ),
-          ),
-        ],
-      ),
-      backgroundColor: AppConstant.bgColor,
-      body: SafeArea(
-        child: Center(
-          child: Image.asset(
-            'assets/images/sekine/1.jpg',
-            fit: BoxFit.fitHeight,
+        IconButton(
+          onPressed: () {
+            readingCount = 0;
+            setState(() {});
+          },
+          icon: const Icon(
+            Icons.refresh,
+            color: Colors.red,
           ),
         ),
-      ),
+      ],
     );
   }
 

@@ -10,6 +10,7 @@ class CelcelutiyeHomepage extends StatefulWidget {
   @override
   _CelcelutiyeHomepageState createState() => _CelcelutiyeHomepageState();
 }
+//TODO: Column yerine list separated kullan. listtile extrac method yap. title, subtitle ve navigator constructor ata
 
 class _CelcelutiyeHomepageState extends State<CelcelutiyeHomepage> {
   @override
@@ -17,82 +18,82 @@ class _CelcelutiyeHomepageState extends State<CelcelutiyeHomepage> {
     return Scaffold(
       appBar: appAppBar(context, CelcelutiyeConstant.appBarTitle),
       backgroundColor: CelcelutiyeConstant.bgColor,
-      body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            appConstantDivider(),
-            ListTile(
-              leading: const Icon(
-                Icons.spa,
-                size: AppConstant.iconSize,
-                color: AppConstant.iconColor,
-              ),
-              title: Text(
-                CelcelutiyeConstant.buttonArabic,
-                style: Theme.of(context)
-                    .textTheme
-                    .headline6
-                    ?.copyWith(fontWeight: FontWeight.bold),
-              ),
-              subtitle: Text(CelcelutiyeConstant.listTileSubTitleTextArabic,
-                  style: Theme.of(context)
-                      .textTheme
-                      .bodyText1
-                      ?.copyWith(color: Colors.red)),
-              trailing: const Icon(
-                Icons.arrow_right,
-                size: AppConstant.iconSize,
-                color: AppConstant.iconColor,
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const CelcelutiyeArabic(),
-                  ),
-                );
-              },
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          appConstantDivider(),
+          ListTile(
+            leading: const Icon(
+              Icons.spa,
+              size: AppConstant.iconSize,
+              color: AppConstant.iconColor,
             ),
-            appConstantDivider(),
-            ListTile(
-              leading: const Icon(
-                Icons.spa,
-                size: AppConstant.iconSize,
-                color: AppConstant.iconColor,
-              ),
-              title: Text(
-                CelcelutiyeConstant.buttonTurkish,
-                style: Theme.of(context)
-                    .textTheme
-                    .headline6
-                    ?.copyWith(fontWeight: FontWeight.bold),
-              ),
-              subtitle: Text(
-                CelcelutiyeConstant.listTileSubTitleTextTurkish,
-                style: Theme.of(context)
-                    .textTheme
-                    .bodyText1
-                    ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
-              ),
-              trailing: const Icon(
-                Icons.arrow_right,
-                size: AppConstant.iconSize,
-                color: AppConstant.iconColor,
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const CelcelutiyeTurkish(),
-                  ),
-                );
-              },
+            title: Text(
+              CelcelutiyeConstant.buttonArabic,
+              style: Theme.of(context)
+                  .textTheme
+                  .headline6
+                  ?.copyWith(fontWeight: FontWeight.bold),
             ),
-            appConstantDivider(),
-          ],
-        ),
+            subtitle: Text(
+              CelcelutiyeConstant.listTileSubTitleTextArabic,
+              style: Theme.of(context)
+                  .textTheme
+                  .bodyText1
+                  ?.copyWith(color: Colors.red),
+            ),
+            trailing: const Icon(
+              Icons.arrow_right,
+              size: AppConstant.iconSize,
+              color: AppConstant.iconColor,
+            ),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CelcelutiyeArabic(),
+                ),
+              );
+            },
+          ),
+          appConstantDivider(),
+          ListTile(
+            leading: const Icon(
+              Icons.spa,
+              size: AppConstant.iconSize,
+              color: AppConstant.iconColor,
+            ),
+            title: Text(
+              CelcelutiyeConstant.buttonTurkish,
+              style: Theme.of(context)
+                  .textTheme
+                  .headline6
+                  ?.copyWith(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text(
+              CelcelutiyeConstant.listTileSubTitleTextTurkish,
+              style: Theme.of(context)
+                  .textTheme
+                  .bodyText1
+                  ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
+            ),
+            trailing: const Icon(
+              Icons.arrow_right,
+              size: AppConstant.iconSize,
+              color: AppConstant.iconColor,
+            ),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CelcelutiyeTurkish(),
+                ),
+              );
+            },
+          ),
+          appConstantDivider(),
+        ],
       ),
     );
   }

@@ -34,44 +34,50 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
     return Scaffold(
       appBar: appAppBar(context, widget.textToday + ' Virdi'),
       backgroundColor: AppConstant.bgColor,
-      body: SafeArea(
-        child: Container(
-          margin: const EdgeInsets.all(10),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                widget.textTurkish,
-                style: const TextStyle(fontSize: 42, color: Colors.red),
+      body: Container(
+        margin: const EdgeInsets.all(AppConstant.defaultPadding),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              widget.textTurkish,
+              style: Theme.of(context)
+                  .textTheme
+                  .headline3
+                  ?.copyWith(color: Colors.red),
+            ),
+            const SizedBox(height: AppConstant.defaultHeight),
+            Text(
+              widget.textArabic,
+              style: Theme.of(context)
+                  .textTheme
+                  .headline4
+                  ?.copyWith(color: Colors.black),
+            ),
+            const SizedBox(height: AppConstant.defaultHeight),
+            RawMaterialButton(
+              onPressed: () {
+                if (cekilenEvradCount < widget.evradTotalCount) {
+                  cekilenEvradCount++;
+                } else {
+                  buildAlertDialog(context);
+                }
+                setState(() {});
+              },
+              fillColor: Colors.red,
+              child: Text(
+                cekilenEvradCount.toString() +
+                    ' / ' +
+                    widget.evradTotalCount.toString(),
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4
+                    ?.copyWith(color: Colors.black),
               ),
-              const SizedBox(height: 20),
-              Text(
-                widget.textArabic,
-                style: const TextStyle(fontSize: 36),
-              ),
-              const SizedBox(height: 20),
-              RawMaterialButton(
-                onPressed: () {
-                  if (cekilenEvradCount < widget.evradTotalCount) {
-                    cekilenEvradCount++;
-                  } else {
-                    buildAlertDialog(context);
-                  }
-                  setState(() {});
-                },
-                elevation: 2.0,
-                fillColor: Colors.red,
-                child: Text(
-                  cekilenEvradCount.toString() +
-                      ' / ' +
-                      widget.evradTotalCount.toString(),
-                  style: const TextStyle(fontSize: 24),
-                ),
-                padding: const EdgeInsets.all(50.0),
-                shape: const CircleBorder(),
-              ),
-            ],
-          ),
+              padding: const EdgeInsets.all(50.0),
+              shape: const CircleBorder(),
+            ),
+          ],
         ),
       ),
     );
@@ -84,7 +90,7 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
     );
 
     Widget resetCountButton = TextButton(
-      child: const Text('Sıfırla'),
+      child: const Text(GunlukVirdConstant.dialogText),
       onPressed: () {
         cekilenEvradCount = 0;
         Navigator.pop(context);

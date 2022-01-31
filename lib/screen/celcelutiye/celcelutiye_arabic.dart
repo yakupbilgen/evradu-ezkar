@@ -22,8 +22,10 @@ class _CelcelutiyeArabicState extends State<CelcelutiyeArabic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context,
-          CelcelutiyeConstant.appBarTitle + ' (${pageNumber + 1} / 13)'),
+      appBar: appAppBar(
+          context,
+          CelcelutiyeConstant.appBarTitle +
+              ' (${pageNumber + 1} / ${imageNumber.length})'),
       backgroundColor: CelcelutiyeConstant.bgColor,
       body: PageView.builder(
         physics: const ClampingScrollPhysics(),

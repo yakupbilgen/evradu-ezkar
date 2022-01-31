@@ -5,6 +5,7 @@ class AppConstant {
   static const iconSize = 32.0;
   static const iconColor = Colors.red;
   static const defaultPadding = 20.0;
+  static const defaultHeight = 20.0;
 
   static const screenListTahmidiyye = 'Tahmidiyye';
   static const screenListCelcelutiye = 'Celcelutiye';

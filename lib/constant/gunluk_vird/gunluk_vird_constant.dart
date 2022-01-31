@@ -9,6 +9,7 @@ class GunlukVirdConstant {
   static const saturday = 'Cumartesi';
   static const sunday = 'Pazar';
 
+  static const dialogText = 'Sıfırla';
   static const dialogOkButton = 'Tamam';
   static const dialogAlertContent =
       'UYARI!\nHedeflenen zikir sayısına ulaşıldı.';

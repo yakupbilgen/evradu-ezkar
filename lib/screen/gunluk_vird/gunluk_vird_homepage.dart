@@ -17,60 +17,58 @@ class _GunlukVirdHomepageState extends State<GunlukVirdHomepage> {
     return Scaffold(
       appBar: appAppBar(context, GunlukVirdConstant.appBarTitle),
       backgroundColor: AppConstant.bgColor,
-      body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            buildListItem(
-              GunlukVirdConstant.monday,
-              GunlukVirdListConstant.mondayCount,
-              GunlukVirdListConstant.mondayArabic,
-              GunlukVirdListConstant.mondayTurkish,
-            ),
-            appConstantDivider(),
-            buildListItem(
-              GunlukVirdConstant.tuesday,
-              GunlukVirdListConstant.tuesdayCount,
-              GunlukVirdListConstant.tuesdayArabic,
-              GunlukVirdListConstant.tuesdayTurkish,
-            ),
-            appConstantDivider(),
-            buildListItem(
-              GunlukVirdConstant.wednesday,
-              GunlukVirdListConstant.wednesdayCount,
-              GunlukVirdListConstant.wednesdayArabic,
-              GunlukVirdListConstant.wednesdayTurkish,
-            ),
-            appConstantDivider(),
-            buildListItem(
-              GunlukVirdConstant.thursday,
-              GunlukVirdListConstant.thursdayCount,
-              GunlukVirdListConstant.thursdayArabic,
-              GunlukVirdListConstant.thursdayTurkish,
-            ),
-            appConstantDivider(),
-            buildListItem(
-              GunlukVirdConstant.friday,
-              GunlukVirdListConstant.fridayCount,
-              GunlukVirdListConstant.fridayArabic,
-              GunlukVirdListConstant.fridayTurkish,
-            ),
-            appConstantDivider(),
-            buildListItem(
-              GunlukVirdConstant.saturday,
-              GunlukVirdListConstant.saturdayCount,
-              GunlukVirdListConstant.saturdayArabic,
-              GunlukVirdListConstant.saturdayTurkish,
-            ),
-            appConstantDivider(),
-            buildListItem(
-              GunlukVirdConstant.sunday,
-              GunlukVirdListConstant.sundayCount,
-              GunlukVirdListConstant.sundayArabic,
-              GunlukVirdListConstant.sundayTurkish,
-            ),
-          ],
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          buildListItem(
+            GunlukVirdConstant.monday,
+            GunlukVirdListConstant.mondayCount,
+            GunlukVirdListConstant.mondayArabic,
+            GunlukVirdListConstant.mondayTurkish,
+          ),
+          appConstantDivider(),
+          buildListItem(
+            GunlukVirdConstant.tuesday,
+            GunlukVirdListConstant.tuesdayCount,
+            GunlukVirdListConstant.tuesdayArabic,
+            GunlukVirdListConstant.tuesdayTurkish,
+          ),
+          appConstantDivider(),
+          buildListItem(
+            GunlukVirdConstant.wednesday,
+            GunlukVirdListConstant.wednesdayCount,
+            GunlukVirdListConstant.wednesdayArabic,
+            GunlukVirdListConstant.wednesdayTurkish,
+          ),
+          appConstantDivider(),
+          buildListItem(
+            GunlukVirdConstant.thursday,
+            GunlukVirdListConstant.thursdayCount,
+            GunlukVirdListConstant.thursdayArabic,
+            GunlukVirdListConstant.thursdayTurkish,
+          ),
+          appConstantDivider(),
+          buildListItem(
+            GunlukVirdConstant.friday,
+            GunlukVirdListConstant.fridayCount,
+            GunlukVirdListConstant.fridayArabic,
+            GunlukVirdListConstant.fridayTurkish,
+          ),
+          appConstantDivider(),
+          buildListItem(
+            GunlukVirdConstant.saturday,
+            GunlukVirdListConstant.saturdayCount,
+            GunlukVirdListConstant.saturdayArabic,
+            GunlukVirdListConstant.saturdayTurkish,
+          ),
+          appConstantDivider(),
+          buildListItem(
+            GunlukVirdConstant.sunday,
+            GunlukVirdListConstant.sundayCount,
+            GunlukVirdListConstant.sundayArabic,
+            GunlukVirdListConstant.sundayTurkish,
+          ),
+        ],
       ),
     );
   }
