@@ -31,28 +31,40 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
         PageController(initialPage: widget.babIndex);
 
     return Scaffold(
-      appBar: appAppBar(
-          context,
-          KucukCevsenConstant.appBarTitleReadScreen +
-              ' ($pageCount / $listCount)'),
+      appBar: appAppBar(context, KucukCevsenConstant.appBarTitleReadScreen),
       backgroundColor: AppConstant.bgColor,
       body: Padding(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(
           controller: _controller,
           itemCount: listCount,
+          onPageChanged: (value) {
+            (isFirstOpen) ? value = widget.babIndex : null;
+            pageCount = value + 1;
+            debugPrint('isFirstOpen => ' +
+                isFirstOpen.toString() +
+                '\nPage count => $pageCount');
+          },
           itemBuilder: (context, index) {
             (isFirstOpen) ? index = widget.babIndex : null;
             isFirstOpen = false;
             pageCount = index + 1;
-            debugPrint('page countt => ' + pageCount.toString());
             return SingleChildScrollView(
-              child: Text(
-                KucukCevsenConstant.babList[index],
-                style: Theme.of(context)
-                    .textTheme
-                    .headline6
-                    ?.copyWith(fontWeight: FontWeight.bold),
+              child: Column(
+                children: [
+                  Text(
+                    '$pageCount / $listCount\n',
+                    style: Theme.of(context).textTheme.headline6?.copyWith(
+                        fontWeight: FontWeight.bold, color: Colors.red),
+                  ),
+                  Text(
+                    KucukCevsenConstant.babList[index],
+                    style: Theme.of(context)
+                        .textTheme
+                        .headline6
+                        ?.copyWith(fontWeight: FontWeight.bold),
+                  ),
+                ],
               ),
             );
           },

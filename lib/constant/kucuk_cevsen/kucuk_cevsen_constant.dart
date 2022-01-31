@@ -1,6 +1,6 @@
 class KucukCevsenConstant {
   static const appBarTitleHomepage = 'Küçük Çevşen Oku';
-  static const appBarTitleReadScreen = 'Küçük Çevşen';
+  static const appBarTitleReadScreen = 'Küçük Çevşen Oku';
 
   static const babList = [
     """
@@ -1460,7 +1460,11 @@ Bismillah * has-biyallah * lâ ilahe illallah * şehidallâh * kulhüvallâh * m
 
 Sübhâneke yâ lâ ilahe illâ ente’l-emâne’l-emâne lâ uhsî şenâen ‘aleyke ente kemâ eşneyte ‘alâ nefsik * Yâ Allah * Yâ Rahman * Yâ Rahîm * Yâ Gafur * Yâ Şekûr
 
-Es-elüke bimâ ahseytehû ‘aleyke min es-mâike’l-hüsnâ ve sıfâtike’l-‘ulyâ ve ke-limâtike’t-tâmmeti en tağfiralî velivâli-deyye veliüstâzî Sâidi’n-Nursîyyi veli-talebeti rasâili’n-nûri velicemî’i’l-mü’-minîne ve’l-mü’minâti ve’l-müslimîne ve’l-müslimâti’l-ahyâi minhüm ve’l-emvâti ve terhamenâ rahmeten tüğnî-nâ bihâ ‘an rahmeti men sivâke min halkıke ve en takdiye havâicenâ ve tû’-tiyenâ süâlenâ fi’d-dünyâ ve’l-âhirati ve tahtime lenâ bi’s-se’âdeti ve’ş-şe-hâdeti ve’l-kerâmeti ve’l-büşrâ ‘inde fîraki’d-dünyâ ve tecziye Muhamme-den sallallâhü ‘aleyhi vesellem ‘annâ mâ hüve ehlühû ve müstehakkuh * Ve en lâ tekilenâ ilâ enfüsinâ tarfete ‘aynin velâ ilâ ehadin min halkik * Ve tus-liha lenâ şe’nenâ ve en tahrusenâ bi-‘aynikelletî lâ tenânıü ve tahfezanâ bi-ruknike’llezî lâ yürâmü Ya Ze’l-celâli ve’l-ikrâm ve en tasrife ‘annâ ve ‘ammen ‘ullika ‘aleyhi hâzihi’l-esmâü âfe-te’l-cinni ve’l-insi ve’ş-şeyâtîn * Ve zelzelete’l-ardi ve dekdekete’l-cibâli min haşyetih * Ve âfete’t-tâ’uni ve’l-vebâi ve ‘ayne’s-sûi ve vece’a’l-cevârihi ve sâira’l-afât * Ve tahfezanâ min külli şerrin ve su’ * Ve terzükana’s-selâmete ve’l-‘âfıyete ve’l-hayra fi’d-dünyâ ve’l-âbirati bi rahmetike yâ erhâme’r-râhi-mîn ve sallallâhü ‘alâ seyyidinâ Mu-hammedin ve âlihî ve sahbihî ecma’în. Ve’l-hamdülillâhi Rabbi’l-‘âlemîn.
+Es-elüke bimâ ahseytehû ‘aleyke min es-mâike’l-hüsnâ ve sıfâtike’l-‘ulyâ ve ke-limâtike’t-tâmmeti en tağfiralî velivâli-deyye veliüstâzî Sâidi’n-Nursîyyi veli-talebeti rasâili’n-nûri velicemî’i’l-mü’-minîne ve’l-mü’minâti ve’l-müslimîne ve’l-müslimâti’l-ahyâi minhüm ve’l-emvâti ve terhamenâ rahmeten tüğnî-nâ bihâ ‘an rahmeti men sivâke min halkıke ve en takdiye havâicenâ ve tû’-tiyenâ süâlenâ fi’d-dünyâ ve’l-âhirati ve tahtime lenâ bi’s-se’âdeti ve’ş-şe-hâdeti ve’l-kerâmeti ve’l-büşrâ ‘inde fîraki’d-dünyâ ve tecziye Muhamme-den sallallâhü ‘aleyhi vesellem ‘annâ mâ hüve ehlühû ve müstehakkuh
+
+Ve en lâ tekilenâ ilâ enfüsinâ tarfete ‘aynin velâ ilâ ehadin min halkik * Ve tus-liha lenâ şe’nenâ ve en tahrusenâ bi-‘aynikelletî lâ tenânıü ve tahfezanâ bi-ruknike’llezî lâ yürâmü Ya Ze’l-celâli ve’l-ikrâm ve en tasrife ‘annâ ve ‘ammen ‘ullika ‘aleyhi hâzihi’l-esmâü âfe-te’l-cinni ve’l-insi ve’ş-şeyâtîn
+
+Ve zelzelete’l-ardi ve dekdekete’l-cibâli min haşyetih * Ve âfete’t-tâ’uni ve’l-vebâi ve ‘ayne’s-sûi ve vece’a’l-cevârihi ve sâira’l-afât * Ve tahfezanâ min külli şerrin ve su’ * Ve terzükana’s-selâmete ve’l-‘âfıyete ve’l-hayra fi’d-dünyâ ve’l-âbirati bi rahmetike yâ erhâme’r-râhi-mîn ve sallallâhü ‘alâ seyyidinâ Mu-hammedin ve âlihî ve sahbihî ecma’în. Ve’l-hamdülillâhi Rabbi’l-‘âlemîn.
 """,
   ];
 }
