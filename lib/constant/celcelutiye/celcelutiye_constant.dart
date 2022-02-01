@@ -643,10 +643,9 @@ Bütün Sırların hazinesi olan “Bismillah” ile başlarım. Ruhum içinde s
     """Bu, Hz. Muhammed’in (a.s.m.) amcası oğlu Hz. Ali’nin sözleridir. Onda mahlûkat için ilimlerin özü ve sırrı toplanmıştır.
 """
   ];
-  static const celcelutiyeTurkishFaydalariTextOne =
-      """Celcelutiye duası dinlemenin faydaları saymakla bitmez. Çünkü alimler Celcelutiye duasının sırlarla dolu ve gizli güçlerle donatıldığı rivayet eder. Allah tarafından Peygamber Efendimize hediye olarak verildiği düşünülür. Bu yüzden Celcelutiye duası zararları olduğu görülmez. Celcelutiye duasının faydaları şu şekilde sıralanır:""";
-  static const celcelutiyeTurkishFaydalariTextTwo =
-      """1. Eğer kişi Perşembe günü yeşil bir seccade üzerine bu duayı okursa, insanların, cinlerin ve hayvanların şerrinden kurtulur.
+  static const celcelutiyeTurkishFaydalari = [
+    "Celcelutiye duasının faydaları saymakla bitmez. Çünkü alimler Celcelutiye duasının sırlarla dolu ve gizli güçlerle donatıldığı rivayet eder. Allah tarafından Peygamber Efendimize (sav) hediye olarak verildiği düşünülür. Celcelutiye duasının faydaları şu şekilde sıralanabilir:",
+    """1. Eğer kişi Perşembe günü yeşil bir seccade üzerine bu duayı okursa, insanların, cinlerin ve hayvanların şerrinden kurtulur.
 
 2. Allah bu duayı okuyanların sesini duyar, yanlarına aziz ve sevgili olur.
 
@@ -674,5 +673,6 @@ Bütün Sırların hazinesi olan “Bismillah” ile başlarım. Ruhum içinde s
 
 14. Eğer Müslüman bir kişi bu duayı bir kağıda yazar ve kağıdı bir meyve üzerinde bir gün bekletirse duanın şifası meyveye geçer. Meyveyi yiyen kişi muradına erer, hastalıklardan korunur.
 
-15. Kişi 21 defa Celcelutiye duası okursa tüm meşakkatlerden ve kıskançlıklardan korunur.""";
+15. Kişi 21 defa Celcelutiye duası okursa tüm meşakkatlerden ve kıskançlıklardan korunur."""
+  ];
 }

@@ -20,14 +20,14 @@ class _CelcelutiyeFaydalariState extends State<CelcelutiyeFaydalari> {
           child: Column(
             children: [
               Text(
-                CelcelutiyeConstant.celcelutiyeTurkishFaydalariTextOne + '\n',
+                CelcelutiyeConstant.celcelutiyeTurkishFaydalari[0] + '\n',
                 style: Theme.of(context)
                     .textTheme
                     .headline6
                     ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
               ),
               Text(
-                CelcelutiyeConstant.celcelutiyeTurkishFaydalariTextTwo,
+                CelcelutiyeConstant.celcelutiyeTurkishFaydalari[1],
                 style: Theme.of(context).textTheme.headline6?.copyWith(
                     fontWeight: FontWeight.bold, color: Colors.black),
               ),
