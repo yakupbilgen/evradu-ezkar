@@ -37,13 +37,6 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
         child: PageView.builder(
           controller: _controller,
           itemCount: listCount,
-          onPageChanged: (value) {
-            (isFirstOpen) ? value = widget.babIndex : null;
-            pageCount = value + 1;
-            debugPrint('isFirstOpen => ' +
-                isFirstOpen.toString() +
-                '\nPage count => $pageCount');
-          },
           itemBuilder: (context, index) {
             (isFirstOpen) ? index = widget.babIndex : null;
             isFirstOpen = false;

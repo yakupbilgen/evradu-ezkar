@@ -43,6 +43,7 @@ AppBar appAppBar(BuildContext context, String title) {
       icon: const Icon(
         Icons.arrow_back,
         color: Colors.red,
+        size: AppConstant.iconSize,
       ),
       onPressed: () => Navigator.pop(context),
     ),

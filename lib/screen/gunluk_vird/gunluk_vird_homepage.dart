@@ -25,86 +25,86 @@ class _GunlukVirdHomepageState extends State<GunlukVirdHomepage> {
             GunlukVirdListConstant.mondayArabic,
             GunlukVirdListConstant.mondayTurkish,
           ),
-          appConstantDivider(),
           buildListItem(
             GunlukVirdConstant.tuesday,
             GunlukVirdListConstant.tuesdayCount,
             GunlukVirdListConstant.tuesdayArabic,
             GunlukVirdListConstant.tuesdayTurkish,
           ),
-          appConstantDivider(),
           buildListItem(
             GunlukVirdConstant.wednesday,
             GunlukVirdListConstant.wednesdayCount,
             GunlukVirdListConstant.wednesdayArabic,
             GunlukVirdListConstant.wednesdayTurkish,
           ),
-          appConstantDivider(),
           buildListItem(
             GunlukVirdConstant.thursday,
             GunlukVirdListConstant.thursdayCount,
             GunlukVirdListConstant.thursdayArabic,
             GunlukVirdListConstant.thursdayTurkish,
           ),
-          appConstantDivider(),
           buildListItem(
             GunlukVirdConstant.friday,
             GunlukVirdListConstant.fridayCount,
             GunlukVirdListConstant.fridayArabic,
             GunlukVirdListConstant.fridayTurkish,
           ),
-          appConstantDivider(),
           buildListItem(
             GunlukVirdConstant.saturday,
             GunlukVirdListConstant.saturdayCount,
             GunlukVirdListConstant.saturdayArabic,
             GunlukVirdListConstant.saturdayTurkish,
           ),
-          appConstantDivider(),
           buildListItem(
             GunlukVirdConstant.sunday,
             GunlukVirdListConstant.sundayCount,
             GunlukVirdListConstant.sundayArabic,
             GunlukVirdListConstant.sundayTurkish,
           ),
+          appConstantDivider(),
         ],
       ),
     );
   }
 
-  ListTile buildListItem(String title, int evradTotalCount, String textTurkish,
+  Widget buildListItem(String title, int evradTotalCount, String textTurkish,
       String textArabic) {
-    return ListTile(
-      leading: const Icon(
-        Icons.spa,
-        size: AppConstant.iconSize,
-        color: AppConstant.iconColor,
-      ),
-      title: Text(
-        title,
-        style: Theme.of(context)
-            .textTheme
-            .headline6
-            ?.copyWith(fontWeight: FontWeight.bold),
-      ),
-      trailing: const Icon(
-        Icons.arrow_right,
-        size: AppConstant.iconSize,
-        color: AppConstant.iconColor,
-      ),
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => GunlukVirdCountScreen(
-              evradTotalCount: evradTotalCount,
-              textArabic: textArabic,
-              textTurkish: textTurkish,
-              textToday: title,
-            ),
+    return Column(
+      children: [
+        appConstantDivider(),
+        ListTile(
+          leading: const Icon(
+            Icons.spa,
+            size: AppConstant.iconSize,
+            color: AppConstant.iconColor,
           ),
-        );
-      },
+          title: Text(
+            title,
+            style: Theme.of(context)
+                .textTheme
+                .headline6
+                ?.copyWith(fontWeight: FontWeight.bold),
+          ),
+          trailing: const Icon(
+            Icons.arrow_right,
+            size: AppConstant.iconSize,
+            color: AppConstant.iconColor,
+          ),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => GunlukVirdCountScreen(
+                  evradTotalCount: evradTotalCount,
+                  textArabic: textArabic,
+                  textTurkish: textTurkish,
+                  textToday: title,
+                ),
+              ),
+            );
+          },
+        ),
+      ],
     );
   }
 }

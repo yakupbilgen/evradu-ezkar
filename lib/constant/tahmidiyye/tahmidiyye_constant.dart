@@ -1,6 +1,15 @@
 import 'package:flutter/material.dart';
 
 class TahmidiyyeConstant {
+  static const bgColor = Color(0xFFEEE7D4);
+  static const titleArabic = 'Arapça';
+  static const titleTurkish = 'Türkçe';
+  static const subTitleTextArabic = 'Arapça okunuşu için buraya tıklayınız.';
+  static const subTitleTextTurkish = 'Türkçe okunuşu için buraya tıklayınız.';
+
+  static const appBarTitle = 'Tahmidiyye Oku';
+  static const appBarReadScreenTitle = 'Tahmidiyye Sayfa';
+
   static const tahmidiyyeTurkishConstantText =
       """    Rahman ve Rahîm Allah’ın adıyla\n
     1. Ferdün. 2. Hayyün. 3. Kayyûmün. 4. Hakemün. 5. Adlün. 6. Kuddûs.\n
@@ -70,15 +79,4 @@ class TahmidiyyeConstant {
     "assets/images/tahmidiyye/20.jpg",
     "assets/images/tahmidiyye/21.jpg",
   ];
-
-  static const bgColor = Color(0xFFEEE7D4);
-  static const buttonArabic = 'Arapça';
-  static const buttonTurkish = 'Türkçe';
-  static const listTileSubTitleTextArabic =
-      'Arapça okunuşu için buraya tıklayınız.';
-  static const listTileSubTitleTextTurkish =
-      'Türkçe okunuşu için buraya tıklayınız.';
-
-  static const appBarTitle = 'Tahmidiyye Oku';
-  static const appBarReadScreenTitle = 'Tahmidiyye Sayfa';
 }

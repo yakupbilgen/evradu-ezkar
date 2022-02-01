@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
 class CelcelutiyeConstant {
+  static const bgColor = Color(0xFFEEE7D4);
+  static const appBarTitle = 'Celcelutiye Oku';
+  static const textArabic = 'Arapça';
+  static const textTurkish = 'Türkçe';
+  static const subTitleArabic = 'Arapça okunuşu için buraya tıklayınız.';
+  static const subTitleTurkish = 'Türkçe okunuşu için buraya tıklayınız.';
+
   static const celcelutiyeArabicList = [
     "assets/images/celcelutiye/1.jpg",
     "assets/images/celcelutiye/2.jpg",
@@ -16,15 +23,6 @@ class CelcelutiyeConstant {
     "assets/images/celcelutiye/12.jpg",
     "assets/images/celcelutiye/13.jpg",
   ];
-
-  static const bgColor = Color(0xFFEEE7D4);
-  static const appBarTitle = 'Celcelutiye';
-  static const buttonArabic = 'Arapça';
-  static const buttonTurkish = 'Türkçe';
-  static const listTileSubTitleTextArabic =
-      'Arapça okunuşu için buraya tıklayınız.';
-  static const listTileSubTitleTextTurkish =
-      'Türkçe okunuşu için buraya tıklayınız.';
 
   static const celcelutiyeTurkishList = [
     """Bede’tü bi bismillahi rûhî bihihtedet

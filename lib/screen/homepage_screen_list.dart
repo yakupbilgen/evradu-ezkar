@@ -2,6 +2,7 @@ import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:evraduezkar/screen/gunluk_vird/gunluk_vird_homepage.dart';
 import 'package:evraduezkar/screen/sekine/sekine_homepage.dart';
 import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_homepage.dart';
+import 'package:evraduezkar/widget/widgets.dart';
 import 'package:flutter/material.dart';
 
 import 'celcelutiye/celcelutiye_homepage.dart';
@@ -18,29 +19,34 @@ class HomepageScreenList extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          listTileItem(
+          customListTile(
             context,
             AppConstant.screenListKucukCevsen,
+            '',
             const KucukCevsenHomepage(),
           ),
-          listTileItem(
+          customListTile(
             context,
             AppConstant.screenListTahmidiyye,
+            '',
             const TahmidiyyeHomePage(),
           ),
-          listTileItem(
+          customListTile(
             context,
             AppConstant.screenListCelcelutiye,
+            '',
             const CelcelutiyeHomepage(),
           ),
-          listTileItem(
+          customListTile(
             context,
             AppConstant.screenListSekineDuasi,
+            '',
             const SekineHomePage(),
           ),
-          listTileItem(
+          customListTile(
             context,
             AppConstant.screenListGunlukVird,
+            '',
             const GunlukVirdHomepage(),
           ),
           appConstantDivider(),
@@ -48,38 +54,4 @@ class HomepageScreenList extends StatelessWidget {
       ),
     );
   }
-}
-
-//TODO: bu widget celcelutiye ve tahmidiyye homepage için kullanılacak.
-Widget listTileItem(
-    BuildContext context, String title, StatefulWidget navigatorFunc) {
-  return Column(
-    mainAxisAlignment: MainAxisAlignment.center,
-    children: [
-      appConstantDivider(),
-      ListTile(
-        leading: const Icon(
-          Icons.spa,
-          size: AppConstant.iconSize,
-          color: AppConstant.iconColor,
-        ),
-        title: Text(
-          title,
-          style: Theme.of(context)
-              .textTheme
-              .headline6
-              ?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        trailing: const Icon(
-          Icons.arrow_right,
-          size: AppConstant.iconSize,
-          color: AppConstant.iconColor,
-        ),
-        onTap: () {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => navigatorFunc));
-        },
-      ),
-    ],
-  );
 }
