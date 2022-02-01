@@ -14,7 +14,7 @@ class HomepageScreenList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appAppBar(context, AppConstant.appBarTitle),
-      backgroundColor: const Color(0xFFEEE7D4),
+      backgroundColor: AppConstant.bgColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

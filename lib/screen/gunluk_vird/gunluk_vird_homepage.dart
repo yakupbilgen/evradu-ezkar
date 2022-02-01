@@ -16,7 +16,6 @@ class _GunlukVirdHomepageState extends State<GunlukVirdHomepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appAppBar(context, GunlukVirdConstant.appBarTitle),
-      backgroundColor: AppConstant.bgColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

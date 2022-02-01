@@ -17,7 +17,6 @@ class _SekineHomePageState extends State<SekineHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(context),
-      backgroundColor: AppConstant.bgColor,
       body: Center(
         child: Image.asset(
           'assets/images/sekine/1.jpg',

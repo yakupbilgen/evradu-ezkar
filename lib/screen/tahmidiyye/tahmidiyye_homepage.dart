@@ -18,7 +18,6 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appAppBar(context, TahmidiyyeConstant.appBarTitle),
-      backgroundColor: TahmidiyyeConstant.bgColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

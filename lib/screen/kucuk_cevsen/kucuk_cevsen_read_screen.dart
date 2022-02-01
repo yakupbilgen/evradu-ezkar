@@ -32,7 +32,6 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
 
     return Scaffold(
       appBar: appAppBar(context, KucukCevsenConstant.appBarTitleReadScreen),
-      backgroundColor: AppConstant.bgColor,
       body: Padding(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(

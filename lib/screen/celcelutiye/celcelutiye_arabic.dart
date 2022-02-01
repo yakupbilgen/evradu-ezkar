@@ -26,7 +26,6 @@ class _CelcelutiyeArabicState extends State<CelcelutiyeArabic> {
           context,
           CelcelutiyeConstant.appBarTitle +
               ' (${pageNumber + 1} / ${imageNumber.length})'),
-      backgroundColor: CelcelutiyeConstant.bgColor,
       body: PageView.builder(
         physics: const ClampingScrollPhysics(),
         itemCount: imageNumber.length,

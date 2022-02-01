@@ -33,7 +33,6 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appAppBar(context, widget.textToday + ' Virdi'),
-      backgroundColor: AppConstant.bgColor,
       body: Container(
         margin: const EdgeInsets.all(AppConstant.defaultPadding),
         child: Column(

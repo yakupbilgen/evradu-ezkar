@@ -17,7 +17,6 @@ class _CelcelutiyeHomepageState extends State<CelcelutiyeHomepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appAppBar(context, CelcelutiyeConstant.appBarTitle),
-      backgroundColor: CelcelutiyeConstant.bgColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,

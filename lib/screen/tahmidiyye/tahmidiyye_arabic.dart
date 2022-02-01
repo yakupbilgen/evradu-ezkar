@@ -26,7 +26,6 @@ class _TahmidiyyeArabicState extends State<TahmidiyyeArabic> {
           context,
           TahmidiyyeConstant.appBarReadScreenTitle +
               ' ($pageNumber / ${imageNumber.length})'),
-      backgroundColor: TahmidiyyeConstant.bgColor,
       body: PageView.builder(
         physics: const ClampingScrollPhysics(),
         itemCount: imageNumber.length,
