@@ -3,10 +3,14 @@ import 'package:flutter/material.dart';
 class CelcelutiyeConstant {
   static const bgColor = Color(0xFFEEE7D4);
   static const appBarTitle = 'Celcelutiye Oku';
+  static const appBarTitleFaydalari = 'Celcelutiye Okumanın Faydaları';
   static const textArabic = 'Arapça';
-  static const textTurkish = 'Türkçe';
   static const subTitleArabic = 'Arapça okunuşu için buraya tıklayınız.';
+  static const textTurkish = 'Türkçe';
   static const subTitleTurkish = 'Türkçe okunuşu için buraya tıklayınız.';
+  static const textFaydalari = 'Faydaları';
+  static const subTitleFaydalari =
+      'Celcelutiye okumanın faydalarını öğrenmek için tıklayınız.';
 
   static const celcelutiyeArabicList = [
     "assets/images/celcelutiye/1.jpg",
@@ -639,10 +643,10 @@ Bütün Sırların hazinesi olan “Bismillah” ile başlarım. Ruhum içinde s
     """Bu, Hz. Muhammed’in (a.s.m.) amcası oğlu Hz. Ali’nin sözleridir. Onda mahlûkat için ilimlerin özü ve sırrı toplanmıştır.
 """
   ];
-  static const celcelutiyeTurkishFaydalari = [
-    """Celcelutiye duası dinlemenin faydaları saymakla bitmez. Çünkü alimler Celcelutiye duasının sırlarla dolu ve gizli güçlerle donatıldığı rivayet eder. Allah tarafından Peygamber Efendimize hediye olarak verildiği düşünülür. Bu yüzden Celcelutiye duası zararları olduğu görülmez. Celcelutiye duasının faydaları şu şekilde sıralanır:
-
-1. Eğer kişi Perşembe günü yeşil bir seccade üzerine bu duayı okursa, insanların, cinlerin ve hayvanların şerrinden kurtulur.
+  static const celcelutiyeTurkishFaydalariTextOne =
+      """Celcelutiye duası dinlemenin faydaları saymakla bitmez. Çünkü alimler Celcelutiye duasının sırlarla dolu ve gizli güçlerle donatıldığı rivayet eder. Allah tarafından Peygamber Efendimize hediye olarak verildiği düşünülür. Bu yüzden Celcelutiye duası zararları olduğu görülmez. Celcelutiye duasının faydaları şu şekilde sıralanır:""";
+  static const celcelutiyeTurkishFaydalariTextTwo =
+      """1. Eğer kişi Perşembe günü yeşil bir seccade üzerine bu duayı okursa, insanların, cinlerin ve hayvanların şerrinden kurtulur.
 
 2. Allah bu duayı okuyanların sesini duyar, yanlarına aziz ve sevgili olur.
 
@@ -651,15 +655,24 @@ Bütün Sırların hazinesi olan “Bismillah” ile başlarım. Ruhum içinde s
 4. Gece yarısı dört defa bu dua okunursa, Allah-u Teala bu duayı okuyan kişiyi düşmanların şerrinden korur.
 
 5. Duayı okuyan kişinin kadri yücelir.
+
 6. Eğer beyaz bir bezi kapı eşiğine koyarak bu duayı okursanız, eviniz hırsızlara karşı korunaklı hale gelir.
+
 7. Celcelutiye duası her gün yirmi yedi kez okunursa, okuyan kişi düşmanlarına karşı galip gelir.
+
 8. Celcelutiye duasını yazarak yanında taşıyan insanlar cinlerden ve şeytanlardan korunur.
+
 9. Sabah ezanından sonra ve namazdan sonra okumak, okuyanın dileklerinin gerçekleşmesine yardımcı olur.
+
 10. Tüm dertler ve sıkıntılar yok olur, gider. Feraha ulaşır.
+
 11. Duayı okuyanlar sevdiklerine kavuşur.
+
 12. Celcelutiye duası bir kağıda yazılıp, kabın içine konur ve yağmur altına bırakılır. Yağmur suyu daha sonrasında içilirse, kişinin kalbi temizlenir. Tüm hastalıkları şifa bulur. Velilerin ve azizlerin huzuruna dahil olur.
+
 13. Her gece otuz defa Celcelutiye duası okuyanların günahları silinir. Allah'ın yardımı ile koruma altına alınır.
+
 14. Eğer Müslüman bir kişi bu duayı bir kağıda yazar ve kağıdı bir meyve üzerinde bir gün bekletirse duanın şifası meyveye geçer. Meyveyi yiyen kişi muradına erer, hastalıklardan korunur.
-15. Kişi 21 defa Celcelutiye duası okursa tüm meşakkatlerden ve kıskançlıklardan korunur."""
-  ];
+
+15. Kişi 21 defa Celcelutiye duası okursa tüm meşakkatlerden ve kıskançlıklardan korunur.""";
 }

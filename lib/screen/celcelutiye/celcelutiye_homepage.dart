@@ -5,6 +5,8 @@ import 'package:evraduezkar/screen/celcelutiye/celcelutiye_turkish.dart';
 import 'package:evraduezkar/widget/widgets.dart';
 import 'package:flutter/material.dart';
 
+import 'celcelutiye_faydalari.dart';
+
 class CelcelutiyeHomepage extends StatefulWidget {
   const CelcelutiyeHomepage({Key? key}) : super(key: key);
 
@@ -25,6 +27,11 @@ class _CelcelutiyeHomepageState extends State<CelcelutiyeHomepage> {
               CelcelutiyeConstant.subTitleArabic, const CelcelutiyeArabic()),
           customListTile(context, CelcelutiyeConstant.textTurkish,
               CelcelutiyeConstant.subTitleTurkish, const CelcelutiyeTurkish()),
+          customListTile(
+              context,
+              CelcelutiyeConstant.textFaydalari,
+              CelcelutiyeConstant.subTitleFaydalari,
+              const CelcelutiyeFaydalari()),
           appConstantDivider(),
         ],
       ),

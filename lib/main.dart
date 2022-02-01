@@ -8,7 +8,6 @@ void main() {
 }
 
 //TODO:Resim yakınlaştırmaya bak!
-
 //TODO:Sekine Duası türkçesi olsun
 
 class MyApp extends StatelessWidget {
