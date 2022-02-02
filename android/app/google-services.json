@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517645738614",
+    "project_id": "evradu-ezkar-d4f10",
+    "storage_bucket": "evradu-ezkar-d4f10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517645738614:android:d54d2ddd3482bb42f6f557",
+        "android_client_info": {
+          "package_name": "org.bilgen.evraduezkar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517645738614-v5mjc6rpeacdamkv0043pqm5ojdr3igj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhnOwxqrp2SarcfPB4ibF405YERZoRC4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517645738614-v5mjc6rpeacdamkv0043pqm5ojdr3igj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
