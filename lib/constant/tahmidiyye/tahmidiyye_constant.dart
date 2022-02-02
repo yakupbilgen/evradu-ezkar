@@ -8,7 +8,66 @@ class TahmidiyyeConstant {
   static const subTitleTextTurkish = 'Türkçe okunuşu için buraya tıklayınız.';
 
   static const appBarTitle = 'Tahmidiyye Oku';
+  static const textFaydalari = 'Faydaları';
+  static const subTitleFaydalari =
+      'Tahmidiyye okumanın faydalarını öğrenmek için tıklayınız.';
   static const appBarReadScreenTitle = 'Tahmidiyye Sayfa';
+
+  static const tahmidiyyeFaydalariTitle = [
+    'Tahmidiye duasının sözleri, mucizevi faziletleri ve okunma adabı',
+    'Tahmidiye duası hem bedensel hem de ruhsal rahatsızlıklar için şifa kaynağıdır',
+    'Tahmidiye duası hasta yakınları tarafından da okunabilir',
+    'Tahmidiye duası okunmadan önce yapılması gerekenler',
+    'Tahmidiye duasında Allah’ın 6 esması nida edilmektedir',
+    'Tahmidiye duası günün hangi vakti okunmalıdır?',
+    'Tahmidiye duasını kaç defa okumak gerekir?',
+  ];
+  static const tahmidiyyeFaydalariContentTitle = [
+    """Tahmidiye duası Hz Ali tarafından müminlere öğretilen çok etkili bir şifa duasıdır. Bu dua vesilesi ile hastalıktan kurtulup sağlığına kavuşan müminlere ait sayısız olay anlatılmaktadır.
+
+Tahmidiye duası, Cevşen’in bir bölümüdür. Esmalara ve Kuran ayetlerine dayanmaktadır. Bu yönüyle kutsi sözlerden oluşan sahih bir duadır. Ayrıca büyük alimlerin en sık okuyup tavsiye ettikleri dualardan biridir.""",
+    """Tahmidiye duası ağır hastalıklardan hafif hastalıklara kadar her türlü sağlık sorununun şifa ile neticelenmesini dilemek üzere okunabilmektedir.
+
+Tahmidiye duası ruhsal sıkıntıların atlatılması için de okunabilir.
+
+Ayrıca bu kutsi dua sağlık duasının yanı sıra “imanı güçlendiren ve günahlardan uzak tutan dua” hükmünde de niyaz edilebilir.""",
+    """
+Bu etkili şifa duasını hasta kişinin kendisi bizzat okuyabileceği gibi hasta yakınları da okuyabilir.
+
+Ancak hasta yakınları tahmidiye duasını okudukları zaman kimin için dua ettiklerini niyet kısmında ifade etmelidirler.""",
+    """Dua etmek İslam anlayışında ibadet etmek ile eşdeğer tutulmaktadır. Bir kişi ibadet ettiğinde gösterdiği titizliği dua ederken de göstermelidir.
+
+Tahmidiye duası okunmadan önce mutlaka abdest alınmalıdır. Zira duada pek çok yerde Kuran ayetleri ve yüce Allah’ın isimleri geçmektedir.
+
+Dua edilecek yerin sessiz ve sakin olmasına özen gösterilmelidir. Ayrıca dua edilen mekan namaz kılınabilecek kadar temiz olmalı ve etrafta necis (pis) bir şey bulunmamalıdır.
+
+Tahmidiye duasının okunacağı günlerde bir miktar sadaka vermek de inşallah duaya olan icabeti arttırmaktadır.""",
+    """Tahmidiye duasında 6 adet esma geçmektedir. Büyük alimler bu esmaların muazzam etkilere vesile olduğunu beyan etmişlerdir.
+
+Duada geçen 6 adet esmanın anlamı şöyledir:
+
+El-Ferd, eşi benzeri olmayan demektir.
+
+El-Hayy, her zaman diri olan anlamındadır.
+
+El-Kayyûm gökleri, yeri ve bütün mahlukatı ayakta tutan demektir.
+
+El-Hakem, hüküm verenlerin en büyüğü anlamındadır.
+
+El-Adl adalet sahibi manasındadır.
+
+El-Kuddûs her türlü eksiklikten uzak olan demektir.""",
+    """Tahmidiye duası için alimlerin tavsiye ettikleri 2 makbul zaman vardır:
+
+Bu zamanlardan birincisi sabah namazı ile gün doğumu arasındaki vakittir. Diğer makbul zaman ise yatsı namazı sonrasıdır. Bu iki vakitte okunacak Tahmidiye duaları inşallah çok daha etkili olacaktır.
+
+Ancak bu iki vaktin sadece tavsiye edilen makbul zamanlar olduğu bilinmeli ve  İslam inancında kulun dilediği her vakit Allah’a dua edebileceği gerçeği unutulmamalıdır.""",
+    """Tahmidiye duası bir defa okursa dahi inşallah hayırlara vesile olacaktır. Ancak duanın tesiri artırılmak isteniyorsa dua sözlerini peş peşe 3 defa okumak yerinde olacaktır.
+
+Bazı alimler Tahmidiye duasının bir grup mümin tarafından birlikte okunabileceğini de ifade etmişlerdir. Mesela 4 arkadaşın her birinin Tahmidiye duasını 10’ar defa okuyup 40 sayısına ulaşması gibi uygulamalar bulunmaktadır.
+
+Ancak duaların bireysel olarak okunmasının daha doğru olduğunu vurgulamak gerekir. Kadim dua kitaplarının neredeyse tamamında duaların grup halinde değil ferdi olarak okunmasının daha isabetli olacağı ifade edilmiştir.""",
+  ];
 
   static const tahmidiyyeTurkishConstantText =
       """    Rahman ve Rahîm Allah’ın adıyla\n

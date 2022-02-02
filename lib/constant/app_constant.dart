@@ -7,6 +7,14 @@ class AppConstant {
   static const defaultPadding = 20.0;
   static const defaultHeight = 20.0;
 
+  static const screenList = [
+    'Küçük Çevşen',
+    'Tahmidiyye',
+    'Celcelutiye',
+    'Sekine Duası',
+    'Günlük Vird'
+  ];
+
   static const screenListTahmidiyye = 'Tahmidiyye';
   static const screenListCelcelutiye = 'Celcelutiye';
   static const screenListKucukCevsen = 'Küçük Çevşen';

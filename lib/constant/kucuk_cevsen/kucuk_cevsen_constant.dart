@@ -929,6 +929,7 @@ Ve es’elüke biesmâike
 8. Yâ Allâm
 9. Yâ Vehhâb
 10. Yâ Tevvâb
+
 Sübhâneke yâ lâ ilahe illâ ente’l ne’l-emâne neccinâ mine’n-nâr.
 """,
     """
@@ -1452,6 +1453,7 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-n
 """,
     """
 DUA
+
 Allâhümme Rabbena * hallisnâ * ve ecirnâ * ve neccinâ mine’n-nar * ve ‘â-finâ va’fü ‘annâ ve edhilne’l-cennete dara kudsike me’a’l-ebrâr * bi ‘afvike Yâ Mücîr * bi fadlike Yâ Gaffar
 
 Ve es-elüke bihakki hâzihi’l-esmâi’l-kerîme-ti’ş-şerîfeti ve’s-sıfâti’l-celîleti’l-latîfeti en tüsalliye ‘alâ seyyidinâ Muhamme-din ve ‘alâ âlihî ve sahbihî bi’adedi ha-senâti Muhammedin

@@ -35,7 +35,7 @@ class _CelcelutiyeTurkishState extends State<CelcelutiyeTurkish> {
             pageNumber = value;
             setState(() {});
           },
-          itemBuilder: (BuildContext context, int index) {
+          itemBuilder: (context, index) {
             return Center(
               child: SingleChildScrollView(
                 child: Column(

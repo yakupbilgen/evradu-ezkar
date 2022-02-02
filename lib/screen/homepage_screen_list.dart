@@ -21,31 +21,31 @@ class HomepageScreenList extends StatelessWidget {
         children: [
           customListTile(
             context,
-            AppConstant.screenListKucukCevsen,
+            AppConstant.screenList[0],
             '',
             const KucukCevsenHomepage(),
           ),
           customListTile(
             context,
-            AppConstant.screenListTahmidiyye,
+            AppConstant.screenList[1],
             '',
             const TahmidiyyeHomePage(),
           ),
           customListTile(
             context,
-            AppConstant.screenListCelcelutiye,
+            AppConstant.screenList[2],
             '',
             const CelcelutiyeHomepage(),
           ),
           customListTile(
             context,
-            AppConstant.screenListSekineDuasi,
+            AppConstant.screenList[3],
             '',
             const SekineHomePage(),
           ),
           customListTile(
             context,
-            AppConstant.screenListGunlukVird,
+            AppConstant.screenList[4],
             '',
             const GunlukVirdHomepage(),
           ),
