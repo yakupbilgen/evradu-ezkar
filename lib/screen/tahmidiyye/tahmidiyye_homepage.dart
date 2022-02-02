@@ -1,10 +1,11 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/tahmidiyye/tahmidiyye_constant.dart';
-import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_arabic.dart';
-import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_faydalari.dart';
-import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_turkish.dart';
-import 'package:evraduezkar/widget/widgets.dart';
 import 'package:flutter/material.dart';
+
+import 'tahmidiyye_arabic.dart';
+import 'tahmidiyye_faydalari.dart';
+import 'tahmidiyye_turkish.dart';
+import '../../constant/app_constant.dart';
+import '../../constant/tahmidiyye/tahmidiyye_constant.dart';
+import '../../widget/widgets.dart';
 
 class TahmidiyyeHomePage extends StatefulWidget {
   const TahmidiyyeHomePage({Key? key}) : super(key: key);

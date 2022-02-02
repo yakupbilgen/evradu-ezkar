@@ -1,6 +1,7 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/sekine/sekine_constant.dart';
 import 'package:flutter/material.dart';
+
+import '../../constant/app_constant.dart';
+import '../../constant/sekine/sekine_constant.dart';
 
 class SekineHomePage extends StatefulWidget {
   const SekineHomePage({Key? key}) : super(key: key);

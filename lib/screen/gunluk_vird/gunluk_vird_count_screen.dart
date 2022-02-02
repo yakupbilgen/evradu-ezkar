@@ -1,6 +1,7 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/gunluk_vird/gunluk_vird_constant.dart';
 import 'package:flutter/material.dart';
+
+import '../../constant/app_constant.dart';
+import '../../constant/gunluk_vird/gunluk_vird_constant.dart';
 
 class GunlukVirdCountScreen extends StatefulWidget {
   final int evradTotalCount;

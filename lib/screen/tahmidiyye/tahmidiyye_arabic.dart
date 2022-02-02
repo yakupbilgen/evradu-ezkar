@@ -1,6 +1,7 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/tahmidiyye/tahmidiyye_constant.dart';
 import 'package:flutter/material.dart';
+
+import '../../constant/app_constant.dart';
+import '../../constant/tahmidiyye/tahmidiyye_constant.dart';
 
 class TahmidiyyeArabic extends StatefulWidget {
   const TahmidiyyeArabic({Key? key}) : super(key: key);

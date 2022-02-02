@@ -1,12 +1,12 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/screen/gunluk_vird/gunluk_vird_homepage.dart';
-import 'package:evraduezkar/screen/sekine/sekine_homepage.dart';
-import 'package:evraduezkar/screen/tahmidiyye/tahmidiyye_homepage.dart';
-import 'package:evraduezkar/widget/widgets.dart';
 import 'package:flutter/material.dart';
 
-import 'celcelutiye/celcelutiye_homepage.dart';
 import 'kucuk_cevsen/kucuk_cevsen_homepage.dart';
+import 'tahmidiyye/tahmidiyye_homepage.dart';
+import 'celcelutiye/celcelutiye_homepage.dart';
+import 'sekine/sekine_homepage.dart';
+import 'gunluk_vird/gunluk_vird_homepage.dart';
+import '../constant/app_constant.dart';
+import '../widget/widgets.dart';
 
 class HomepageScreenList extends StatelessWidget {
   const HomepageScreenList({Key? key}) : super(key: key);

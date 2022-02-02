@@ -1,6 +1,7 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/celcelutiye/celcelutiye_constant.dart';
 import 'package:flutter/material.dart';
+
+import '../../constant/app_constant.dart';
+import '../../constant/celcelutiye/celcelutiye_constant.dart';
 
 class CelcelutiyeFaydalari extends StatefulWidget {
   const CelcelutiyeFaydalari({Key? key}) : super(key: key);

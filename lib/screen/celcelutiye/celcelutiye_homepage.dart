@@ -1,11 +1,11 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/celcelutiye/celcelutiye_constant.dart';
-import 'package:evraduezkar/screen/celcelutiye/celcelutiye_arabic.dart';
-import 'package:evraduezkar/screen/celcelutiye/celcelutiye_turkish.dart';
-import 'package:evraduezkar/widget/widgets.dart';
 import 'package:flutter/material.dart';
 
+import 'celcelutiye_arabic.dart';
+import 'celcelutiye_turkish.dart';
 import 'celcelutiye_faydalari.dart';
+import '../../constant/app_constant.dart';
+import '../../constant/celcelutiye/celcelutiye_constant.dart';
+import '../../widget/widgets.dart';
 
 class CelcelutiyeHomepage extends StatefulWidget {
   const CelcelutiyeHomepage({Key? key}) : super(key: key);

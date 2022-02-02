@@ -1,6 +1,7 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
 import 'package:flutter/material.dart';
+
+import '../../constant/app_constant.dart';
+import '../../constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
 
 class KucukCevsenReadScreen extends StatefulWidget {
   final String babContent;

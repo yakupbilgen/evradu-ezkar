@@ -1,5 +1,6 @@
-import 'package:evraduezkar/constant/app_constant.dart';
 import 'package:flutter/material.dart';
+
+import '../constant/app_constant.dart';
 
 Widget customListTile(BuildContext context, String title, String subtitle,
     StatefulWidget navigatorPage) {

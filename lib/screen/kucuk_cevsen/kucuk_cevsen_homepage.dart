@@ -1,7 +1,8 @@
-import 'package:evraduezkar/constant/app_constant.dart';
-import 'package:evraduezkar/constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
-import 'package:evraduezkar/screen/kucuk_cevsen/kucuk_cevsen_read_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../../constant/app_constant.dart';
+import '../../constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
+import 'kucuk_cevsen_read_screen.dart';
 
 class KucukCevsenHomepage extends StatefulWidget {
   const KucukCevsenHomepage({Key? key}) : super(key: key);
