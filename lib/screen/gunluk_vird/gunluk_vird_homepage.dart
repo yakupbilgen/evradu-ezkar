@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'gunluk_vird_count_screen.dart';
 import '../../constant/app_constant.dart';
 import '../../constant/gunluk_vird/gunluk_vird_constant.dart';
-import 'gunluk_vird_count_screen.dart';
 
 class GunlukVirdHomepage extends StatefulWidget {
   const GunlukVirdHomepage({Key? key}) : super(key: key);
