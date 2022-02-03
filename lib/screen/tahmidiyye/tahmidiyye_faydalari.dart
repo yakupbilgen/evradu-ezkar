@@ -11,14 +11,16 @@ class TahmidiyyeFaydalari extends StatefulWidget {
 }
 
 int listLength = TahmidiyyeConstant.tahmidiyyeFaydalariContentTitle.length;
-int pageCount = 0;
+int pageCount = 1;
 
 class _TahmidiyyeFaydalariState extends State<TahmidiyyeFaydalari> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context,
-          TahmidiyyeConstant.textFaydalari + ' ($pageCount / $listLength)'),
+      appBar: appAppBar(
+          context,
+          TahmidiyyeConstant.textFaydalari + ' ($pageCount / $listLength)',
+          true),
       body: Container(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(

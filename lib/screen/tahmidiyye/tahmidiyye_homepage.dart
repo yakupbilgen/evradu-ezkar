@@ -18,7 +18,7 @@ class _TahmidiyyeHomePageState extends State<TahmidiyyeHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, TahmidiyyeConstant.appBarTitle),
+      appBar: appAppBar(context, TahmidiyyeConstant.appBarTitle, true),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

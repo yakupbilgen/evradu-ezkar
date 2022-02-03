@@ -36,7 +36,7 @@ Divider appConstantDivider() {
   return const Divider(color: Colors.red);
 }
 
-AppBar appAppBar(BuildContext context, String title) {
+AppBar appAppBar(BuildContext context, String title, bool showBackbutton) {
   return AppBar(
     backgroundColor: AppConstant.bgColor,
     centerTitle: true,
@@ -47,13 +47,15 @@ AppBar appAppBar(BuildContext context, String title) {
           .headline6
           ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
     ),
-    leading: IconButton(
-      icon: const Icon(
-        Icons.arrow_back,
-        color: Colors.red,
-        size: AppConstant.iconSize,
-      ),
-      onPressed: () => Navigator.pop(context),
-    ),
+    leading: (showBackbutton)
+        ? IconButton(
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.red,
+              size: AppConstant.iconSize,
+            ),
+            onPressed: () => Navigator.pop(context),
+          )
+        : null,
   );
 }

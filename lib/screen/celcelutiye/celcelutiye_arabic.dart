@@ -26,7 +26,8 @@ class _CelcelutiyeArabicState extends State<CelcelutiyeArabic> {
       appBar: appAppBar(
           context,
           CelcelutiyeConstant.appBarTitle +
-              ' (${pageNumber + 1} / ${imageNumber.length})'),
+              ' (${pageNumber + 1} / ${imageNumber.length})',
+          true),
       body: PageView.builder(
         physics: const ClampingScrollPhysics(),
         itemCount: imageNumber.length,

@@ -14,7 +14,7 @@ class HomepageScreenList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, AppConstant.appBarTitle),
+      appBar: appAppBar(context, AppConstant.appBarTitle, false),
       backgroundColor: AppConstant.bgColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,

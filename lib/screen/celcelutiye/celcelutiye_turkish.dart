@@ -26,7 +26,8 @@ class _CelcelutiyeTurkishState extends State<CelcelutiyeTurkish> {
       appBar: appAppBar(
           context,
           CelcelutiyeConstant.appBarTitle +
-              ' (${pageNumber + 1} / $listLenghtTurkish)'),
+              ' (${pageNumber + 1} / $listLenghtTurkish)',
+          true),
       body: Padding(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(

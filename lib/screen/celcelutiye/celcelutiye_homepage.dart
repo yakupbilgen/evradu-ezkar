@@ -18,7 +18,7 @@ class _CelcelutiyeHomepageState extends State<CelcelutiyeHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, CelcelutiyeConstant.appBarTitle),
+      appBar: appAppBar(context, CelcelutiyeConstant.appBarTitle, true),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,

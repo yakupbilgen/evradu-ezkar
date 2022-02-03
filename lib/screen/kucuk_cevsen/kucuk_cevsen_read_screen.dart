@@ -32,7 +32,8 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
         PageController(initialPage: widget.babIndex);
 
     return Scaffold(
-      appBar: appAppBar(context, KucukCevsenConstant.appBarTitleReadScreen),
+      appBar:
+          appAppBar(context, KucukCevsenConstant.appBarTitleReadScreen, true),
       body: Padding(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(

@@ -36,6 +36,7 @@ class _SekineHomePageState extends State<SekineHomePage> {
         icon: const Icon(
           Icons.arrow_back,
           color: Colors.red,
+          size: AppConstant.iconSize,
         ),
         onPressed: () => Navigator.pop(context),
       ),
@@ -47,6 +48,7 @@ class _SekineHomePageState extends State<SekineHomePage> {
             ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
       ),
       actions: [
+        const VerticalDivider(),
         IconButton(
           onPressed: () {
             (readingCount < totalReadCount)
@@ -58,8 +60,10 @@ class _SekineHomePageState extends State<SekineHomePage> {
           icon: const Icon(
             Icons.add,
             color: Colors.red,
+            size: AppConstant.iconSize,
           ),
         ),
+        const VerticalDivider(),
         IconButton(
           onPressed: () {
             readingCount = 0;
@@ -68,6 +72,7 @@ class _SekineHomePageState extends State<SekineHomePage> {
           icon: const Icon(
             Icons.refresh,
             color: Colors.red,
+            size: AppConstant.iconSize,
           ),
         ),
       ],

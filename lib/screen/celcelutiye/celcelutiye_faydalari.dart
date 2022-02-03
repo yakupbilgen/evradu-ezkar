@@ -14,7 +14,8 @@ class _CelcelutiyeFaydalariState extends State<CelcelutiyeFaydalari> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, CelcelutiyeConstant.appBarTitleFaydalari),
+      appBar:
+          appAppBar(context, CelcelutiyeConstant.appBarTitleFaydalari, true),
       body: Container(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: SingleChildScrollView(

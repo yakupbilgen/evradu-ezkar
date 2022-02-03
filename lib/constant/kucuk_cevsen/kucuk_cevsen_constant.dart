@@ -1123,7 +1123,8 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne neccinâ mine’n-n�
 1. Yâ Men lâ şerîke lehû velâ vezîr
 2. Yâ Men lâ şebîhe lehû velâ nezîr
 3. Yâ Hâlika’ş-şemsi ve’l-kameri’l-münîr
-4. Yâ Müğniye’l-bâisi’l-fakîr 3. Yâ Râzika’t-tıfli’s-sağîr
+4. Yâ Müğniye’l-bâisi’l-fakîr
+5. Yâ Râzika’t-tıfli’s-sağîr
 6. Yâ Râhime’ş-şeyhi’l-kebir
 7. Yâ Ismete’l-hâifi’l-müstecîr
 8. Yâ Men hüve bi’ibâdihî basîr

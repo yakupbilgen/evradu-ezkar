@@ -26,7 +26,8 @@ class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
       appBar: appAppBar(
           context,
           TahmidiyyeConstant.appBarReadScreenTitle +
-              '(${pageNumber + 1} / $listLenght)'),
+              '(${pageNumber + 1} / $listLenght)',
+          true),
       body: Padding(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(

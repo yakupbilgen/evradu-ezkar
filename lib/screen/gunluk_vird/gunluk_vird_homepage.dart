@@ -15,7 +15,7 @@ class _GunlukVirdHomepageState extends State<GunlukVirdHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, GunlukVirdConstant.appBarTitle),
+      appBar: appAppBar(context, GunlukVirdConstant.appBarTitle, true),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
