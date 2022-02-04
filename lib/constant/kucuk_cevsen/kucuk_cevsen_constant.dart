@@ -1397,9 +1397,9 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-n
     """
 1. Yâ Men lâ yüşğilühû sem’un an sem’
 2. Yâ Men lâ yemne’uhû fı’lün an fi’l
-5. Yâ Men lâ yülhîhi kavlün an kavi
+3. Yâ Men lâ yülhîhi kavlün an kavi
 4. Yâ Men lâ yüğallituhû süâlün ‘an suâl
-3. Yâ Men lâ yübrimühû ilhâhu’Umulihhîn
+5. Yâ Men lâ yübrimühû ilhâhu’Umulihhîn
 6. Yâ Men şeraha bi’l-islâmi sudûra’l-mü’minîn
 7. Yâ Men etâbe bi zikrihî kulûbe’l-muhbitîn
 8. Yâ Men la yeğibü ‘an kulûbi’l-müştâkın
