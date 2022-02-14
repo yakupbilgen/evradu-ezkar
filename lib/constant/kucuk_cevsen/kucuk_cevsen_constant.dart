@@ -9,7 +9,7 @@ Allâhümme innî es’elüke biesmâike
 1. Yâ Allah
 2. Yâ Rahman
 3. Yâ Rahîm
-4. YâAlîm
+4. Yâ Alîm
 5. Yâ Halîm
 6. Yâ Azîm
 7. Yâ Hakîm
