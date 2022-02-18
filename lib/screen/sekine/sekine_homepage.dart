@@ -30,7 +30,7 @@ class _SekineHomePageState extends State<SekineHomePage> {
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
       backgroundColor: AppConstant.bgColor,
-      centerTitle: true,
+      centerTitle: false,
       elevation: 0,
       leading: IconButton(
         icon: const Icon(
