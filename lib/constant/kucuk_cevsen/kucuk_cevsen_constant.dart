@@ -630,7 +630,7 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne ecirnâ mine’n-nâ
 """,
     """
 1. Yâ Ekrabe min külli karîb
-2. Yâ Ehabbe miri külli habîb
+2. Yâ Ehabbe min külli habîb
 3. Yâ A’zame min külli ‘azîm
 4. Yâ E’azze min külli ‘azîz
 5. Yâ Ekvâ min külli kaviyy
