@@ -1049,7 +1049,7 @@ Ve es’elüke biesmâike
 Sübhâneke yâ lâ ilahe illâ ente’l-e: ne’l-emâne neccinâ mine’n-nâr.
 """,
     """
-1.Yâ Men hüve Ehadün bilâ didd
+1. Yâ Men hüve Ehadün bilâ didd
 2. Yâ Men hüve Ferdün bilâ nidd
 3. Yâ Men hüve Samedün bilâ ‘ayb
 4. Yâ Men hüve Vitrun bilâ şef
