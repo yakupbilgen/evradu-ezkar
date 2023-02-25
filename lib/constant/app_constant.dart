@@ -44,7 +44,7 @@ AppBar appAppBar(BuildContext context, String title, bool showBackbutton) {
       title,
       style: Theme.of(context)
           .textTheme
-          .headline6
+          .titleLarge
           ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
     ),
     leading: (showBackbutton)
@@ -57,5 +57,26 @@ AppBar appAppBar(BuildContext context, String title, bool showBackbutton) {
             onPressed: () => Navigator.pop(context),
           )
         : null,
+  );
+}
+
+Text appTextSizeSmall(BuildContext context, var data) {
+  return Text(
+    data,
+    style: Theme.of(context).textTheme.headlineSmall,
+  );
+}
+
+Text appTextSizeMedium(BuildContext context, var data) {
+  return Text(
+    data,
+    style: Theme.of(context).textTheme.headlineMedium,
+  );
+}
+
+Text appTextSizeLarge(BuildContext context, var data) {
+  return Text(
+    data,
+    style: Theme.of(context).textTheme.headlineLarge,
   );
 }

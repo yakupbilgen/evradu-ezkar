@@ -21,6 +21,16 @@ class _CelcelutiyeFaydalariState extends State<CelcelutiyeFaydalari> {
         child: SingleChildScrollView(
           child: Column(
             children: [
+              appTextSizeSmall(
+                context,
+                CelcelutiyeConstant.celcelutiyeTurkishFaydalari[0] + '\n',
+              ),
+              appTextSizeSmall(
+                context,
+                CelcelutiyeConstant.celcelutiyeTurkishFaydalari[1],
+              ),
+
+              /*
               Text(
                 CelcelutiyeConstant.celcelutiyeTurkishFaydalari[0] + '\n',
                 style: Theme.of(context)
@@ -33,6 +43,7 @@ class _CelcelutiyeFaydalariState extends State<CelcelutiyeFaydalari> {
                 style: Theme.of(context).textTheme.headline6?.copyWith(
                     fontWeight: FontWeight.bold, color: Colors.black),
               ),
+              */
             ],
           ),
         ),
