@@ -39,7 +39,7 @@ Divider appConstantDivider() {
 AppBar appAppBar(BuildContext context, String title, bool showBackbutton) {
   return AppBar(
     backgroundColor: AppConstant.bgColor,
-    centerTitle: false,
+    centerTitle: true,
     title: Text(
       title,
       style: Theme.of(context)
@@ -63,7 +63,7 @@ AppBar appAppBar(BuildContext context, String title, bool showBackbutton) {
 Text appTextSizeSmall(BuildContext context, var data) {
   return Text(
     data,
-    style: Theme.of(context).textTheme.headlineSmall,
+    style: Theme.of(context).textTheme.titleMedium,
   );
 }
 
