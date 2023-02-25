@@ -41,6 +41,7 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
                   builder: (context) => KucukCevsenReadScreen(
                     babIndex: index,
                     babContent: KucukCevsenConstant.babList[index],
+                    babMeall: KucukCevsenConstant.babMeal[index],
                   ),
                 ),
               );

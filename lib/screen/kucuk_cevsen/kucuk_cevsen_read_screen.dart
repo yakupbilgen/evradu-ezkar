@@ -5,10 +5,14 @@ import '../../constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
 
 class KucukCevsenReadScreen extends StatefulWidget {
   final String babContent;
+  final String babMeall;
   final int babIndex;
 
   const KucukCevsenReadScreen(
-      {Key? key, required this.babContent, required this.babIndex})
+      {Key? key,
+      required this.babContent,
+      required this.babIndex,
+      required this.babMeall})
       : super(key: key);
 
   @override
@@ -58,6 +62,9 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                         .headline6
                         ?.copyWith(fontWeight: FontWeight.bold),
                   ),
+                  appConstantDivider(),
+                  appTextSizeMedium(
+                      context, KucukCevsenConstant.babMeal[index]),
                 ],
               ),
             );

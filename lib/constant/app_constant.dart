@@ -70,7 +70,10 @@ Text appTextSizeSmall(BuildContext context, var data) {
 Text appTextSizeMedium(BuildContext context, var data) {
   return Text(
     data,
-    style: Theme.of(context).textTheme.headlineMedium,
+    style: Theme.of(context)
+        .textTheme
+        .headlineMedium
+        ?.copyWith(fontWeight: FontWeight.bold),
   );
 }
 
