@@ -63,8 +63,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                         ?.copyWith(fontWeight: FontWeight.bold),
                   ),
                   appConstantDivider(),
-                  appTextSizeMedium(
-                      context, KucukCevsenConstant.babMeal[index]),
+                  bodyTextConstant(context, KucukCevsenConstant.babMeal[index]),
                 ],
               ),
             );

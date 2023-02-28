@@ -21,11 +21,9 @@ class _CelcelutiyeFaydalariState extends State<CelcelutiyeFaydalari> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              appTextSizeSmall(
-                context,
-                CelcelutiyeConstant.celcelutiyeTurkishFaydalari[0] + '\n',
-              ),
-              appTextSizeSmall(
+              bodyTextConstant(context,
+                  CelcelutiyeConstant.celcelutiyeTurkishFaydalari[0] + '\n'),
+              bodyTextConstant(
                 context,
                 CelcelutiyeConstant.celcelutiyeTurkishFaydalari[1],
               ),

@@ -60,26 +60,13 @@ AppBar appAppBar(BuildContext context, String title, bool showBackbutton) {
   );
 }
 
-Text appTextSizeSmall(BuildContext context, var data) {
-  return Text(
-    data,
-    style: Theme.of(context).textTheme.titleMedium,
-  );
-}
-
-Text appTextSizeMedium(BuildContext context, var data) {
+Text bodyTextConstant(BuildContext context, var data,
+    {double textSize = 20.0}) {
   return Text(
     data,
     style: Theme.of(context)
         .textTheme
         .headlineMedium
         ?.copyWith(fontWeight: FontWeight.bold),
-  );
-}
-
-Text appTextSizeLarge(BuildContext context, var data) {
-  return Text(
-    data,
-    style: Theme.of(context).textTheme.headlineLarge,
   );
 }
