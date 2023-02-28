@@ -37,7 +37,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
 
     return Scaffold(
       appBar:
-          appAppBar(context, KucukCevsenConstant.appBarTitleReadScreen, true),
+          appAppBarv2(context, KucukCevsenConstant.appBarTitleReadScreen, true),
       body: Padding(
         padding: const EdgeInsets.all(AppConstant.defaultPadding),
         child: PageView.builder(
@@ -52,18 +52,19 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                 children: [
                   Text(
                     '$pageCount / $listCount\n',
-                    style: Theme.of(context).textTheme.headline6?.copyWith(
+                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold, color: Colors.red),
                   ),
                   Text(
                     KucukCevsenConstant.babList[index],
                     style: Theme.of(context)
                         .textTheme
-                        .headline6
+                        .headlineSmall
                         ?.copyWith(fontWeight: FontWeight.bold),
                   ),
                   appConstantDivider(),
-                  bodyTextConstant(context, KucukCevsenConstant.babMeal[index]),
+                  bodyTextConstant(
+                      context, KucukCevsenConstant.babMeal[index], 33.0),
                 ],
               ),
             );

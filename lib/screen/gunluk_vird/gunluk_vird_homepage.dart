@@ -82,7 +82,7 @@ class _GunlukVirdHomepageState extends State<GunlukVirdHomepage> {
             title,
             style: Theme.of(context)
                 .textTheme
-                .headline6
+                .headlineSmall
                 ?.copyWith(fontWeight: FontWeight.bold),
           ),
           trailing: const Icon(

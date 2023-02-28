@@ -45,18 +45,27 @@ class _CelcelutiyeTurkishState extends State<CelcelutiyeTurkish> {
                   children: [
                     Text(
                       CelcelutiyeConstant.celcelutiyeTurkishList[index],
-                      style: Theme.of(context).textTheme.headline6?.copyWith(
-                          fontWeight: FontWeight.bold, color: Colors.black),
+                      style: Theme.of(context)
+                          .textTheme
+                          .headlineSmall
+                          ?.copyWith(
+                              fontWeight: FontWeight.bold, color: Colors.black),
                     ),
                     Text(
                       'Meal\n',
-                      style: Theme.of(context).textTheme.headline6?.copyWith(
-                          fontWeight: FontWeight.bold, color: Colors.red),
+                      style: Theme.of(context)
+                          .textTheme
+                          .headlineSmall
+                          ?.copyWith(
+                              fontWeight: FontWeight.bold, color: Colors.red),
                     ),
                     Text(
                       CelcelutiyeConstant.celcelutiyeTurkishMealList[index],
-                      style: Theme.of(context).textTheme.headline6?.copyWith(
-                          fontWeight: FontWeight.bold, color: Colors.black),
+                      style: Theme.of(context)
+                          .textTheme
+                          .headlineSmall
+                          ?.copyWith(
+                              fontWeight: FontWeight.bold, color: Colors.black),
                     ),
                   ],
                 ),

@@ -17,7 +17,7 @@ Widget customListTile(BuildContext context, String title, String subtitle,
           title,
           style: Theme.of(context)
               .textTheme
-              .headline6
+              .headlineSmall
               ?.copyWith(fontWeight: FontWeight.bold),
         ),
         subtitle: Text(

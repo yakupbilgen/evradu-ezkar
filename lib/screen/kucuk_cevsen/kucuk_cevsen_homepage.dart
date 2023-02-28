@@ -29,7 +29,7 @@ class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
               '${index + 1}. Bab Oku',
               style: Theme.of(context)
                   .textTheme
-                  .headline6
+                  .headlineSmall
                   ?.copyWith(fontWeight: FontWeight.bold),
             ),
             trailing: const Icon(Icons.arrow_right,

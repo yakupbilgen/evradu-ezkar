@@ -44,7 +44,7 @@ class _SekineHomePageState extends State<SekineHomePage> {
         SekineConstant.appBarTitle + ' ($readingCount / $totalReadCount)',
         style: Theme.of(context)
             .textTheme
-            .headline6
+            .headlineSmall
             ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
       ),
       actions: [
