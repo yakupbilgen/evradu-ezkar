@@ -6,6 +6,7 @@ class AppConstant {
   static const iconColor = Colors.red;
   static const defaultPadding = 20.0;
   static const defaultHeight = 20.0;
+  static double defaultTextSize = 20.0;
 
   static const screenList = [
     'Küçük Çevşen',
@@ -81,19 +82,12 @@ AppBar appAppBarv2(BuildContext context, String title, bool showBackbutton) {
             onPressed: () => Navigator.pop(context),
           )
         : null,
-    actions: const [
-      VerticalDivider(),
-      IconButton(onPressed: null, icon: Icon(Icons.add)),
-      VerticalDivider(),
-      IconButton(onPressed: null, icon: Icon(Icons.remove)),
-      VerticalDivider(),
-    ],
   );
 }
 
 Text bodyTextConstant(BuildContext context, var data, double fontSize) {
   return Text(
     data,
-    style: TextStyle(fontSize: fontSize),
+    style: TextStyle(fontSize: AppConstant.defaultTextSize),
   );
 }

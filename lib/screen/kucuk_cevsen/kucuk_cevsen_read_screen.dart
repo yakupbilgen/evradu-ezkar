@@ -20,6 +20,7 @@ class KucukCevsenReadScreen extends StatefulWidget {
 }
 
 late int pageCount;
+double textSize = AppConstant.defaultTextSize;
 int listCount = KucukCevsenConstant.babList.length;
 
 class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
@@ -39,7 +40,9 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
       appBar:
           appAppBarv2(context, KucukCevsenConstant.appBarTitleReadScreen, true),
       body: Padding(
-        padding: const EdgeInsets.all(AppConstant.defaultPadding),
+        padding: const EdgeInsets.only(
+            left: AppConstant.defaultPadding,
+            right: AppConstant.defaultPadding),
         child: PageView.builder(
           controller: _controller,
           itemCount: listCount,
@@ -50,6 +53,45 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
             return SingleChildScrollView(
               child: Column(
                 children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      IconButton(
+                          onPressed: () {
+                            debugPrint(AppConstant.defaultTextSize.toString());
+                            if (AppConstant.defaultTextSize < 99) {
+                              AppConstant.defaultTextSize++;
+                              index = widget.babIndex;
+                              setState(() {});
+                            }
+                          },
+                          icon: const Icon(
+                            Icons.add,
+                            color: Colors.red,
+                          )),
+                      const VerticalDivider(),
+                      Text(
+                        AppConstant.defaultTextSize.toInt().toString(),
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                            fontWeight: FontWeight.bold, color: Colors.blue),
+                      ),
+                      const VerticalDivider(),
+                      IconButton(
+                          onPressed: () {
+                            debugPrint(AppConstant.defaultTextSize.toString());
+                            if (AppConstant.defaultTextSize > 5) {
+                              AppConstant.defaultTextSize--;
+                              index = widget.babIndex;
+                              setState(() {});
+                            }
+                          },
+                          icon: const Icon(
+                            Icons.remove,
+                            color: Colors.red,
+                          )),
+                    ],
+                  ),
+                  appConstantDivider(),
                   Text(
                     '$pageCount / $listCount\n',
                     style: Theme.of(context).textTheme.headlineSmall?.copyWith(
@@ -64,7 +106,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                   ),
                   appConstantDivider(),
                   bodyTextConstant(
-                      context, KucukCevsenConstant.babMeal[index], 33.0),
+                      context, KucukCevsenConstant.babMeal[index], textSize),
                 ],
               ),
             );
