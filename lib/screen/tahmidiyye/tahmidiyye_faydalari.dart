@@ -35,7 +35,7 @@ class _TahmidiyyeFaydalariState extends State<TahmidiyyeFaydalari> {
               children: [
                 Text(
                   TahmidiyyeConstant.tahmidiyyeFaydalariTitle[index] + '\n',
-                  style: Theme.of(context).textTheme.headline5?.copyWith(
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                       fontWeight: FontWeight.bold, color: Colors.red),
                 ),
                 Text(

@@ -48,7 +48,7 @@ class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
                             TahmidiyyeConstant.tahmidiyyeTurkishConstantText,
                             style: Theme.of(context)
                                 .textTheme
-                                .headline6
+                                .titleLarge
                                 ?.copyWith(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black),
@@ -59,7 +59,7 @@ class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
                             TahmidiyyeConstant.tahmidiyyeTurkishList[index],
                             style: Theme.of(context)
                                 .textTheme
-                                .headline6
+                                .titleLarge
                                 ?.copyWith(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.red),
@@ -68,7 +68,7 @@ class _TahmidiyyeTurkishState extends State<TahmidiyyeTurkish> {
                             TahmidiyyeConstant.tahmidiyyeTurkishList[index],
                             style: Theme.of(context)
                                 .textTheme
-                                .headline5
+                                .headlineSmall
                                 ?.copyWith(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.red),

@@ -43,7 +43,7 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
               widget.textTurkish,
               style: Theme.of(context)
                   .textTheme
-                  .headline3
+                  .displaySmall
                   ?.copyWith(color: Colors.red),
             ),
             const SizedBox(height: AppConstant.defaultHeight),
@@ -51,7 +51,7 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
               widget.textArabic,
               style: Theme.of(context)
                   .textTheme
-                  .headline4
+                  .headlineMedium
                   ?.copyWith(color: Colors.black),
             ),
             const SizedBox(height: AppConstant.defaultHeight),
@@ -71,7 +71,7 @@ class _GunlukVirdCountScreenState extends State<GunlukVirdCountScreen> {
                     widget.evradTotalCount.toString(),
                 style: Theme.of(context)
                     .textTheme
-                    .headline4
+                    .headlineMedium
                     ?.copyWith(color: Colors.black),
               ),
               padding: const EdgeInsets.all(50.0),

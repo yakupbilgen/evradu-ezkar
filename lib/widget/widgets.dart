@@ -24,7 +24,7 @@ Widget customListTile(BuildContext context, String title, String subtitle,
           subtitle,
           style: Theme.of(context)
               .textTheme
-              .bodyText1
+              .bodyLarge
               ?.copyWith(color: Colors.red),
         ),
         trailing: const Icon(

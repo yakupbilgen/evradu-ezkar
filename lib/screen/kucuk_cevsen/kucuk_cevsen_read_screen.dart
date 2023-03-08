@@ -61,7 +61,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                             debugPrint(AppConstant.defaultTextSize.toString());
                             if (AppConstant.defaultTextSize < 99) {
                               AppConstant.defaultTextSize++;
-                              index = widget.babIndex;
+                              index = pageCount;
                               setState(() {});
                             }
                           },
