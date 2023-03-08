@@ -8,9 +8,16 @@ import 'gunluk_vird/gunluk_vird_homepage.dart';
 import '../constant/app_constant.dart';
 import '../widget/widgets.dart';
 
-class HomepageScreenList extends StatelessWidget {
+class HomepageScreenList extends StatefulWidget {
   const HomepageScreenList({Key? key}) : super(key: key);
 
+  @override
+  State<HomepageScreenList> createState() => _HomepageScreenListState();
+}
+
+double textSize = AppConstant.defaultTextSize;
+
+class _HomepageScreenListState extends State<HomepageScreenList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,8 +57,93 @@ class HomepageScreenList extends StatelessWidget {
             const GunlukVirdHomepage(),
           ),
           appConstantDivider(),
+          Column(
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  IconButton(
+                    onPressed: () {
+                      if (AppConstant.defaultTextSize < 99) {
+                        AppConstant.defaultTextSize++;
+                        setState(() {});
+                      }
+                    },
+                    icon: const Icon(
+                      Icons.add,
+                      size: AppConstant.iconSize,
+                      color: AppConstant.iconColor,
+                    ),
+                  ),
+                  const VerticalDivider(),
+                  Text(
+                    AppConstant.defaultTextSize.toInt().toString(),
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        fontSize: AppConstant.defaultTextSize),
+                  ),
+                  const VerticalDivider(),
+                  IconButton(
+                    onPressed: () {
+                      if (AppConstant.defaultTextSize > 5) {
+                        AppConstant.defaultTextSize--;
+                        setState(() {});
+                      }
+                    },
+                    icon: const Icon(
+                      Icons.remove,
+                      size: AppConstant.iconSize,
+                      color: AppConstant.iconColor,
+                    ),
+                  ),
+                ],
+              ),
+              Text("Sample text!",
+                  style: TextStyle(fontSize: AppConstant.defaultTextSize))
+            ],
+          ),
         ],
       ),
     );
   }
+}
+
+Widget textSizeRow(BuildContext context) {
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      IconButton(
+        onPressed: () {
+          debugPrint(AppConstant.defaultTextSize.toString());
+          if (AppConstant.defaultTextSize < 99) {
+            AppConstant.defaultTextSize++;
+          }
+        },
+        icon: const Icon(
+          Icons.add,
+          color: Colors.red,
+        ),
+      ),
+      const VerticalDivider(),
+      Text(
+        AppConstant.defaultTextSize.toInt().toString(),
+        style: Theme.of(context)
+            .textTheme
+            .titleLarge
+            ?.copyWith(fontWeight: FontWeight.bold),
+      ),
+      const VerticalDivider(),
+      IconButton(
+        onPressed: () {
+          if (AppConstant.defaultTextSize > 5) {
+            AppConstant.defaultTextSize--;
+          }
+        },
+        icon: const Icon(
+          Icons.remove,
+          color: Colors.red,
+        ),
+      ),
+    ],
+  );
 }

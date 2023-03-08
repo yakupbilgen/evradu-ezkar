@@ -33,8 +33,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
   @override
   Widget build(BuildContext context) {
     bool isFirstOpen = true;
-    final PageController _controller =
-        PageController(initialPage: widget.babIndex);
+    final PageController _controller = PageController(initialPage: pageCount);
 
     return Scaffold(
       appBar:
@@ -53,50 +52,9 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
             return SingleChildScrollView(
               child: Column(
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      IconButton(
-                          onPressed: () {
-                            debugPrint(AppConstant.defaultTextSize.toString());
-                            if (AppConstant.defaultTextSize < 99) {
-                              AppConstant.defaultTextSize++;
-                              index = pageCount;
-                              setState(() {});
-                            }
-                          },
-                          icon: const Icon(
-                            Icons.add,
-                            color: Colors.red,
-                          )),
-                      const VerticalDivider(),
-                      Text(
-                        AppConstant.defaultTextSize.toInt().toString(),
-                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            fontWeight: FontWeight.bold, color: Colors.blue),
-                      ),
-                      const VerticalDivider(),
-                      IconButton(
-                          onPressed: () {
-                            debugPrint(AppConstant.defaultTextSize.toString());
-                            if (AppConstant.defaultTextSize > 5) {
-                              AppConstant.defaultTextSize--;
-                              index = widget.babIndex;
-                              setState(() {});
-                            }
-                          },
-                          icon: const Icon(
-                            Icons.remove,
-                            color: Colors.red,
-                          )),
-                    ],
-                  ),
-                  appConstantDivider(),
-                  Text(
-                    '$pageCount / $listCount\n',
-                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        fontWeight: FontWeight.bold, color: Colors.red),
-                  ),
+                  //Show pageNumber / totalIndex
+                  const BodyListIndex(),
+                  //Show cevsen content regarding to index number
                   Text(
                     KucukCevsenConstant.babList[index],
                     style: Theme.of(context)
@@ -113,6 +71,23 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
           },
         ),
       ),
+    );
+  }
+}
+
+class BodyListIndex extends StatelessWidget {
+  const BodyListIndex({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      '$pageCount / $listCount\n',
+      style: Theme.of(context)
+          .textTheme
+          .headlineSmall
+          ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
     );
   }
 }
