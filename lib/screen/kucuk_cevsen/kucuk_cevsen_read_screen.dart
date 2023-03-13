@@ -21,7 +21,7 @@ class KucukCevsenReadScreen extends StatefulWidget {
 
 late int pageCount;
 double textSize = AppConstant.defaultTextSize;
-int listCount = KucukCevsenConstant.babList.length;
+int listCount = KucukCevsenConstant.babMeal.length;
 
 class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
   @override
@@ -63,6 +63,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                         ?.copyWith(fontWeight: FontWeight.bold),
                   ),
                   appConstantDivider(),
+                  //Show cevsen meal content
                   bodyTextConstant(
                       context, KucukCevsenConstant.babMeal[index], textSize),
                 ],

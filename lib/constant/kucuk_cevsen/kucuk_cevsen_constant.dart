@@ -836,7 +836,7 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne ecirnâ mine’n-nâ
 3. Yâ Mücîbe men lâ mücîbe leh
 4. Yâ Şefîka men lâ şefîka leh
 5. Yâ Rafîka men lâ rafîka leh
-6. Yâ Şefî’a men lâ §efî’a leh
+6. Yâ Şefî’a men lâ şefî’a leh
 7. Yâ Müğîşe men lâ müğîşe leh
 8. Yâ Delîle men lâ delîle leh
 9. Yâ Kaide men lâ kaide leh
@@ -1474,6 +1474,7 @@ Ve zelzelete’l-ardi ve dekdekete’l-cibâli min haşyetih * Ve âfete’t-tâ
   static const babMeal = [
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Allahümme inni es’elüke bi-esmaike
+
 Ey her şeyin gerçek Mâbudu olan Allah,  (Ya Allah)
 Ey ayırt etmeden bütün mahlûkatı rızıklandıran Rahman, (Ya Rahman)
 Ey itaatkar kullarına hususi rahmet eden Rahîm, (Ya Rahim)
@@ -1635,6 +1636,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
+
 Ey yücelik ve ululuk sahibi Celîl, Ya Celil
 Ey gerçek güzellik sahibi Cemîl, Ya Cemil
 Ey kendine güvenen kullarının işini en iyi yoluna koyan Vekîl, Ya Vekil
@@ -1671,9 +1673,23 @@ Ey kesin delil ve bürhan sahibi, Ya zel-hücceti vel-bürhan
 Ey azamet ve saltanat sahibi, Ya zel-azameti ves-sultan
 Ey af ve mağfiret sahibi, Ya zel-afvi vel-ğufran
 Ey kendisinden yardım istenen şefkat sahibi, Ya zer-re’feti vel-müstean
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
 
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
 “””,“””
+Ey her şeyin Rabbi, Ya men hüve rabbü külli şey
+Ey her şeyin ilâhı, Ya men hüve ilahü külli şey
+Ey her şeyin yaratıcısı, Ya men hüve haliku külli şey
+Ey her şeyin üzerinde olan, Ya men hüve fevka külli şey
+Ey her şeyden önce olan, Ya men hüve kable külli şey
+Ey her şeyden sonra olan, Ya men hüve ba’de külli şey
+Ey her şeyi bilen, Ya men hüve alimü külli şey
+Ey her şeye gücü yeten, Ya men hüve kadiru külli şey
+Ey her şeyin Sâni’i, Ya men hüve saniu külli şey
+Ey her şey fenâ bulup, Kendisi bâki kalan Ya men hüve yebka ve yefna küllü şey
+
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+""",
+    """
 Ey her şeyin Rabbi, Ya men hüve rabbü külli şey            
 Ey her şeyin ilâhı, Ya men hüve ilahü külli şey
 Ey her şeyin yaratıcısı, Ya men hüve haliku külli şey                   
@@ -1886,7 +1902,8 @@ Ey mülkün sahibi, Ya malikel-mülk                     �
 Ey hak ile hükmeden, Ya kadıyen-bil-hakk
 Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
 
-“””,“””
+“””,
+    “””
 Ey mağlup edilmeyen Azîz, Ya azizen la yudam
 Ey kendisinden uzaklaşılmayan Lâtîf, Ya latifen la yuram
 Ey uyumayan gözetleyici, Ya rakiben la yenam
