@@ -4,6 +4,9 @@ class KucukCevsenConstant {
 
   static const babList = [
     """
+بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ
+Bismillahirrahmanirrahim
+
 Allâhümme innî es’elüke biesmâike
 
 1. Yâ Allah
@@ -1455,11 +1458,28 @@ Sübhâneke yâ lâ ilahe illâ ente’l-emâ-ne’l-emâne hallisnâ mine’n-n
     """
 DUA
 
-Allâhümme Rabbena * hallisnâ * ve ecirnâ * ve neccinâ mine’n-nar * ve ‘â-finâ va’fü ‘annâ ve edhilne’l-cennete dara kudsike me’a’l-ebrâr * bi ‘afvike Yâ Mücîr * bi fadlike Yâ Gaffar
+Allâhümme Rabbena
+Hallisnâ
+Ve ecirnâ
+Ne neccinâ mine’n-nar
+Ve ‘â-finâ va’fü ‘annâ ve edhilne’l-cennete dara kudsike me’a’l-ebrâr
+Bi ‘afvike Yâ Mücîr
+Bi fadlike Yâ Gaffar
 
 Ve es-elüke bihakki hâzihi’l-esmâi’l-kerîme-ti’ş-şerîfeti ve’s-sıfâti’l-celîleti’l-latîfeti en tüsalliye ‘alâ seyyidinâ Muhamme-din ve ‘alâ âlihî ve sahbihî bi’adedi ha-senâti Muhammedin
 
-Bismillah * has-biyallah * lâ ilahe illallah * şehidallâh * kulhüvallâh * mâşâallâh * rabbiyallah * tebârekallâh * te’âlallâh * tevekkeltü ‘alallâh * feseyekfîke hümüllâh * ve hüve’s-semî’u’l-‘alîm
+Bismillah
+Has-biyallah
+Lâ ilahe illallah
+Şehidallâh
+Kulhüvallâh
+Mâşâallâh
+Rabbiyallah
+Tebârekallâh
+Te’âlallâh
+Tevekkeltü ‘alallâh
+Feseyekfîke hümüllâh
+Ve hüve’s-semî’u’l-‘alîm
 
 Sübhâneke yâ lâ ilahe illâ ente’l-emâne’l-emâne lâ uhsî şenâen ‘aleyke ente kemâ eşneyte ‘alâ nefsik * Yâ Allah * Yâ Rahman * Yâ Rahîm * Yâ Gafur * Yâ Şekûr
 
@@ -1467,7 +1487,10 @@ Es-elüke bimâ ahseytehû ‘aleyke min es-mâike’l-hüsnâ ve sıfâtike’l
 
 Ve en lâ tekilenâ ilâ enfüsinâ tarfete ‘aynin velâ ilâ ehadin min halkik * Ve tus-liha lenâ şe’nenâ ve en tahrusenâ bi-‘aynikelletî lâ tenânıü ve tahfezanâ bi-ruknike’llezî lâ yürâmü Ya Ze’l-celâli ve’l-ikrâm ve en tasrife ‘annâ ve ‘ammen ‘ullika ‘aleyhi hâzihi’l-esmâü âfe-te’l-cinni ve’l-insi ve’ş-şeyâtîn
 
-Ve zelzelete’l-ardi ve dekdekete’l-cibâli min haşyetih * Ve âfete’t-tâ’uni ve’l-vebâi ve ‘ayne’s-sûi ve vece’a’l-cevârihi ve sâira’l-afât * Ve tahfezanâ min külli şerrin ve su’ * Ve terzükana’s-selâmete ve’l-‘âfıyete ve’l-hayra fi’d-dünyâ ve’l-âbirati bi rahmetike yâ erhâme’r-râhi-mîn ve sallallâhü ‘alâ seyyidinâ Mu-hammedin ve âlihî ve sahbihî ecma’în. Ve’l-hamdülillâhi Rabbi’l-‘âlemîn.
+Ve zelzelete’l-ardi ve dekdekete’l-cibâli min haşyetih * Ve âfete’t-tâ’uni ve’l-vebâi ve ‘ayne’s-sûi ve vece’a’l-cevârihi ve sâira’l-afât
+Ve tahfezanâ min külli şerrin ve su’in
+Ve terzükana’s-selâmete ve’l-‘âfıyete ve’l-hayra fi’d-dünyâ ve’l-âhirati bi rahmetike yâ erhâme’r-râhi-mîn ve sallallâhü ‘alâ seyyidinâ Mu-hammedin ve âlihî ve sahbihî ecma’în. 
+Ve’l-hamdülillâhi Rabbi’l-‘âlemîn.
 """,
   ];
 
