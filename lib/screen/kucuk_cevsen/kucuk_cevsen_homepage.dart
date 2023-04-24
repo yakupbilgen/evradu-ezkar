@@ -48,6 +48,7 @@ class KucukCevsenHomePageState extends State<KucukCevsenHomePage> {
               ),
             ),
             children: [setTextSize(context)],
+            initiallyExpanded: true,
           ),
         ],
       ),
