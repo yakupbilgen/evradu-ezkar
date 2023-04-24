@@ -1,12 +1,15 @@
 class KucukCevsenConstant {
-  static const appBarTitleHomepage = 'Küçük Çevşen Oku';
-  static const appBarTitleReadScreen = 'Küçük Çevşen Oku';
-  static const kucukCevsenNormal = "Küçük Çevşen";
+  static const appBarTitleHomepage = 'Küçük Cevşen Oku';
+  static const appBarTitleReadScreen = 'Küçük Cevşen Oku';
+  static const kucukCevsenNormal = "Küçük Cevşen";
   static const subTitleTextNormal =
-      "Küçük çevşen okunuşu için buraya tıklayınız.";
-  static const kucukCevsenMeal = "Küçük Çevşen Mealli";
+      "Küçük cevşen okunuşu için buraya tıklayınız.";
+  static const kucukCevsenMeal = "Küçük Cevşen Mealli";
   static const subTitleTextMeal =
-      "Küçük çevşenin mealli okunuşu için buraya tıklayınız.";
+      "Küçük cevşenin mealli okunuşu için buraya tıklayınız.";
+
+  static const appBarTitleKucukCevsen = 'Küçük Cevşen';
+  static const appBarTitleKucukCevsenMeal = 'Küçük Cevşen Mealli';
 
   static const babList = [
     """
@@ -1502,7 +1505,12 @@ Ve’l-hamdülillâhi Rabbi’l-‘âlemîn.
 
   static const babMeal = [
     """
-Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Allahümme inni es’elüke bi-esmaike
+بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ
+Bismillahirrahmanirrahim
+
+Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: 
+
+Allahümme inni es’elüke bi-esmaike
 
 1. Ey her şeyin gerçek Mâbudu olan Allah,  (Ya Allah)
 2. Ey ayırt etmeden bütün mahlûkatı rızıklandıran Rahman, (Ya Rahman)
@@ -1950,7 +1958,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey mülkün sahibi, Ya malikel-mülk                       
 10. Ey hak ile hükmeden, Ya kadıyen-bil-hakk
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey mağlup edilmeyen Azîz, Ya azizen la yudam
@@ -1964,7 +1972,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey taama muhtaç olmayan Samed, Ya sameden la yut’am
 10. Ey zaafa uğratılmayan Kavî, Ya kaviyyen la yud’af
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
@@ -1980,7 +1988,7 @@ Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve e
 9. Ey hayır ve menfaatli şeyleri yaratan Nâfi, Ya Nafi
 10. Ey kullarına hidayet veren Hâdi, Ya Hadi
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey bütün azîmlerden daha Azîm, Ya a’zamu min-külli azim
@@ -1994,7 +2002,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey bütün izzet sahiplerinden daha Azîz, Ya eazzü min-külli aziz
 10. Ey bütün lütuf sahiplerinden daha Lâtif, Ya eltafü min-külli latif
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey ahdinde vefalı, Ya men hüve fi-ahdihi vefiyy
@@ -2008,7 +2016,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey azametinde mecîd, Ya men hüve fi-azametihi mecid
 10. Ey yüceliğinde hamîd, Ya men hüve fi-mecdihi hamid
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey her şeyin kendisine boyun eğdiği, Ya men hüve küllü şey’in hadiün leh
@@ -2022,7 +2030,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey her şeyin kendisine yöneldiği, Ya men hüve küllü şey’in sairun ileyh
 10. Ey ona bakan yüzü müstesnâ her şeyin helâk olduğu, Ya men hüve küllü şey’in halikün illa vecheh
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
@@ -2038,7 +2046,7 @@ Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve e
 9. Ey varlığının sonu olmayan Bâkî, Ya Baki
 10. Ey dilediğini doğru yola ulaştıran Hâdi, Ya Hadi
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey kendisinden başka kaçacak yer olmayan, Ya men la meferra illa ileyh
@@ -2052,7 +2060,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey kendisinden başkasından yardım istenilmeyen, Ya men la yüsteanü illa minh
 10. Ey kendisinden başka güç ve kuvvet sahibi bulunmayan, Ya men la havle vela kuvvete illa bih
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey kendisine kaçılanların en hayırlısı, Ya hayral-merhubin
@@ -2066,7 +2074,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey indirenlerin en hayırlısı, Ya hayral-münzilin
 10. Ey kendisine ünsiyet edilenlerin en hayırlısı, Ya hayral-müste’nisin
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey yaratıp düzene koyan, Ya men hüve haleka fesevva
@@ -2080,7 +2088,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey güldüren ve ağlatan, Ya men hüve edhake ve ebka
 10. Ey saptıran ve hidâyete erdiren, Ya men hüve edalle ve ehda
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
@@ -2096,7 +2104,7 @@ Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve e
 9. Ey dostlarına yardım eden Nâsır, Ya Nasır
 10. Ey dilediğini zorla yaptıran Câbir, Ya Cabir
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey karada ve denizde yolu olan, Ya men hüve fil-berri vel-bahri sebilüh
@@ -2110,7 +2118,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey Cennette rahmeti olan, Ya men hüve fil-cenneti rahmetüh
 10. Ey ateşte azabı olan, Ya men hüve fin-nari azabüh
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey korkanların kendisine kaçtığı, Ya men hüve ileyhi yehrebül-haifun
@@ -2124,7 +2132,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey tevekkül edenlerin kendisine güvendiği, Ya men hüve aleyhi yetevekkelül-mütevekkilun
 10. Ey kuvvetle îman edenlerin kendisiyle huzur bulduğu, Ya men hüve yeskünü bihil-mukinun
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey bütün yakınlardan daha yakın, Ya akrabu min-külli karib
@@ -2138,7 +2146,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok. Emân ver bize. Bizi 
 9. Ey bütün merhametlilerden daha rahîm, Ya erhamü min-külli rahim
 10. Ey bütün yücelerden daha yüce, Ya ecellü min-külli celil
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
@@ -2154,7 +2162,7 @@ Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve e
 9. Ey her şeyi nûruyla aydınlatan Münîr, Ya Münir
 10. Ey kullarına gerekli her şeyi açıklayan Mübîn, Ya Mübin
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey mağlûp olmayan Galip, Ya ğaliben ğayra mağlub
@@ -2168,7 +2176,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey gaip olmayan Şahit, Ya şahiden ğayra ğaib
 10. Ey uzak olmayan yakın, Ya kariben ğayra baid
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey nurların nuru, Ya nuran-nur
@@ -2182,7 +2190,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey bütün nurların üstünde olan Nur, Ya nuran fevka külli nur
 10. Ey hiçbir nûrun Kendisine benzemediği Nur, Ya nuran leyse mislehu nur
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey bağış ve ihsânı şerefli olan, Ya men atauhu şerif
@@ -2196,7 +2204,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey zikri tatlı olan, Ya men zikruhu hulv
 10. Ey dostluğu lezzetli olan, Ya men ünsühü leziz
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
@@ -2212,7 +2220,7 @@ Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve e
 9. Ey her şeyi kemâle erdiren Mükemmil, Ya Mükemmil
 10. Ey istediğini istediğine üstün kılan Mufaddıl, Ya Mufaddıl
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey her şeyi gören, fakat kendisi görülmeyen, Ya men yera vela yüra
@@ -2226,7 +2234,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey doğurmayan ve doğmayan, Ya men lem yelid velem yuled
 10. Ey hiçbir şey kendisine denk olmayan, Ve lem yekün lehü küfüven ehad
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey en güzel Sevgili, Ya nimel-habib
@@ -2240,7 +2248,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey en güzel Efendi, Ya nimel-mevla
 10. Ey en güzel Yardımcı, Ya nimen-nasir
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey kendisini tanıyanların sevinci, Ya sürurel-arifin
@@ -2254,7 +2262,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey mahzunlara kurtuluş yolu gösteren, Ya müferricen anil-mahzunin
 10. Ey evvel ve âhirlerin ilâhı, Ya ilahel-evveline vel-ahirin
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey Cennet ve Cehennemin Rabbi, Ya Rabbel-cenneti ven-nar
@@ -2268,7 +2276,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey açığa çıkarma ve gizlemelerin Rabbi, Ya Rabbel-i’lani vel-ısrar
 10. Ey gece ve gündüzün Rabbi, Ya Rabbel-leyli ven-nehar
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman neccina minen-nar.
 """,
     """
 1. Ey ilmi her şeye ulaşan, Ya men lahika fi-külli şeyin ilmüh
@@ -2282,7 +2290,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey heybet ve saltanat güzelliği olan, Ya menil-heybetü ves-sultanü behauh
 10. Ey bekası izzetle yücelenen, Ya men teazzeze bil-izzi bekauh
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey en yüce misâller Kendisine ait olan, Ya men lehül-meselül-a’la
@@ -2296,7 +2304,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey yüce göklerin sahibi, Ya men lehüs-semavatül-ula
 10. Ey arş ve yerin sahibi, Ya men lehül-arşu ves-sera
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
@@ -2312,7 +2320,7 @@ Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve e
 9. Ey gerçek hayat sahibi olan Hayy, Ya Hayy
 10. Ey gökleri, yeri ve bütün mahlûkatı ayakta tutan Kayyûm, Ya Kayyum
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey semâda azameti görülen, Ya men hüve fis-semai azametuh
@@ -2326,7 +2334,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey her şeyde lütfü açıkça görünen, Ya men zahera fi-külli şey’in lütfüh
 10. Ey mahlûkatına kudretini tanıtan, Ya men yuarrifül-halaika kudreteh
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. SSübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey sevgilisi olmayanların sevgilisi, Ya habibe men la habibe leh
@@ -2340,7 +2348,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey rehberi olmayanların rehberi, Ya kaide men la kaide leh
 10. Ey merhamet edecek kimsesi olmayanların merhamet edicisi, Ya rahime men la rahime leh
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey Kendisini her şeye bedel yeter görenlerin Kâfisi, Ya kafiye menistekfah
@@ -2354,7 +2362,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey kuvvet ve güç isteyenlere kâfi kuvvet veren, Ya mukavviye menistakvah
 10. Ey Kendisinden dostluk ve sahiplik isteyenlerin dost ve sahibi, Ya veliyye menistevlah
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve es’elüke bi-esmaike:
@@ -2370,7 +2378,7 @@ Allah’ım! Senden şu isimlerinin hakkı için istiyor ve yalvarıyorum: Ve e
 9. Ey her şeyi mukadder hedefine sevk eden Sâik, Ya Saik
 10. Ey tohum ve çekirdekleri yarıp sümbüllendiren Fâlık, Ya Falik
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman ecirna minen-nar.
 """,
     """
 1. Ey gece ve gündüzü peş peşe değiştiren, Ya men yukallibül-leyle ven-nehar
@@ -2384,7 +2392,7 @@ Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi 
 9. Ey zilletten münezzeh olduğu için dosta ihtiyacı olmayan, Ya men lem yekün lehü veliyyün-minez-züll
 10. Ey havl ve kuvvet kendisine âit olan, Ya men lehül-havlü vel-kuvveh
 
-Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman hallisna minen-nar.
+Bütün kusurlardan münezzehsin, Senden başka ilâh yok! Emân ver bize. Bizi Cehennemden kurtar. Sübhaneke la ilahe illa entel-emanül eman neccina minen-nar.
 """,
     """
 1. Ey Kendisini arzulayanların murâdını bilen, Ya men ya’lemü muradel-müridin

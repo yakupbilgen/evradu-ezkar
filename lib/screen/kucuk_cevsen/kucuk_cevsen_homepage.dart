@@ -25,13 +25,17 @@ class KucukCevsenHomePageState extends State<KucukCevsenHomePage> {
               KucukCevsenConstant.kucukCevsenNormal,
               KucukCevsenConstant.subTitleTextNormal,
               const KucukCevsenBabListScreen(
-                  cevsenContent: KucukCevsenConstant.babList)),
+                cevsenContent: KucukCevsenConstant.babList,
+                appBarTitle: KucukCevsenConstant.appBarTitleKucukCevsen,
+              )),
           customListTile(
               context,
               KucukCevsenConstant.kucukCevsenMeal,
               KucukCevsenConstant.subTitleTextMeal,
               const KucukCevsenBabListScreen(
-                  cevsenContent: KucukCevsenConstant.babMeal)),
+                cevsenContent: KucukCevsenConstant.babMeal,
+                appBarTitle: KucukCevsenConstant.appBarTitleKucukCevsenMeal,
+              )),
           appConstantDivider(),
           ExpansionTile(
             title: Center(

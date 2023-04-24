@@ -6,10 +6,12 @@ import 'kucuk_cevsen_read_screen.dart';
 
 class KucukCevsenBabListScreen extends StatefulWidget {
   final List cevsenContent;
+  final String appBarTitle;
 
   const KucukCevsenBabListScreen({
     Key? key,
     required this.cevsenContent,
+    required this.appBarTitle,
   }) : super(key: key);
 
   @override
@@ -21,7 +23,7 @@ class KucukCevsenBabListScreenState extends State<KucukCevsenBabListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appAppBar(context, KucukCevsenConstant.appBarTitleHomepage, true),
+      appBar: appAppBar(context, widget.appBarTitle, true),
       body: ListView.separated(
         itemCount: KucukCevsenConstant.babList.length,
         itemBuilder: (context, index) {
