@@ -1,0 +1,10 @@
+{
+    "editor.tabSize": 2,
+    "diffEditor.codeLens": true,
+    "debug.javascript.codelens.npmScripts": "all",
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true
+}

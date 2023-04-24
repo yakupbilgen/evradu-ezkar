@@ -57,93 +57,57 @@ class _HomepageScreenListState extends State<HomepageScreenList> {
             const GunlukVirdHomepage(),
           ),
           appConstantDivider(),
-          Column(
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  IconButton(
-                    onPressed: () {
-                      if (AppConstant.defaultTextSize < 99) {
-                        AppConstant.defaultTextSize++;
-                        setState(() {});
-                      }
-                    },
-                    icon: const Icon(
-                      Icons.add,
-                      size: AppConstant.iconSize,
-                      color: AppConstant.iconColor,
-                    ),
-                  ),
-                  const VerticalDivider(),
-                  Text(
-                    AppConstant.defaultTextSize.toInt().toString(),
-                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        fontSize: AppConstant.defaultTextSize),
-                  ),
-                  const VerticalDivider(),
-                  IconButton(
-                    onPressed: () {
-                      if (AppConstant.defaultTextSize > 5) {
-                        AppConstant.defaultTextSize--;
-                        setState(() {});
-                      }
-                    },
-                    icon: const Icon(
-                      Icons.remove,
-                      size: AppConstant.iconSize,
-                      color: AppConstant.iconColor,
-                    ),
-                  ),
-                ],
-              ),
-              Text("Sample text!",
-                  style: TextStyle(fontSize: AppConstant.defaultTextSize))
-            ],
-          ),
+          arrangeTextSize(context),
         ],
       ),
     );
   }
-}
 
-Widget textSizeRow(BuildContext context) {
-  return Row(
-    mainAxisAlignment: MainAxisAlignment.center,
-    children: [
-      IconButton(
-        onPressed: () {
-          debugPrint(AppConstant.defaultTextSize.toString());
-          if (AppConstant.defaultTextSize < 99) {
-            AppConstant.defaultTextSize++;
-          }
-        },
-        icon: const Icon(
-          Icons.add,
-          color: Colors.red,
+  Column arrangeTextSize(BuildContext context) {
+    return Column(
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            IconButton(
+              onPressed: () {
+                if (AppConstant.defaultTextSize < 99) {
+                  AppConstant.defaultTextSize++;
+                  setState(() {});
+                }
+              },
+              icon: const Icon(
+                Icons.add,
+                size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
+              ),
+            ),
+            const VerticalDivider(),
+            Text(
+              AppConstant.defaultTextSize.toInt().toString(),
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  fontSize: AppConstant.defaultTextSize),
+            ),
+            const VerticalDivider(),
+            IconButton(
+              onPressed: () {
+                if (AppConstant.defaultTextSize > 5) {
+                  AppConstant.defaultTextSize--;
+                  setState(() {});
+                }
+              },
+              icon: const Icon(
+                Icons.remove,
+                size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
+              ),
+            ),
+          ],
         ),
-      ),
-      const VerticalDivider(),
-      Text(
-        AppConstant.defaultTextSize.toInt().toString(),
-        style: Theme.of(context)
-            .textTheme
-            .titleLarge
-            ?.copyWith(fontWeight: FontWeight.bold),
-      ),
-      const VerticalDivider(),
-      IconButton(
-        onPressed: () {
-          if (AppConstant.defaultTextSize > 5) {
-            AppConstant.defaultTextSize--;
-          }
-        },
-        icon: const Icon(
-          Icons.remove,
-          color: Colors.red,
-        ),
-      ),
-    ],
-  );
+        Text("Sample text!",
+            style: TextStyle(fontSize: AppConstant.defaultTextSize))
+      ],
+    );
+  }
 }
