@@ -61,33 +61,10 @@ AppBar appAppBar(BuildContext context, String title, bool showBackbutton) {
   );
 }
 
-AppBar appAppBarv2(BuildContext context, String title, bool showBackbutton) {
-  return AppBar(
-    backgroundColor: AppConstant.bgColor,
-    centerTitle: true,
-    title: Text(
-      title,
-      style: Theme.of(context)
-          .textTheme
-          .titleLarge
-          ?.copyWith(fontWeight: FontWeight.bold, color: Colors.red),
-    ),
-    leading: (showBackbutton)
-        ? IconButton(
-            icon: const Icon(
-              Icons.arrow_back,
-              color: Colors.red,
-              size: AppConstant.iconSize,
-            ),
-            onPressed: () => Navigator.pop(context),
-          )
-        : null,
-  );
-}
-
 Text bodyTextConstant(BuildContext context, var data, double fontSize) {
   return Text(
     data,
-    style: TextStyle(fontSize: AppConstant.defaultTextSize),
+    style: TextStyle(
+        fontSize: AppConstant.defaultTextSize, fontWeight: FontWeight.bold),
   );
 }

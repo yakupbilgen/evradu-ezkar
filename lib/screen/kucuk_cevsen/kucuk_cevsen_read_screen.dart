@@ -37,7 +37,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
 
     return Scaffold(
       appBar:
-          appAppBarv2(context, KucukCevsenConstant.appBarTitleReadScreen, true),
+          appAppBar(context, KucukCevsenConstant.appBarTitleReadScreen, true),
       body: Padding(
         padding: const EdgeInsets.only(
             left: AppConstant.defaultPadding,
@@ -55,13 +55,8 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                   //Show pageNumber / totalIndex
                   const BodyListIndex(),
                   //Show cevsen content regarding to index number
-                  Text(
-                    KucukCevsenConstant.babList[index],
-                    style: Theme.of(context)
-                        .textTheme
-                        .headlineSmall
-                        ?.copyWith(fontWeight: FontWeight.bold),
-                  ),
+                  bodyTextConstant(
+                      context, KucukCevsenConstant.babList[index], textSize),
                   appConstantDivider(),
                   //Show cevsen meal content
                   bodyTextConstant(
@@ -69,9 +64,6 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                 ],
               ),
             );
-          },
-          onPageChanged: (value) {
-            debugPrint("Pagecount=> $pageCount");
           },
         ),
       ),
