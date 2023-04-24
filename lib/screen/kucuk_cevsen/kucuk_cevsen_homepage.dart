@@ -33,8 +33,68 @@ class KucukCevsenHomePageState extends State<KucukCevsenHomePage> {
               const KucukCevsenBabListScreen(
                   cevsenContent: KucukCevsenConstant.babMeal)),
           appConstantDivider(),
+          ExpansionTile(
+            title: Center(
+              child: Text(
+                'Text Size',
+                style: Theme.of(context)
+                    .textTheme
+                    .headlineSmall
+                    ?.copyWith(fontWeight: FontWeight.bold),
+              ),
+            ),
+            children: [setTextSize(context)],
+          ),
         ],
       ),
+    );
+  }
+
+  Column setTextSize(BuildContext context) {
+    return Column(
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            IconButton(
+              onPressed: () {
+                if (AppConstant.defaultTextSize < 99) {
+                  AppConstant.defaultTextSize++;
+                  setState(() {});
+                }
+              },
+              icon: const Icon(
+                Icons.add,
+                size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
+              ),
+            ),
+            const VerticalDivider(),
+            Text(
+              AppConstant.defaultTextSize.toInt().toString(),
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  fontSize: AppConstant.defaultTextSize),
+            ),
+            const VerticalDivider(),
+            IconButton(
+              onPressed: () {
+                if (AppConstant.defaultTextSize > 5) {
+                  AppConstant.defaultTextSize--;
+                  setState(() {});
+                }
+              },
+              icon: const Icon(
+                Icons.remove,
+                size: AppConstant.iconSize,
+                color: AppConstant.iconColor,
+              ),
+            ),
+          ],
+        ),
+        Text("Sample text!",
+            style: TextStyle(fontSize: AppConstant.defaultTextSize))
+      ],
     );
   }
 }
