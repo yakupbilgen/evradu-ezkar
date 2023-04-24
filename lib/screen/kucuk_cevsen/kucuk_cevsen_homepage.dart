@@ -1,54 +1,39 @@
+import 'package:evraduezkar/constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
+import 'package:evraduezkar/screen/kucuk_cevsen/kucuk_cevsen_bablist_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../constant/app_constant.dart';
-import '../../constant/kucuk_cevsen/kucuk_cevsen_constant.dart';
-import 'kucuk_cevsen_read_screen.dart';
+import '../../widget/widgets.dart';
 
-class KucukCevsenHomepage extends StatefulWidget {
-  const KucukCevsenHomepage({Key? key}) : super(key: key);
+class KucukCevsenHomePage extends StatefulWidget {
+  const KucukCevsenHomePage({Key? key}) : super(key: key);
 
   @override
-  State<KucukCevsenHomepage> createState() => _KucukCevsenHomepageState();
+  State<KucukCevsenHomePage> createState() => KucukCevsenHomePageState();
 }
 
-class _KucukCevsenHomepageState extends State<KucukCevsenHomepage> {
+class KucukCevsenHomePageState extends State<KucukCevsenHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appAppBar(context, KucukCevsenConstant.appBarTitleHomepage, true),
-      body: ListView.separated(
-        itemCount: KucukCevsenConstant.babList.length,
-        itemBuilder: (context, index) {
-          return ListTile(
-            leading: const Icon(
-              Icons.spa,
-              size: AppConstant.iconSize,
-              color: AppConstant.iconColor,
-            ),
-            title: Text(
-              '${index + 1}. Bab Oku',
-              style: Theme.of(context)
-                  .textTheme
-                  .headlineSmall
-                  ?.copyWith(fontWeight: FontWeight.bold),
-            ),
-            trailing: const Icon(Icons.arrow_right,
-                size: AppConstant.iconSize, color: AppConstant.iconColor),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => KucukCevsenReadScreen(
-                    babIndex: index,
-                    babContent: KucukCevsenConstant.babList[index],
-                    babMeall: KucukCevsenConstant.babMeal[index],
-                  ),
-                ),
-              );
-            },
-          );
-        },
-        separatorBuilder: (context, index) => appConstantDivider(),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          customListTile(
+              context,
+              KucukCevsenConstant.kucukCevsenNormal,
+              KucukCevsenConstant.subTitleTextNormal,
+              const KucukCevsenBabListScreen(
+                  cevsenContent: KucukCevsenConstant.babList)),
+          customListTile(
+              context,
+              KucukCevsenConstant.kucukCevsenMeal,
+              KucukCevsenConstant.subTitleTextMeal,
+              const KucukCevsenBabListScreen(
+                  cevsenContent: KucukCevsenConstant.babMeal)),
+          appConstantDivider(),
+        ],
       ),
     );
   }

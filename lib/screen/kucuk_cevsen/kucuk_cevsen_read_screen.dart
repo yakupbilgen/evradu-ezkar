@@ -7,12 +7,14 @@ class KucukCevsenReadScreen extends StatefulWidget {
   final String babContent;
   final String babMeall;
   final int babIndex;
+  final List cevsenContent;
 
   const KucukCevsenReadScreen(
       {Key? key,
       required this.babContent,
       required this.babIndex,
-      required this.babMeall})
+      required this.babMeall,
+      required this.cevsenContent})
       : super(key: key);
 
   @override
@@ -54,13 +56,9 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                 children: [
                   //Show pageNumber / totalIndex
                   const BodyListIndex(),
-                  //Show cevsen content regarding to index number
+                  //Show cevsen content
                   bodyTextConstant(
-                      context, KucukCevsenConstant.babList[index], textSize),
-                  appConstantDivider(),
-                  //Show cevsen meal content
-                  bodyTextConstant(
-                      context, KucukCevsenConstant.babMeal[index], textSize),
+                      context, widget.cevsenContent[index], textSize),
                 ],
               ),
             );

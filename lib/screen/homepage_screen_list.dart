@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'kucuk_cevsen/kucuk_cevsen_homepage.dart';
 import 'tahmidiyye/tahmidiyye_homepage.dart';
 import 'celcelutiye/celcelutiye_homepage.dart';
@@ -30,7 +29,7 @@ class _HomepageScreenListState extends State<HomepageScreenList> {
             context,
             AppConstant.screenList[0],
             '',
-            const KucukCevsenHomepage(),
+            const KucukCevsenHomePage(),
           ),
           customListTile(
             context,

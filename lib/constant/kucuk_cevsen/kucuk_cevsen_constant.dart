@@ -1,6 +1,12 @@
 class KucukCevsenConstant {
   static const appBarTitleHomepage = 'Küçük Çevşen Oku';
   static const appBarTitleReadScreen = 'Küçük Çevşen Oku';
+  static const kucukCevsenNormal = "Küçük Çevşen";
+  static const subTitleTextNormal =
+      "Küçük çevşen okunuşu için buraya tıklayınız.";
+  static const kucukCevsenMeal = "Küçük Çevşen Mealli";
+  static const subTitleTextMeal =
+      "Küçük çevşenin mealli okunuşu için buraya tıklayınız.";
 
   static const babList = [
     """
