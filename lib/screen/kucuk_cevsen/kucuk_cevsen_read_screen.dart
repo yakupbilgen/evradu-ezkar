@@ -27,7 +27,7 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
   @override
   void initState() {
     super.initState();
-    pageCount = widget.babIndex + 1;
+    pageCount = widget.babIndex;
   }
 
   @override
@@ -69,6 +69,9 @@ class _KucukCevsenReadScreenState extends State<KucukCevsenReadScreen> {
                 ],
               ),
             );
+          },
+          onPageChanged: (value) {
+            debugPrint("Pagecount=> $pageCount");
           },
         ),
       ),
